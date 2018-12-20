@@ -23,6 +23,7 @@ bin_size = dict()
 URLPREFIX = 'https://cdn.download.clearlinux.org/update/'
 
 blacklist = list()
+whitelist = list()
 
 
 def read_MoM(version):
@@ -40,10 +41,13 @@ def read_MoM(version):
 
 
 def declare_binary(bundle : str, binary : str, size : int):
-    global bin_bundle, bin_size, blacklist
+    global bin_bundle, bin_size, blacklist, whitelist
     
     if bundle in blacklist:
         size = size * 100 + 50000
+        
+    if bundle in whitelist:
+        size = size / 10
     
     if not binary in bin_bundle or binary == bundle:
         bin_bundle[binary] = bundle
@@ -99,6 +103,7 @@ def main():
     global bundles
     global bin_bundle
     global blacklist
+    global whitelist
     VERSION = grab_latest_release()
     count = 0
     
@@ -111,6 +116,11 @@ def main():
     blacklist.append("os-testsuite")
     blacklist.append("os-testsuite-0day")
     blacklist.append("os-installer")
+    
+    whitelist.append("python-basic")
+    whitelist.append("python-extras")
+    whitelist.append("perl-extras")
+    whitelist.append("c-basic")
 
 #    print("Inspecting version ", VERSION)
 
