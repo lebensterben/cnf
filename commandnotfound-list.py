@@ -133,7 +133,8 @@ def main():
 
 
     for binary in bin_bundle:
-        print(binary + "\t" + bin_bundle[binary])
+        if bin_bundle[binary] != 'os-core':
+            print(binary + "\t" + bin_bundle[binary])
     
 
 if __name__ == '__main__':
