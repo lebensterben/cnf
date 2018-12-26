@@ -122,6 +122,7 @@ def main():
     whitelist.append("python-extras")
     whitelist.append("perl-extras")
     whitelist.append("c-basic")
+    whitelist.append("sysadmin-basic")
 
 #    print("Inspecting version ", VERSION)
 
