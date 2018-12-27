@@ -48,6 +48,10 @@ def declare_binary(bundle : str, binary : str, size : int):
         
     if bundle in whitelist:
         size = size / 10
+        
+    # This weeks special: 10% discount on basic bundles 
+    if "-basic" in bundle:
+        size = size * 0.90
     
     if not binary in bin_bundle or binary == bundle:
         bin_bundle[binary] = bundle
@@ -120,6 +124,7 @@ def main():
     
     whitelist.append("python-basic")
     whitelist.append("python-extras")
+    whitelist.append("perl-basic")
     whitelist.append("perl-extras")
     whitelist.append("c-basic")
     whitelist.append("sysadmin-basic")
