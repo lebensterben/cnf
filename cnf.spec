@@ -6,7 +6,7 @@ Source1  : commandlist.csv
 Summary  : Bash command not found handler
 Group    : Development/Tools
 License  : GPL-3.0
-Requires : gawk
+Requires : gawk-bin
 
 %description
 Shell based command not found handler
