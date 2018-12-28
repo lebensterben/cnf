@@ -35,15 +35,14 @@ def read_MoM(version):
         if len(words) > 2:
             bundle = words[3]
             version = words[2]
-            if '-dev' not in bundle:
-                bundles[bundle] = version
+            bundles[bundle] = version
 
 
 
 def declare_binary(bundle : str, binary : str, size : int):
     global bin_bundle, bin_size, blacklist, whitelist
     
-    if bundle in blacklist:
+    if bundle in blacklist or "-dev" in bundle:
         size = size * 100 + 50000
         
     if bundle in whitelist:
