@@ -42,7 +42,9 @@ def read_MoM(version):
 def declare_binary(bundle : str, binary : str, size : int):
     global bin_bundle, bin_size, blacklist, whitelist
     
-    if bundle in blacklist or "-dev" in bundle:
+    if bundle in blacklist:
+        size = size * 100 + 500000
+    if "-dev" in bundle:
         size = size * 100 + 50000
         
     if bundle in whitelist:
