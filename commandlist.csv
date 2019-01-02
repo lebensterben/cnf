@@ -197,7 +197,7 @@ aureport	audit
 ausearch	audit
 ausyscall	audit
 authorindex	texlive
-authvar	service-os-dev
+authvar	os-clr-on-clr
 autoconf213	c-basic-legacy
 autoconf	c-basic
 autoexpect	tcl-basic
@@ -735,7 +735,7 @@ cweave	texlive
 cwebp	os-clr-on-clr-dev
 cwutil	os-cloudguest-gce
 cx18-ctl	v4l-utils
-cxpm	os-clr-on-clr-dev
+cxpm	os-testsuite-0day
 cxxmetric	desktop-kde-apps
 cyclicdeadline	dev-utils
 cyclictest	dev-utils
@@ -1037,9 +1037,9 @@ editcap	wireshark
 editdiff	dev-utils
 efibootdump	os-core-update
 efibootmgr	os-core-update
-efikeygen	service-os-dev
+efikeygen	os-clr-on-clr
 efi-readvar	os-clr-on-clr
-efisiglist	service-os-dev
+efisiglist	os-clr-on-clr
 efitool-mkusb	os-clr-on-clr
 efi-updatevar	os-clr-on-clr
 efivar	os-core-update-dev
@@ -1179,10 +1179,10 @@ feh	desktop-awesome
 f-engrave	maker-cnc
 fetch_file	os-cloudguest-gce
 ffsb	performance-tools
-fftwf-wisdom	os-clr-on-clr-dev
-fftwl-wisdom	os-clr-on-clr-dev
-fftw-wisdom	os-clr-on-clr-dev
-fftw-wisdom-to-conf	os-clr-on-clr-dev
+fftwf-wisdom	os-testsuite-phoronix-server
+fftwl-wisdom	os-testsuite-phoronix-server
+fftw-wisdom	os-testsuite-phoronix-server
+fftw-wisdom-to-conf	os-testsuite-phoronix-server
 fgconsole	kbd
 fibmap.f2fs	os-testsuite-0day
 fig4latex	texlive
@@ -2154,9 +2154,9 @@ jdb	java-runtime
 jdeprscan9	java9-basic
 jdeps9	java9-basic
 jdeps	java-runtime
-jemalloc-config	database-basic-dev
-jemalloc.sh	database-basic-dev
-jeprof	database-basic-dev
+jemalloc-config	os-testsuite-phoronix-server
+jemalloc.sh	os-testsuite-phoronix-server
+jeprof	os-testsuite-phoronix-server
 jffs2dump	mtd-utils
 jffs2reader	mtd-utils
 jfmutil	texlive
@@ -2438,7 +2438,7 @@ kreversi	desktop-kde-apps
 krita	desktop-kde-apps
 kruler	desktop-kde-apps
 krunner	desktop-kde
-ksba-config	os-clr-on-clr-dev
+ksba-config	os-testsuite-phoronix-server
 kscreen-console	desktop-kde-apps
 kscreen-doctor	desktop-kde-apps
 kshell5	desktop-kde
@@ -3569,9 +3569,9 @@ perlsh	perl-extras
 perltex	texlive
 perlthanks	perl-basic
 perror	database-basic
-pesigcheck	service-os-dev
-pesign-client	service-os-dev
-pesign	service-os-dev
+pesigcheck	os-clr-on-clr
+pesign-client	os-clr-on-clr
+pesign	os-clr-on-clr
 pf2afm	desktop
 pfarrei	texlive
 pfb2pfa	texlive
@@ -4211,7 +4211,7 @@ sddm-greeter	desktop-kde
 sdiff	diffutils
 sdig	pdns
 sdkserver	openstack-common
-sdl2-config	os-testsuite-phoronix-desktop
+sdl2-config	desktop-dev
 sdl-config	os-clr-on-clr-dev
 sdpscanner	qt-basic
 sdptool	hardware-bluetooth
@@ -4650,7 +4650,7 @@ swupd-inspector	mixer
 swupd	os-core-update
 swupd-overdue	os-core-update
 swupd-probe	telemetrics
-sxpm	os-clr-on-clr-dev
+sxpm	os-testsuite-0day
 symilar	desktop-kde-libs
 synclient	os-utils-gui
 syncqt.pl	devpkg-qtbase
