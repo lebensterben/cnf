@@ -485,7 +485,7 @@ cg_merge	valgrind
 cgrulesengd	os-core-dev
 cgset	os-core-dev
 cgsnapshot	os-core-dev
-chacl	os-core-dev
+chacl	os-testsuite
 chardetect	sysadmin-remote
 chat	os-clr-on-clr-dev
 cheatmake	desktop-kde-apps
@@ -561,7 +561,7 @@ classification_sample_async	computer-vision-basic
 classification_sample	computer-vision-basic
 cleanup_digikamdb	desktop-kde-apps
 clear	sysadmin-basic
-clinfo	os-testsuite-phoronix-desktop
+clinfo	os-testsuite-phoronix-server
 clipaccumulate	perl-extras
 clipbrowse	perl-extras
 clipedit	perl-extras
@@ -970,7 +970,7 @@ dump_fts	hpc-utils
 dumpkeys	kbd
 dump_lfts.sh	hpc-utils
 dump_mfts.sh	hpc-utils
-dumpsexp	os-core-dev
+dumpsexp	os-testsuite-phoronix-server
 dumpsolv	os-clr-on-clr-dev
 dumresp	pdns
 duperemove	duperemove
@@ -1391,7 +1391,7 @@ getdefs	c-basic
 get_device	openstack-common
 get_driver	openstack-common
 getent.ldap	openstack-common
-getfacl	os-core-dev
+getfacl	os-testsuite
 getfattr	dev-utils
 gethostip	bootloader
 getkeycodes	kbd
@@ -1555,13 +1555,13 @@ gpg-agent	cryptography
 gpgconf	cryptography
 gpg-connect-agent	cryptography
 gpg	cryptography
-gpg-error-config	os-core-dev
-gpg-error	os-core-dev
+gpg-error-config	os-testsuite-phoronix-server
+gpg-error	os-testsuite-phoronix-server
 gpgme-config	gpgme
 gpgme-json	gpgme
 gpgme-tool	gpgme
 gpgparsemail	cryptography
-gpgrt-config	os-core-dev
+gpgrt-config	os-testsuite-phoronix-server
 gpgscm	cryptography
 gpgsm	cryptography
 gpgtar	cryptography
@@ -1769,7 +1769,7 @@ hexinfo.py	python-extras
 hexmerge.py	python-extras
 hg	mercurial
 hg-ssh	mercurial
-hmac256	os-core-dev
+hmac256	os-testsuite-phoronix-server
 hmaptool	llvm
 host	network-basic
 hotshot2calltree	desktop-kde-apps
@@ -2554,7 +2554,7 @@ lgroupdel	storage-utils-dev
 lgroupmod	storage-utils-dev
 libassuan-config	desktop-kde
 libevdev-tweak-device	qt-basic-dev
-libgcrypt-config	os-core-dev
+libgcrypt-config	os-testsuite-phoronix-server
 libinput	devpkg-clutter
 libnetcfg	perl-basic
 libpng16-config	devpkg-libpng
@@ -2955,7 +2955,7 @@ mpeg2vldemo	libva-utils
 mpg123-id3dump	mpg123
 mpg123	mpg123
 mpg123-strip	mpg123
-mpicalc	os-core-dev
+mpicalc	os-testsuite-phoronix-server
 mpicc	machine-learning-tensorflow
 mpiCC	machine-learning-tensorflow
 mpic++	machine-learning-tensorflow
@@ -3484,9 +3484,9 @@ pavucontrol	desktop-apps
 pax11publish	desktop
 pbibtex	texlive
 pbr	python-extras
-pbunzip2	os-testsuite-phoronix-desktop
-pbzcat	os-testsuite-phoronix-desktop
-pbzip2	os-testsuite-phoronix-desktop
+pbunzip2	os-testsuite-phoronix-server
+pbzcat	os-testsuite-phoronix-server
+pbzip2	os-testsuite-phoronix-server
 pcal	perl-extras
 pcap-config	sysadmin-basic-dev
 pcre2-config	go-basic-dev
@@ -3602,7 +3602,7 @@ phar.phar	php-basic
 phar	php-basic
 phc2sys	time-server-basic
 phc_ctl	time-server-basic
-phoronix-test-suite	os-testsuite-phoronix-desktop
+phoronix-test-suite	os-testsuite-phoronix-server
 php-cgi	php-basic
 php-config	php-basic
 phpdbg	php-basic
@@ -3782,7 +3782,7 @@ ptar	perl-basic
 ptex2pdf	texlive
 ptex	texlive
 ptftopl	texlive
-pth-config	os-testsuite-phoronix-desktop
+pth-config	os-testsuite-phoronix-server
 ptiptop	performance-tools
 ptp4l	time-server-basic
 ptsematest	dev-utils
@@ -4236,7 +4236,7 @@ servicemenuinstallation	desktop-kde-apps
 setcap	sysadmin-basic
 set-crio-default-runtime	containers-virt
 set-docker-default-runtime	containers-virt
-setfacl	os-core-dev
+setfacl	os-testsuite
 setfattr	dev-utils
 setfont	kbd
 setkeycodes	kbd
@@ -5466,7 +5466,7 @@ yarn	big-data-basic
 yarn-daemon.sh	big-data-basic
 yarn-daemons.sh	big-data-basic
 yasm	yasm
-yat2m	os-core-dev
+yat2m	os-testsuite-phoronix-server
 yelp-build	desktop-dev
 yelp-check	desktop-dev
 yelp	desktop
