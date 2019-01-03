@@ -1254,6 +1254,7 @@ fontinst	texlive
 fontlint	desktop-dev
 fonttools	fonttools
 foomatic-rip	desktop
+fossil	fossil
 fragmaster	texlive
 FreeCADCmd	maker-cnc
 FreeCAD	maker-cnc
@@ -1466,7 +1467,7 @@ glib-genmarshal	devpkg-glib
 glib-gettextize	devpkg-glib
 glib-mkenums	devpkg-glib
 glilypond	sysadmin-basic
-glinfo	os-testsuite-phoronix-desktop
+glinfo	os-utils-gui
 glmark2-drm	glmark2
 glmark2-es2-drm	glmark2
 glmark2-es2	glmark2
@@ -1475,7 +1476,7 @@ glmark2	glmark2
 glmark2-wayland	glmark2
 global	global
 globash	global
-glsync	os-testsuite-phoronix-desktop
+glsync	os-utils-gui
 glusterd	storage-cluster
 gluster-eventsapi	storage-cluster
 glustereventsd	storage-cluster
@@ -1486,8 +1487,8 @@ gluster-georep-sshkey	storage-cluster
 gluster-mountbroker	storage-cluster
 gluster-setgfid2path	storage-cluster
 gluster	storage-cluster
-glxgears	os-testsuite-phoronix-desktop
-glxinfo	os-testsuite-phoronix-desktop
+glxgears	os-utils-gui
+glxinfo	os-utils-gui
 gmake	make
 gmenudbusmenuproxy	desktop-kde
 gmic	desktop-apps-extras
@@ -2553,6 +2554,7 @@ lgroupadd	storage-utils-dev
 lgroupdel	storage-utils-dev
 lgroupmod	storage-utils-dev
 libassuan-config	desktop-kde
+libdeps.py	os-clr-on-clr
 libevdev-tweak-device	qt-basic-dev
 libgcrypt-config	os-core-dev
 libinput	devpkg-clutter
@@ -3352,6 +3354,7 @@ opencv_interactive-calibration	computer-vision-basic
 opencv_version	computer-vision-basic
 opencv_visualisation	computer-vision-basic
 openjade	database-basic-dev
+openscad	maker-cnc
 opensm	hpc-utils
 openssl	openssl
 openstack-inventory	openstack-common
@@ -4211,8 +4214,8 @@ sddm-greeter	desktop-kde
 sdiff	diffutils
 sdig	pdns
 sdkserver	openstack-common
-sdl2-config	desktop-dev
-sdl-config	os-clr-on-clr-dev
+sdl2-config	games
+sdl-config	games
 sdpscanner	qt-basic
 sdptool	hardware-bluetooth
 seahorse-daemon	desktop-dev
