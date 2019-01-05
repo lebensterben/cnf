@@ -735,7 +735,7 @@ cweave	texlive
 cwebp	os-clr-on-clr-dev
 cwutil	os-cloudguest-gce
 cx18-ctl	v4l-utils
-cxpm	os-testsuite-0day
+cxpm	os-clr-on-clr-dev
 cxxmetric	desktop-kde-apps
 cyclicdeadline	dev-utils
 cyclictest	dev-utils
@@ -1467,7 +1467,7 @@ glib-genmarshal	devpkg-glib
 glib-gettextize	devpkg-glib
 glib-mkenums	devpkg-glib
 glilypond	sysadmin-basic
-glinfo	os-utils-gui
+glinfo	os-testsuite-phoronix-desktop
 glmark2-drm	glmark2
 glmark2-es2-drm	glmark2
 glmark2-es2	glmark2
@@ -1476,7 +1476,7 @@ glmark2	glmark2
 glmark2-wayland	glmark2
 global	global
 globash	global
-glsync	os-utils-gui
+glsync	os-testsuite-phoronix-desktop
 glusterd	storage-cluster
 gluster-eventsapi	storage-cluster
 glustereventsd	storage-cluster
@@ -1487,8 +1487,8 @@ gluster-georep-sshkey	storage-cluster
 gluster-mountbroker	storage-cluster
 gluster-setgfid2path	storage-cluster
 gluster	storage-cluster
-glxgears	os-utils-gui
-glxinfo	os-utils-gui
+glxgears	os-testsuite-phoronix-desktop
+glxinfo	os-testsuite-phoronix-desktop
 gmake	make
 gmenudbusmenuproxy	desktop-kde
 gmic	desktop-apps-extras
@@ -2716,11 +2716,10 @@ lvcreate	boot-encrypted
 lvdisplay	boot-encrypted
 lvextend	boot-encrypted
 lvm	boot-encrypted
-lvmconf	boot-encrypted
 lvmconfig	boot-encrypted
+lvmdbusd	boot-encrypted
 lvmdiskscan	boot-encrypted
 lvmdump	boot-encrypted
-lvmetad	boot-encrypted
 lvmsadc	boot-encrypted
 lvmsar	boot-encrypted
 lvreduce	boot-encrypted
@@ -3869,8 +3868,8 @@ python3-config	icdiff
 python3	icdiff
 python-argcomplete-check-easy-install-script	diffoscope
 python-argcomplete-tcsh	diffoscope
+python	boot-encrypted
 python-config	mercurial
-python	python3-basic
 pythontex	texlive
 pyvenv-3.7	icdiff
 pyvenv	icdiff
@@ -4653,7 +4652,7 @@ swupd-inspector	mixer
 swupd	os-core-update
 swupd-overdue	os-core-update
 swupd-probe	telemetrics
-sxpm	os-testsuite-0day
+sxpm	os-clr-on-clr-dev
 symilar	desktop-kde-libs
 synclient	os-utils-gui
 syncqt.pl	devpkg-qtbase
@@ -5509,7 +5508,6 @@ zone2json	pdns
 zone2sql	pdns
 zonetab2pot.py	desktop-kde-apps
 zope-testrunner	python-extras
-zramctl	os-core-dev
 zrun	os-testsuite-0day
 zsh-5.6.2	zsh
 zsh	zsh
