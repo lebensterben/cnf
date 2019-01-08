@@ -735,7 +735,7 @@ cweave	texlive
 cwebp	os-clr-on-clr-dev
 cwutil	os-cloudguest-gce
 cx18-ctl	v4l-utils
-cxpm	os-testsuite-0day
+cxpm	os-clr-on-clr-dev
 cxxmetric	desktop-kde-apps
 cyclicdeadline	dev-utils
 cyclictest	dev-utils
@@ -3733,7 +3733,7 @@ profiles	enterprise-login
 protoc-c	machine-learning-basic
 protoc-gen-c	machine-learning-basic
 protocoltojson	desktop-kde
-protoc	python-data-science
+protoc	openstack-common
 prove	perl-basic
 proxy	os-core-update
 prtstat	sysadmin-basic
@@ -4654,7 +4654,7 @@ swupd-inspector	mixer
 swupd	os-core-update
 swupd-overdue	os-core-update
 swupd-probe	telemetrics
-sxpm	os-testsuite-0day
+sxpm	os-clr-on-clr-dev
 symilar	desktop-kde-libs
 synclient	os-utils-gui
 syncqt.pl	devpkg-qtbase
