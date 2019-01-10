@@ -1361,7 +1361,6 @@ gegl-imgcmp	desktop-dev
 gem	ruby-basic
 gen_binary_files	desktop-dev
 genbrk	devpkg-icu4c
-gencat.debug	dev-utils
 genccode	devpkg-icu4c
 gencfu	devpkg-icu4c
 gen_client	os-cloudguest-gce
@@ -1389,11 +1388,9 @@ gen_unigram	desktop-dev
 geos-config	maker-gis
 geotag	desktop-kde
 getcap	sysadmin-basic
-getconf.debug	dev-utils
 getdefs	c-basic
 get_device	openstack-common
 get_driver	openstack-common
-getent.debug	dev-utils
 getent.ldap	openstack-common
 getfacl	acl
 getfattr	dev-utils
@@ -1905,7 +1902,6 @@ icecc-scheduler	icecream
 icecc-test-env	icecream
 icerun	icecream
 icon-cache-update.sh	devpkg-gtk3
-iconv.debug	dev-utils
 iconvert	blender
 icu-config	devpkg-icu4c
 icuinfo	devpkg-icu4c
@@ -2539,7 +2535,6 @@ ld.bfd	linux-tools
 ldbmodify	storage-utils-dev
 ldbrename	storage-utils-dev
 ldbsearch	storage-utils-dev
-lddlibc4.debug	dev-utils
 lddlibc4	games
 ldd	python-extras
 ld.gold	c-basic
@@ -2648,8 +2643,6 @@ lnewusers	storage-utils-dev
 loadjpeg	libva-utils
 loadkeys	kbd
 loadunimap	kbd
-locale.debug	dev-utils
-localedef.debug	dev-utils
 localedef	sysadmin-basic
 local_lsmplugin	sysadmin-remote
 locate	findutils
@@ -2744,7 +2737,6 @@ lwp-request	perl-basic
 lz4cat	lz4
 lz4c	lz4
 lz4	lz4
-lzcat.debug	dev-utils
 lzcat	xz
 lzcmp	xz
 lzdiff	xz
@@ -2753,10 +2745,7 @@ lzfgrep	xz
 lzgrep	xz
 lzip	package-builder
 lzless	xz
-lzma.debug	dev-utils
-lzmadec.debug	dev-utils
 lzmadec	xz
-lzmainfo.debug	dev-utils
 lzmainfo	xz
 lzma	xz
 lzmore	xz
@@ -2772,7 +2761,6 @@ mail	mail-utils
 make4ht	texlive
 makealias	os-clr-on-clr-dev
 makeconv	devpkg-icu4c
-makedb.debug	dev-utils
 makedepend	os-clr-on-clr-dev
 makedtx	texlive
 make-file.sh	performance-tools
@@ -3504,7 +3492,6 @@ pbzcat	os-testsuite-phoronix-desktop
 pbzip2	os-testsuite-phoronix-desktop
 pcal	perl-extras
 pcap-config	sysadmin-basic-dev
-pcprofiledump.debug	dev-utils
 pcre2-config	go-basic-dev
 pcre2grep	go-basic-dev
 pcre2test	go-basic-dev
@@ -3675,7 +3662,6 @@ plasmashell	desktop-kde
 plasma_waitforname	desktop-kde
 plasmawindowed	desktop-kde
 play	amateur-radio
-pldd.debug	dev-utils
 plipconfig	os-cloudguest-azure
 pltotf	texlive
 pluginviewer	desktop-kde-apps
@@ -4081,7 +4067,6 @@ route	os-cloudguest-azure
 rpcbind	nfs-utils
 rpcclient	enterprise-login
 rpcdebug	nfs-utils
-rpcgen.debug	dev-utils
 rpc.idmapd	nfs-utils
 rpcinfo	nfs-utils
 rpc.mountd	nfs-utils
@@ -4511,7 +4496,6 @@ split2po	desktop-kde-apps
 splitdiff	dev-utils
 splitindex	texlive
 sponge	os-testsuite-0day
-sprof.debug	dev-utils
 sql2subunit	openstack-common
 sqlformat	machine-learning-web-ui
 sqlite3	devpkg-sqlite-autoconf
@@ -5004,7 +4988,6 @@ unix2dos	sysadmin-basic
 unix2mac	sysadmin-basic
 unix-lpr.sh	desktop
 unlz4	lz4
-unlzma.debug	dev-utils
 unlzma	xz
 unmunch	os-clr-on-clr-dev
 unpack2009	java9-basic
@@ -5013,7 +4996,6 @@ unprocessed_raw	desktop-dev
 unshar	sysadmin-basic
 unsquashfs	storage-utils
 unwrapdiff	dev-utils
-unxz.debug	dev-utils
 unxz	xz
 unzipsfx	unzip
 unzip	unzip
@@ -5471,11 +5453,8 @@ xwd	x11-tools
 xwininfo	x11-tools
 X	x11-server
 xxd	vim
-xzcat.debug	dev-utils
 xzcat	xz
 xzcmp	xz
-xz.debug	dev-utils
-xzdec.debug	dev-utils
 xzdec	xz
 xzdiff	xz
 xzegrep	xz
