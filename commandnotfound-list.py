@@ -87,7 +87,7 @@ def read_manifest(pack, version):
             if 'd' in flags:
                 continue
                 
-            if '/usr/bin/' in file:
+            if '/usr/bin/' in file and '/usr/share/' not in file:
                 basename = os.path.basename(file)
                 declare_binary(pack, basename, bundlesize)
             
