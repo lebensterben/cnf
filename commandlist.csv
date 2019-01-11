@@ -149,8 +149,8 @@ ark	desktop-kde-apps
 arlatex	texlive
 ar	linux-tools
 arpaname	network-basic
-arping	os-testsuite-automotive
-arp	os-testsuite-automotive
+arping	network-basic
+arp	os-cloudguest-azure
 arptables-nft	openssh-server
 arptables-nft-restore	openssh-server
 arptables-nft-save	openssh-server
@@ -386,7 +386,7 @@ cantor_python3server	education-tertiary
 cantor_rserver	education-tertiary
 cantor_scripteditor	education-tertiary
 capinfos	wireshark
-capsh	os-testsuite-automotive
+capsh	sysadmin-basic
 captest	os-core-dev
 captoinfo	sysadmin-basic
 captype	wireshark
@@ -880,7 +880,7 @@ dnf-3	package-utils
 dnf-automatic-3	package-utils
 dnf	package-utils
 dnsbulktest	pdns
-dnsdomainname	os-testsuite-automotive
+dnsdomainname	os-cloudguest-azure
 dnsgram	pdns
 dnsmasq	dhcp-server
 dnsreplay	pdns
@@ -920,7 +920,7 @@ doc_loadbios	mtd-utils
 docstheme-build-translated.sh	python-extras
 docstheme-lang-display-name.py	python-extras
 dolphin	desktop-kde-apps
-domainname	os-testsuite-automotive
+domainname	os-cloudguest-azure
 DOMCount	maker-cnc
 DOMPrint	maker-cnc
 dos2unix	sysadmin-basic
@@ -1280,7 +1280,7 @@ funzip	unzip
 fusermount3	fuse
 fusermount	fuse
 fusermount-glusterfs	storage-cluster
-fuser	os-testsuite-automotive
+fuser	sysadmin-basic
 futurize	python-extras
 fwupdate	fwupdate
 fwupdmgr	desktop-apps-extras
@@ -1387,7 +1387,7 @@ gentrigrams	desktop-kde
 gen_unigram	desktop-dev
 geos-config	maker-gis
 geotag	desktop-kde
-getcap	os-testsuite-automotive
+getcap	sysadmin-basic
 getdefs	c-basic
 get_device	openstack-common
 get_driver	openstack-common
@@ -1398,7 +1398,7 @@ gethostip	bootloader
 getkeycodes	kbd
 getmapdl	texlive
 get_module	openstack-common
-getpcaps	os-testsuite-automotive
+getpcaps	sysadmin-basic
 get_root_domain	perl-extras
 gettextize	kvm-host
 gettext	kvm-host
@@ -1919,7 +1919,7 @@ idn2	os-core-dev
 idn	os-core-dev
 iecset	alsa-utils
 iex	openstack-common
-ifconfig	os-testsuite-automotive
+ifconfig	os-cloudguest-azure
 ifdata	os-testsuite-0day
 ifnames213	c-basic-legacy
 ifnames	c-basic
@@ -2125,7 +2125,7 @@ iv	blender
 ivshmem-client	kvm-host
 ivshmem-server	kvm-host
 ivtv-ctl	v4l-utils
-iw	os-testsuite-automotive
+iw	network-basic
 iwpmd	hpc-utils
 ixplore	pdns
 jailer	containers-virt
@@ -2360,7 +2360,7 @@ kibitz	tcl-basic
 kiconfinder5	desktop-kde
 kig	education-primary
 kigo	desktop-kde-apps
-killall	os-testsuite-automotive
+killall	sysadmin-basic
 killbots	desktop-kde-apps
 kill_instance	os-cloudguest-gce
 kimagemapeditor	desktop-kde-apps
@@ -2686,8 +2686,8 @@ lss3	os-cloudguest-gce
 lsscsi	storage-utils
 lssubsys	os-core-dev
 lstopo-no-graphics	hwloc
-lsusb	os-testsuite-automotive
-lsusb.py	os-testsuite-automotive
+lsusb.py	sysadmin-basic
+lsusb	sysadmin-basic
 ltp-bump	performance-tools
 ltp-pan	performance-tools
 ltrace	dev-utils
@@ -3092,7 +3092,7 @@ mysql_waitpid	database-basic
 mytop	database-basic
 named-checkzone	network-basic
 named-compilezone	network-basic
-nameif	os-testsuite-automotive
+nameif	os-cloudguest-azure
 nanddump	mtd-utils
 nandtest	mtd-utils
 nandwrite	mtd-utils
@@ -3122,7 +3122,7 @@ net-server	perl-extras
 net-snmp-cert	performance-tools
 net-snmp-config	performance-tools
 net-snmp-create-v3-user	performance-tools
-netstat	os-testsuite-automotive
+netstat	os-cloudguest-azure
 nettle-hash	os-core-dev
 nettle-lfib-stream	os-core-dev
 nettle-pbkdf2	os-core-dev
@@ -3176,7 +3176,7 @@ nhrpd	quagga
 niceload	parallel
 nicstat	performance-tools
 ninja	dev-utils
-nisdomainname	os-testsuite-automotive
+nisdomainname	os-cloudguest-azure
 nl-addr-add	libnl
 nl-addr-delete	libnl
 nl-addr-list	libnl
@@ -3555,7 +3555,7 @@ peas-demo	desktop-dev
 pecan	storage-cluster
 pecl	php-basic
 pedigree	texlive
-peekfd	os-testsuite-automotive
+peekfd	sysadmin-basic
 pee	os-testsuite-0day
 pef-config	sysadmin-hostmgmt
 pep8	machine-learning-basic
@@ -3624,8 +3624,8 @@ pimsettingexporterconsole	desktop-kde-apps
 pimsettingexporter	desktop-kde-apps
 pinentry	cryptography
 pinentry-curses	cryptography
-ping6	os-testsuite-automotive
-ping	os-testsuite-automotive
+ping6	network-basic
+ping	network-basic
 pip2.7	python2-basic
 pip2	python2-basic
 pip3.7	python3-basic
@@ -3661,7 +3661,7 @@ plasmashell	desktop-kde
 plasma_waitforname	desktop-kde
 plasmawindowed	desktop-kde
 play	amateur-radio
-plipconfig	os-testsuite-automotive
+plipconfig	os-cloudguest-azure
 pltotf	texlive
 pluginviewer	desktop-kde-apps
 pmc	time-server-basic
@@ -3736,7 +3736,7 @@ protocoltojson	desktop-kde
 protoc	openstack-common
 prove	perl-basic
 proxy	os-core-update
-prtstat	os-testsuite-automotive
+prtstat	sysadmin-basic
 pruneemptydirs	desktop-kde-apps
 prune	python-extras
 ps2ascii	desktop
@@ -3762,7 +3762,7 @@ psicc	qt-basic-dev
 psjoin	texlive
 psktool	cryptography
 pslatex	texlive
-pslog	os-testsuite-automotive
+pslog	sysadmin-basic
 psl	qt-basic-dev
 psnr	desktop-apps
 psnup	texlive
@@ -3775,8 +3775,8 @@ pst2pdf	texlive
 pstops	texlive
 pstoreclean	telemetrics
 pstoreprobe	telemetrics
-pstree	os-testsuite-automotive
-pstree.x11	os-testsuite-automotive
+pstree	sysadmin-basic
+pstree.x11	sysadmin-basic
 PSVIWriter	maker-cnc
 ptardiff	perl-basic
 ptargrep	perl-basic
@@ -3949,7 +3949,7 @@ radvdump	openstack-common
 rake	ruby-basic
 randpkt	wireshark
 ranlib	linux-tools
-rarp	os-testsuite-automotive
+rarp	os-cloudguest-azure
 raw2tiff	qt-basic-dev
 raw_ethernet_burst_lat	hpc-utils
 raw_ethernet_bw	hpc-utils
@@ -4062,7 +4062,7 @@ rotatelogs	httpd
 rotctl	amateur-radio
 rotctld	amateur-radio
 route53	os-cloudguest-gce
-route	os-testsuite-automotive
+route	os-cloudguest-azure
 rpcbind	nfs-utils
 rpcclient	enterprise-login
 rpcdebug	nfs-utils
@@ -4240,7 +4240,7 @@ servertool9	java9-basic
 servertool	java-runtime
 servicemenudeinstallation	desktop-kde-apps
 servicemenuinstallation	desktop-kde-apps
-setcap	os-testsuite-automotive
+setcap	sysadmin-basic
 set-crio-default-runtime	containers-virt
 set-docker-default-runtime	containers-virt
 setfacl	acl
@@ -4382,7 +4382,7 @@ slapindex	openldap
 slappasswd	openldap
 slapschema	openldap
 slaptest	openldap
-slattach	os-testsuite-automotive
+slattach	os-cloudguest-azure
 slaves.sh	big-data-basic
 sln	python-extras
 sload.f2fs	os-testsuite-0day
@@ -4912,9 +4912,9 @@ tpm_server	os-testsuite
 tput	sysadmin-basic
 tqdm	machine-learning-basic
 trace	linux-tools
-tracepath6	os-testsuite-automotive
-tracepath	os-testsuite-automotive
-traceroute6	os-testsuite-automotive
+tracepath6	network-basic
+tracepath	network-basic
+traceroute6	network-basic
 traceroute	network-basic
 tracker	desktop-gnomelibs
 transicc	qt-basic-dev
@@ -5027,8 +5027,8 @@ urlgrabber	koji
 urxvtc	desktop-awesome
 urxvtd	desktop-awesome
 urxvt	desktop-awesome
-usb-devices	os-testsuite-automotive
-usbhid-dump	os-testsuite-automotive
+usb-devices	sysadmin-basic
+usbhid-dump	sysadmin-basic
 usbredirserver	kvm-host-dev
 use-devel-checklib	perl-extras
 usercrash_c	service-os
@@ -5482,7 +5482,7 @@ yelp-build	desktop-dev
 yelp-check	desktop-dev
 yelp	desktop
 yelp-new	desktop-dev
-ypdomainname	os-testsuite-automotive
+ypdomainname	os-cloudguest-azure
 yplan	texlive
 ytasm	yasm
 yum	koji
