@@ -187,6 +187,7 @@ atrun	os-cloudguest-azure
 attr	dev-utils
 audispd	audit
 audispd-zos-remote	audit
+audisp-json	audit
 audisp-remote	audit
 auditctl	audit
 auditd	audit
@@ -646,7 +647,6 @@ cpanel_json_xs	perl-extras
 cpanfile-dump	perl-extras
 cpanm	os-clr-on-clr-dev
 cpan	perl-basic
-cpantest	perl-extras
 cpio	cpio
 cpio-filter	perl-extras
 cpp2html	dev-utils
@@ -750,6 +750,7 @@ darktable-cmstest	darktable
 darktable	darktable
 darktable-generate-cache	darktable
 darktable-rs-identify	darktable
+datefudge	os-core-dev
 daxctl	storage-utils
 daxio	pmdk
 dazzle-list-counters	desktop-dev
@@ -2565,7 +2566,6 @@ librados-config	storage-cluster
 libtool	c-basic
 libtoolize	c-basic
 libvirtd	kvm-host
-libvncserver-config	os-utils-gui-dev
 libwacom-list-local-devices	desktop-dev
 lid	storage-utils-dev
 lightdm-gtk-greeter	lightdm
@@ -2742,7 +2742,7 @@ lzdiff	xz
 lzegrep	xz
 lzfgrep	xz
 lzgrep	xz
-lzip	package-builder
+lzip	plzip
 lzless	xz
 lzmadec	xz
 lzmainfo	xz
@@ -3664,6 +3664,7 @@ play	amateur-radio
 plipconfig	os-cloudguest-azure
 pltotf	texlive
 pluginviewer	desktop-kde-apps
+plzip	plzip
 pmc	time-server-basic
 pmempool	pmdk
 pmpost	texlive
