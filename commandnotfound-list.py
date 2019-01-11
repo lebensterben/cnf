@@ -118,6 +118,7 @@ def main():
     blacklist.append("os-testsuite-phoronix-server")
     blacklist.append("os-testsuite-phoronix-desktop")
     blacklist.append("os-testsuite-phoronix")
+    blacklist.append("os-testsuite-automotive")
     blacklist.append("os-testsuite")
     blacklist.append("os-testsuite-0day")
     blacklist.append("os-installer")
