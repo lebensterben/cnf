@@ -130,6 +130,11 @@ def main():
     whitelist.append("perl-extras")
     whitelist.append("c-basic")
     whitelist.append("sysadmin-basic")
+    
+    # manual overrides
+    
+    declare_binary("python3-basic", "python", 0)
+    declare_binary("python3-basic", "python3", 0)
 
 #    print("Inspecting version ", VERSION)
 
