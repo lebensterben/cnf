@@ -135,6 +135,8 @@ def main():
     
     declare_binary("python3-basic", "python", 0)
     declare_binary("python3-basic", "python3", 0)
+    declare_binary("python3-basic", "python3.7", 0)
+    declare_binary("python2-basic", "python2.7", 0)
 
 #    print("Inspecting version ", VERSION)
 
