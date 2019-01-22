@@ -114,6 +114,7 @@ def main():
     
     # bundles we want to consider as last possible resort
     blacklist.append("os-clr-on-clr")
+    blacklist.append("os-clr-on-clr-dev")
     blacklist.append("os-utils-gui")
     blacklist.append("os-testsuite-phoronix-server")
     blacklist.append("os-testsuite-phoronix-desktop")
