@@ -1,6 +1,6 @@
 Name     : cnf
 Version  : 1
-Release  : 118
+Release  : 119
 Source0  : 10-command-not-found.sh
 Source1  : commandlist.csv
 Summary  : Bash command not found handler
