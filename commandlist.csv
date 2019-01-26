@@ -1474,7 +1474,7 @@ glib-genmarshal	desktop-apps
 glib-gettextize	desktop-apps
 glib-mkenums	desktop-apps
 glilypond	sysadmin-basic
-glinfo	os-testsuite-phoronix-desktop
+glinfo	os-utils-gui
 glmark2-drm	glmark2
 glmark2-es2-drm	glmark2
 glmark2-es2	glmark2
@@ -1483,7 +1483,7 @@ glmark2	glmark2
 glmark2-wayland	glmark2
 global	global
 globash	global
-glsync	os-testsuite-phoronix-desktop
+glsync	os-utils-gui
 glusterd	storage-cluster
 gluster-eventsapi	storage-cluster
 glustereventsd	storage-cluster
@@ -1494,8 +1494,8 @@ gluster-georep-sshkey	storage-cluster
 gluster-mountbroker	storage-cluster
 gluster-setgfid2path	storage-cluster
 gluster	storage-cluster
-glxgears	os-testsuite-phoronix-desktop
-glxinfo	os-testsuite-phoronix-desktop
+glxgears	os-utils-gui
+glxinfo	os-utils-gui
 gmake	make
 gmenudbusmenuproxy	desktop-kde
 gmic	desktop-apps-extras
