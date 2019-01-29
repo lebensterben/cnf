@@ -794,7 +794,7 @@ depdiagram-prepare	desktop-kde-apps
 depythontex	texlive
 derb	devpkg-icu4c
 designate	openstack-common
-designer	storage-utils-dev
+designer	dev-utils-dev
 desktop-file-edit	desktop
 desktop-file-install	desktop
 desktop-file-validate	desktop
@@ -829,7 +829,6 @@ dijkstra	python-extras
 direwolf	amateur-radio
 dirmngr-client	cryptography
 dirmngr	cryptography
-discover	desktop-kde
 disdvi	texlive
 dislocate	tcl-basic
 display	ImageMagick
@@ -2564,7 +2563,7 @@ lchage	storage-utils-dev
 lchfn	storage-utils-dev
 lchsh	storage-utils-dev
 lckdo	os-testsuite-0day
-lconvert	storage-utils-dev
+lconvert	dev-utils-dev
 lcov	dev-utils
 ld64.lld	llvm
 ldapadd	openldap
@@ -2622,7 +2621,7 @@ lightdm-session	lightdm
 lily-glyph-commands	texlive
 lily-image-commands	texlive
 lily-rebuild-pdfs	texlive
-linguist	storage-utils-dev
+linguist	dev-utils-dev
 linkicc	qt-basic-dev
 links	network-basic
 listbib	texlive
@@ -2717,7 +2716,7 @@ lprm	desktop
 lprsetup.sh	desktop
 lpstat	desktop
 lpunlock	tcl-basic
-lrelease	storage-utils-dev
+lrelease	dev-utils-dev
 lsacpi	sysadmin-basic
 lscgroup	os-core-dev
 lsdiff	dev-utils
@@ -2754,7 +2753,7 @@ luarocks	lua-basic
 luatex53	texlive
 luatex	texlive
 luatools	texlive
-lupdate	storage-utils-dev
+lupdate	dev-utils-dev
 luseradd	storage-utils-dev
 luserdel	storage-utils-dev
 lusermod	storage-utils-dev
@@ -3411,6 +3410,7 @@ openvpn	network-basic
 openvt	kbd
 opl2ofm	texlive
 optimizegraphics	desktop-kde-apps
+optipng	desktop-dev
 opt	llvm
 orbd9	java9-basic
 orbd	java-runtime
@@ -3687,7 +3687,7 @@ pipewire-monitor	desktop-dev
 pip	python3-basic
 pip_stress	dev-utils
 pi_stress	dev-utils
-pixeltool	storage-utils-dev
+pixeltool	dev-utils-dev
 pk12util	cryptography
 pk2bm	texlive
 pkaction	cockpit
@@ -3708,6 +3708,7 @@ pkttyagent	cockpit
 pktype	texlive
 pl2pm	perl-basic
 plasma-browser-integration-host	desktop-kde
+plasma-discover	desktop-kde
 plasmashell	desktop-kde
 plasma_waitforname	desktop-kde
 plasmawindowed	desktop-kde
@@ -3933,8 +3934,8 @@ qdbuscpp2xml	devpkg-qtbase
 qdbus	qt-basic
 qdbusviewer	qt-basic
 qdbusxml2cpp	devpkg-qtbase
-qdistancefieldgenerator	storage-utils-dev
-qdoc	storage-utils-dev
+qdistancefieldgenerator	dev-utils-dev
+qdoc	dev-utils-dev
 qemu-edid	kvm-host
 qemu-ga	kvm-host
 qemu-i386	kvm-host
@@ -3950,7 +3951,7 @@ qgis_bench	maker-gis
 qgis	maker-gis
 qgit	dev-utils-gui
 qgltf	qt-basic
-qhelpgenerator	storage-utils-dev
+qhelpgenerator	dev-utils-dev
 qlalr	devpkg-qtbase
 qmake	devpkg-qtbase
 qmicli	desktop-dev
@@ -3973,11 +3974,11 @@ qpid-python-test.bat	openstack-common
 qpid-python-test	openstack-common
 qrencode	desktop-kde-apps
 qscxmlc	storage-utils-dev
-qtattributionsscanner	storage-utils-dev
+qtattributionsscanner	dev-utils-dev
 qtdiag	qt-basic
 qtdoc	desktop-kde-apps
 qtpaths	qt-basic
-qtplugininfo	storage-utils-dev
+qtplugininfo	dev-utils-dev
 qtwaylandscanner	storage-utils-dev
 quasselclient	desktop-apps-extras
 quasselcore	quassel
