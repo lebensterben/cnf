@@ -124,6 +124,7 @@ def main():
     blacklist.append("os-testsuite-0day")
     blacklist.append("os-installer")
     blacklist.append("service-os")
+    blacklist.append("service-os-dev")
     blacklist.append("software-defined-cockpit")   # not general purpose
     
     whitelist.append("python-basic")
