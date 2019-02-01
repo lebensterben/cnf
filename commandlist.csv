@@ -553,8 +553,8 @@ clang-cpp	llvm
 clang-format	llvm
 clang-func-mapping	llvm
 clang-import-test	llvm
-clang++	llvm
 clang	llvm
+clang++	llvm
 clang-offload-bundler	llvm
 clang-refactor	llvm
 clang-rename	llvm
@@ -638,9 +638,9 @@ copydatabase	mail-utils-dev
 copylink	perl-extras
 corelist	perl-basic
 count	llvm
-coverage-3.7	diffoscope
-coverage3	diffoscope
-coverage	diffoscope
+coverage-3.7	letsencrypt-client
+coverage3	letsencrypt-client
+coverage	letsencrypt-client
 cover	perl-extras
 cpack	c-basic
 cpancover	perl-extras
@@ -1231,7 +1231,7 @@ fix-qdf	desktop-dev
 fixqt4headers.pl	devpkg-qtbase
 fixuifiles	desktop-kde-apps
 flac	flac
-flake8	diffoscope
+flake8	python-extras
 flarq	amateur-radio
 flashcp	mtd-utils
 flash_eraseall	mtd-utils
@@ -1250,8 +1250,8 @@ flatpak-coredumpctl	desktop-apps
 flatpak	flatpak
 fldigi	amateur-radio
 flea	mutt
-flex++	c-basic
 flex	c-basic
+flex++	c-basic
 flipdiff	dev-utils
 flmsg	amateur-radio
 flnet	amateur-radio
@@ -1481,7 +1481,7 @@ glib-genmarshal	desktop-apps
 glib-gettextize	desktop-apps
 glib-mkenums	desktop-apps
 glilypond	sysadmin-basic
-glinfo	os-testsuite-phoronix-desktop
+glinfo	os-utils-gui
 glmark2-drm	glmark2
 glmark2-es2-drm	glmark2
 glmark2-es2	glmark2
@@ -1490,7 +1490,7 @@ glmark2	glmark2
 glmark2-wayland	glmark2
 global	global
 globash	global
-glsync	os-testsuite-phoronix-desktop
+glsync	os-utils-gui
 glusterd	storage-cluster
 gluster-eventsapi	storage-cluster
 glustereventsd	storage-cluster
@@ -1501,8 +1501,8 @@ gluster-georep-sshkey	storage-cluster
 gluster-mountbroker	storage-cluster
 gluster-setgfid2path	storage-cluster
 gluster	storage-cluster
-glxgears	os-testsuite-phoronix-desktop
-glxinfo	os-testsuite-phoronix-desktop
+glxgears	os-utils-gui
+glxinfo	os-utils-gui
 gmake	make
 gmenudbusmenuproxy	desktop-kde
 gmic	desktop-apps-extras
@@ -3618,7 +3618,7 @@ pedigree	texlive
 peekfd	sysadmin-basic
 pee	os-testsuite-0day
 pef-config	sysadmin-hostmgmt
-pep8	maker-3dprinting
+pep8	machine-learning-basic
 perf	linux-tools
 perfquery	hpc-utils
 perl5.28.1	perl-basic
@@ -3923,8 +3923,8 @@ pyrsa-sign	os-cloudguest-gce
 pyrsa-verify	os-cloudguest-gce
 pyscss	django
 pyspark	big-data-basic
-py.test	software-testing
-pytest	software-testing
+py.test	python-extras
+pytest	python-extras
 python2.7-config	python2-basic
 python2.7	python2-basic
 python2-config	python2-basic
@@ -5068,7 +5068,7 @@ unifdefall	dev-utils
 unifdef	dev-utils
 unison-fsmonitor	unison
 unison	unison
-unit2	django
+unit2	letsencrypt-client
 unix2dos	sysadmin-basic
 unix2mac	sysadmin-basic
 unix-lpr.sh	desktop
