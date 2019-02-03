@@ -407,6 +407,7 @@ c++	c-basic
 c++-copy-class-and-file	desktop-kde-apps
 c++-rename-class-and-file	desktop-kde-apps
 c++filt	c-basic
+c-basic	pkg-config
 c-index-test	llvm
 cabextract	cabextract
 cabrip	desktop-dev
