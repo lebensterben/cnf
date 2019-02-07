@@ -226,7 +226,7 @@ atom	atom
 atq	os-cloudguest-azure
 atrm	os-cloudguest-azure
 atrun	os-cloudguest-azure
-attr	wine
+attr	dev-utils
 audisp-json	audit
 audisp-remote	audit
 audispd	audit
@@ -706,12 +706,12 @@ crashlogctl	service-os
 crashprobe	telemetrics
 create-cracklib-dict	os-core-dev
 create_cvsignore	desktop-kde-apps
-create_dmesg_entries_for_each_test.awk	performance-tools
-create_kernel_faults_in_loops_and_probability.awk	performance-tools
+create_dmesg_entries_for_each_test.awk	ltp
+create_kernel_faults_in_loops_and_probability.awk	ltp
 create_makefile	desktop-kde-apps
 create_makefiles	desktop-kde-apps
 create_svnignore	desktop-kde-apps
-create_valgrind_check.awk	performance-tools
+create_valgrind_check.awk	ltp
 createdb	postgresql
 createlang	postgresql
 createrepo_c	package-utils
@@ -1161,7 +1161,7 @@ evince-thumbnailer	desktop-apps
 evolution	desktop-apps
 ex	vim
 exceltex	texlive
-execltp	performance-tools
+execltp	ltp
 exempi	desktop-dev
 exifcomment	desktop-kde
 exifdata	desktop-kde
@@ -1224,7 +1224,7 @@ fdtoverlay	dtc
 fdtput	dtc
 feh	desktop-awesome
 fetch_file	os-cloudguest-gce
-ffsb	performance-tools
+ffsb	ltp
 fftw-wisdom	qt-basic-dev
 fftw-wisdom-to-conf	qt-basic-dev
 fftwf-wisdom	qt-basic-dev
@@ -1425,7 +1425,7 @@ gendiff	package-utils
 genfio	fio
 genhash	keepalived
 genhtml	dev-utils
-genhtml.pl	performance-tools
+genhtml.pl	ltp
 geninfo	dev-utils
 genl-ctrl-list	libnl
 gennorm2	devpkg-icu4c
@@ -1444,7 +1444,7 @@ getcap	sysadmin-basic
 getdefs	c-basic
 getent.ldap	openstack-common
 getfacl	acl
-getfattr	wine
+getfattr	dev-utils
 gethostip	bootloader
 getkeycodes	kbd
 getmapdl	texlive
@@ -1511,7 +1511,7 @@ glib-genmarshal	desktop-apps
 glib-gettextize	desktop-apps
 glib-mkenums	desktop-apps
 glilypond	sysadmin-basic
-glinfo	os-utils-gui
+glinfo	os-testsuite-phoronix-desktop
 glmark2	glmark2
 glmark2-drm	glmark2
 glmark2-es2	glmark2
@@ -1520,7 +1520,7 @@ glmark2-es2-wayland	glmark2
 glmark2-wayland	glmark2
 global	global
 globash	global
-glsync	os-utils-gui
+glsync	os-testsuite-phoronix-desktop
 gluster	storage-cluster
 gluster-eventsapi	storage-cluster
 gluster-georep-sshkey	storage-cluster
@@ -1531,8 +1531,8 @@ glustereventsd	storage-cluster
 glusterfind	storage-cluster
 glusterfs	storage-cluster
 glusterfsd	storage-cluster
-glxgears	os-utils-gui
-glxinfo	os-utils-gui
+glxgears	os-testsuite-phoronix-desktop
+glxinfo	os-testsuite-phoronix-desktop
 gmake	make
 gmenudbusmenuproxy	desktop-kde
 gmic	desktop-apps-extras
@@ -1866,7 +1866,7 @@ htdbm	httpd
 htdigest	httpd
 htlatex	texlive
 htmex	texlive
-html_report_header.txt	performance-tools
+html_report_header.txt	ltp
 htmlclean	perl-extras
 htop	htop
 htpasswd	httpd
@@ -2034,7 +2034,7 @@ inkview	inkscape
 innochecksum	database-basic
 inotifywait	inotify-tools
 inotifywatch	inotify-tools
-insert_kernel_faults.sh	performance-tools
+insert_kernel_faults.sh	ltp
 install-info	texinfo
 install-vbox-lga	kernel-lts
 installcheck	os-clr-on-clr-dev
@@ -2771,8 +2771,8 @@ lssubsys	os-core-dev
 lstopo-no-graphics	hwloc
 lsusb	sysadmin-basic
 lsusb.py	sysadmin-basic
-ltp-bump	performance-tools
-ltp-pan	performance-tools
+ltp-bump	ltp
+ltp-pan	ltp
 ltrace	dev-utils
 ltx2crossrefxml	texlive
 ltxfileinfo	texlive
@@ -2842,7 +2842,7 @@ magick	ImageMagick
 magick-script	ImageMagick
 mail	mutt
 make	make
-make-file.sh	performance-tools
+make-file.sh	ltp
 make4ht	texlive
 make_metadata.py	openstack-common
 makealias	desktop-dev
@@ -3479,7 +3479,7 @@ opencv_interactive-calibration	devpkg-opencv
 opencv_version	devpkg-opencv
 opencv_visualisation	devpkg-opencv
 openjade	database-basic-dev
-openscad	maker-cnc
+openscad	maker-3dprinting
 opensm	hpc-utils
 openssl	openssl
 openstack-inventory	openstack-common
@@ -4165,7 +4165,7 @@ resize.f2fs	os-testsuite-0day
 resizecons	kbd
 resolve_stack_dump	database-basic
 resolveip	database-basic
-restore_kernel_faults_default.sh	performance-tools
+restore_kernel_faults_default.sh	ltp
 restructuredtext-lint	openstack-common
 retype	python-extras
 reviewboard-am	desktop-kde-apps
@@ -4379,7 +4379,7 @@ set-crio-default-runtime	containers-virt
 set-docker-default-runtime	containers-virt
 setcap	sysadmin-basic
 setfacl	acl
-setfattr	wine
+setfattr	dev-utils
 setfont	kbd
 setkeycodes	kbd
 setleds	kbd
