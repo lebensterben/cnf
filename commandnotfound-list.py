@@ -133,6 +133,7 @@ def main():
     whitelist.append("perl-basic")
     whitelist.append("perl-extras")
     whitelist.append("c-basic")
+    whitelist.append("R-basic")
     whitelist.append("sysadmin-basic")
     
     # manual overrides
