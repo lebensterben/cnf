@@ -127,6 +127,7 @@ def main():
     blacklist.append("service-os-dev")
     blacklist.append("software-defined-cockpit")   # not general purpose
     blacklist.append("devpkg-R")
+    blacklist.append("dnf")
     
     whitelist.append("python-basic")
     whitelist.append("python-extras")
@@ -144,6 +145,7 @@ def main():
     declare_binary("python2-basic", "python2.7", 0)
     declare_binary("c-basic", "pkg-config", 0)
     declare_binary("R-basic", "R", 0)
+    declare_binary("R-basic", "R-script", 0)
 
 #    print("Inspecting version ", VERSION)
 
