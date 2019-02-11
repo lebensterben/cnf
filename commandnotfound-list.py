@@ -143,6 +143,7 @@ def main():
     declare_binary("python3-basic", "python3.7", 0)
     declare_binary("python2-basic", "python2.7", 0)
     declare_binary("c-basic", "pkg-config", 0)
+    declare_binary("R-basic", "R", 0)
 
 #    print("Inspecting version ", VERSION)
 
