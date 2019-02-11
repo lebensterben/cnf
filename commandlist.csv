@@ -61,12 +61,12 @@ acpihelp	acpica-unix2
 acpinames	acpica-unix2
 acpisrc	acpica-unix2
 acpixtract	acpica-unix2
-acrn-dm	service-os
-acrnctl	service-os
-acrnd	service-os
-acrnlog	service-os
-acrnprobe	service-os
-acrntrace	service-os
+acrn-dm	software-defined-cockpit-dev
+acrnctl	software-defined-cockpit-dev
+acrnd	software-defined-cockpit-dev
+acrnlog	software-defined-cockpit-dev
+acrnprobe	software-defined-cockpit-dev
+acrntrace	software-defined-cockpit-dev
 activate-global-python-argcomplete	diffoscope
 acyclic	python-extras
 adddebug	desktop-kde-apps
@@ -687,7 +687,7 @@ cracklib-check	os-core-dev
 cracklib-format	os-core-dev
 cracklib-packer	os-core-dev
 cracklib-unpacker	os-core-dev
-crashlogctl	service-os
+crashlogctl	software-defined-cockpit-dev
 crashprobe	telemetrics
 create-cracklib-dict	os-core-dev
 create_cvsignore	desktop-kde-apps
@@ -763,7 +763,7 @@ cweave	texlive
 cwebp	qt-basic-dev
 cwutil	os-cloudguest-gce
 cx18-ctl	v4l-utils
-cxpm	os-testsuite-0day
+cxpm	desktop-dev
 cxxmetric	desktop-kde-apps
 cyclicdeadline	dev-utils
 cyclictest	dev-utils
@@ -805,7 +805,7 @@ de-macro	texlive
 deadline_test	dev-utils
 deallocvt	kbd
 debugfs	os-cloudguest-aws
-debugger	service-os
+debugger	software-defined-cockpit-dev
 debugviewer	openqa
 decode-dimms	os-testsuite-0day
 decode-edid	os-testsuite-0day
@@ -4824,7 +4824,7 @@ swupd-extract	mixer
 swupd-inspector	mixer
 swupd-overdue	os-core-update
 swupd-probe	telemetrics
-sxpm	os-testsuite-0day
+sxpm	desktop-dev
 symilar	storage-cluster
 synclient	os-utils-gui
 syncqt.pl	devpkg-qtbase
@@ -5194,9 +5194,9 @@ usb-devices	sysadmin-basic
 usbhid-dump	sysadmin-basic
 usbredirserver	kvm-host-dev
 use-devel-checklib	perl-extras
-usercrash-wrapper	service-os
-usercrash_c	service-os
-usercrash_s	service-os
+usercrash-wrapper	software-defined-cockpit-dev
+usercrash_c	software-defined-cockpit-dev
+usercrash_s	software-defined-cockpit-dev
 userhelper	storage-utils
 utm2ll	amateur-radio
 uuclient	enterprise-login
