@@ -16,7 +16,7 @@ MagickWand-config	ImageMagick
 Markdown.pl	openqa
 ModemManager	desktop
 NetworkManager	hardware-wifi
-R	devpkg-R
+R	R-basic
 Rscript	devpkg-R
 ThermalMonitor	desktop-apps-extras
 Thunar	xfce4-desktop
