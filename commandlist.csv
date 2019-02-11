@@ -17,6 +17,7 @@ Markdown.pl	openqa
 ModemManager	desktop
 NetworkManager	hardware-wifi
 R	R-basic
+R-script	R-basic
 Rscript	devpkg-R
 ThermalMonitor	desktop-apps-extras
 Thunar	xfce4-desktop
@@ -1592,9 +1593,9 @@ gpg-error-config	os-core-dev
 gpg-wks-server	cryptography
 gpg2	cryptography
 gpgconf	cryptography
-gpgme-config	dnf
-gpgme-json	dnf
-gpgme-tool	dnf
+gpgme-config	gpgme
+gpgme-json	gpgme
+gpgme-tool	gpgme
 gpgparsemail	cryptography
 gpgrt-config	os-core-dev
 gpgscm	cryptography
