@@ -225,7 +225,7 @@ aureport	audit
 ausearch	audit
 ausyscall	audit
 authorindex	texlive
-authvar	service-os-dev
+authvar	os-clr-on-clr
 autoconf	c-basic
 autoconf213	c-basic-legacy
 autoexpect	tcl-basic
@@ -1069,8 +1069,8 @@ efi-readvar	os-clr-on-clr
 efi-updatevar	os-clr-on-clr
 efibootdump	os-core-update
 efibootmgr	os-core-update
-efikeygen	service-os-dev
-efisiglist	service-os-dev
+efikeygen	os-clr-on-clr
+efisiglist	os-clr-on-clr
 efitool-mkusb	os-clr-on-clr
 efivar	sysadmin-basic-dev
 elbadmin	os-cloudguest-gce
@@ -3720,9 +3720,9 @@ perlsh	perl-extras
 perltex	texlive
 perlthanks	perl-basic
 perror	database-basic
-pesigcheck	service-os-dev
-pesign	service-os-dev
-pesign-client	service-os-dev
+pesigcheck	os-clr-on-clr
+pesign	os-clr-on-clr
+pesign-client	os-clr-on-clr
 pf2afm	desktop
 pfarrei	texlive
 pfb2pfa	texlive
