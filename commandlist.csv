@@ -76,7 +76,7 @@ addgnupghome	cryptography
 addmoddel	desktop-kde
 addr2line	binutils
 adhocfilelist	texlive
-affixcompress	desktop-dev
+affixcompress	network-basic-dev
 afm2afm	texlive
 afm2pl	texlive
 afm2tfm	texlive
@@ -131,7 +131,7 @@ amqp-declare-queue	openstack-common
 amqp-delete-queue	openstack-common
 amqp-get	openstack-common
 amqp-publish	openstack-common
-analyze	desktop-dev
+analyze	network-basic-dev
 animate	ImageMagick
 annotate	desktop-dev
 ansible	ansible
@@ -541,7 +541,7 @@ chkstow	sysadmin-basic
 chktex	texlive
 chkweb	texlive
 chmextract	desktop-dev
-chmorph	desktop-dev
+chmorph	network-basic-dev
 chrome-gnome-shell	desktop-apps-extras
 chronic	os-testsuite-0day
 chronyc	time-server-basic
@@ -824,7 +824,7 @@ depdiagram-prepare	desktop-kde-apps
 depythontex	texlive
 derb	devpkg-icu4c
 designate	openstack-common
-designer	storage-utils-dev
+designer	dev-utils-dev
 desktop-file-edit	desktop
 desktop-file-install	desktop
 desktop-file-validate	desktop
@@ -1073,7 +1073,7 @@ efibootmgr	os-core-update
 efikeygen	os-clr-on-clr
 efisiglist	os-clr-on-clr
 efitool-mkusb	os-clr-on-clr
-efivar	sysadmin-basic-dev
+efivar	os-core-update-dev
 elbadmin	os-cloudguest-gce
 elfedit	binutils
 elinks	network-basic
@@ -1872,8 +1872,8 @@ htxelatex	texlive
 htxetex	texlive
 hub	git
 hugo	hugo
-hunspell	desktop-dev
-hunzip	desktop-dev
+hunspell	network-basic-dev
+hunzip	network-basic-dev
 hv_fcopy_daemon	os-cloudguest-azure
 hv_kvp_daemon	os-cloudguest-azure
 hv_vss_daemon	os-cloudguest-azure
@@ -1893,7 +1893,7 @@ hwloc-patch	hwloc
 hwloc-ps	hwloc
 hwstamp_ctl	time-server-basic
 hypnotoad	openqa
-hzip	desktop-dev
+hzip	network-basic-dev
 i2c-stub-from-dump	os-testsuite-0day
 i2cdetect	os-testsuite-0day
 i2cdump	os-testsuite-0day
@@ -2186,7 +2186,7 @@ isohybrid	bootloader
 isort	storage-cluster
 isotovideo	openqa
 ispdb	desktop-kde-apps
-ispellaff2myspell	desktop-dev
+ispellaff2myspell	network-basic-dev
 ister.py	os-installer
 ister_gui.py	os-installer
 isutf8	os-testsuite-0day
@@ -2302,7 +2302,6 @@ jws	letsencrypt-client
 k5srvutil	enterprise-login
 kaccess	desktop-kde
 kactivities-cli	kde-frameworks5
-kactivitymanagerd	desktop-kde
 kadmin	enterprise-login
 kadmin.local	enterprise-login
 kadmind	enterprise-login
@@ -2590,7 +2589,7 @@ lchage	storage-utils-dev
 lchfn	storage-utils-dev
 lchsh	storage-utils-dev
 lckdo	os-testsuite-0day
-lconvert	storage-utils-dev
+lconvert	dev-utils-dev
 lcov	dev-utils
 ld	binutils
 ld.bfd	binutils
@@ -2648,7 +2647,7 @@ lightdm-session	lightdm
 lily-glyph-commands	texlive
 lily-image-commands	texlive
 lily-rebuild-pdfs	texlive
-linguist	storage-utils-dev
+linguist	dev-utils-dev
 linkicc	qt-basic-dev
 links	network-basic
 list_instances	os-cloudguest-gce
@@ -2744,7 +2743,7 @@ lprm	desktop
 lprsetup.sh	desktop
 lpstat	desktop
 lpunlock	tcl-basic
-lrelease	storage-utils-dev
+lrelease	dev-utils-dev
 lsacpi	sysadmin-basic
 lscgroup	os-core-dev
 lsdiff	dev-utils
@@ -2783,7 +2782,7 @@ luarocks-admin	lua-basic
 luatex	texlive
 luatex53	texlive
 luatools	texlive
-lupdate	storage-utils-dev
+lupdate	dev-utils-dev
 luseradd	storage-utils-dev
 luserdel	storage-utils-dev
 lusermod	storage-utils-dev
@@ -2866,7 +2865,7 @@ make	make
 make-file.sh	ltp
 make4ht	texlive
 make_metadata.py	openstack-common
-makealias	desktop-dev
+makealias	network-basic-dev
 makeconv	devpkg-icu4c
 makedepend	os-clr-on-clr-dev
 makedtx	texlive
@@ -3142,7 +3141,7 @@ multipath	storage-utils
 multipathd	storage-utils
 multirender_test	desktop-dev
 multixterm	tcl-basic
-munch	desktop-dev
+munch	network-basic-dev
 musixflx	texlive
 musixtex	texlive
 musl-gcc	musl
@@ -3488,7 +3487,7 @@ ompi-submit	openmpi
 ompi-top	openmpi
 ompi_info	openmpi
 omshell	pxe-server
-onig-config	sysadmin-basic-dev
+onig-config	dev-utils-dev
 ontap_lsmplugin	sysadmin-remote
 oopsprobe	telemetrics
 op2calltree	desktop-kde-apps
@@ -3787,7 +3786,7 @@ pip_stress	dev-utils
 pipewire	desktop-dev
 pipewire-cli	desktop-dev
 pipewire-monitor	desktop-dev
-pixeltool	storage-utils-dev
+pixeltool	dev-utils-dev
 pk-example-frobnicate	cockpit
 pk12util	cryptography
 pk2bm	texlive
@@ -4037,7 +4036,7 @@ qdbus	qt-basic
 qdbuscpp2xml	devpkg-qtbase
 qdbusviewer	qt-basic
 qdbusxml2cpp	devpkg-qtbase
-qdistancefieldgenerator	storage-utils-dev
+qdistancefieldgenerator	dev-utils-dev
 qemu-edid	kvm-host
 qemu-ga	kvm-host
 qemu-i386	kvm-host
@@ -4053,7 +4052,7 @@ qgis	maker-gis
 qgis_bench	maker-gis
 qgit	dev-utils-gui
 qgltf	qt-basic
-qhelpgenerator	storage-utils-dev
+qhelpgenerator	dev-utils-dev
 qlalr	devpkg-qtbase
 qmake	devpkg-qtbase
 qmi-firmware-update	desktop-dev
@@ -4076,11 +4075,11 @@ qpid-python-test	openstack-common
 qpid-python-test.bat	openstack-common
 qrencode	desktop-kde-apps
 qscxmlc	storage-utils-dev
-qtattributionsscanner	storage-utils-dev
+qtattributionsscanner	dev-utils-dev
 qtdiag	qt-basic
 qtdoc	desktop-kde-apps
 qtpaths	qt-basic
-qtplugininfo	storage-utils-dev
+qtplugininfo	dev-utils-dev
 qtwaylandscanner	storage-utils-dev
 quassel	desktop-apps-extras
 quasselclient	desktop-apps-extras
@@ -5155,7 +5154,7 @@ unix2dos	sysadmin-basic
 unix2mac	sysadmin-basic
 unlz4	lz4
 unlzma	xz
-unmunch	desktop-dev
+unmunch	network-basic-dev
 unpack200	java-runtime
 unpack2009	java9-basic
 unprocessed_raw	desktop-dev
@@ -5428,8 +5427,8 @@ wol-dhcpdconf	pxe-server
 wopl2ofm	texlive
 word-list-compress	sysadmin-basic
 wordcount	texlive
-wordforms	desktop-dev
-wordlist2hunspell	desktop-dev
+wordforms	network-basic-dev
+wordlist2hunspell	network-basic-dev
 wovf2ovp	texlive
 wovp2ovf	texlive
 wpa_cli	wpa_supplicant
