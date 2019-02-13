@@ -314,9 +314,9 @@ bibtex8	texlive
 bibtexu	texlive
 biburl2doi	texlive
 bibzbladd	texlive
-bifcl	network-security-monitoring
+bifcl	network-monitor-node
 bin2hex.py	python-extras
-binpac	network-security-monitoring
+binpac	network-monitor-node
 biosdecode	sysadmin-basic
 bison	bison
 blender	blender
@@ -349,8 +349,8 @@ borgfs	borgbackup
 bovo	desktop-kde-apps
 brctl	network-basic
 breeze-settings5	desktop-kde
-bro	network-security-monitoring
-bro-config	network-security-monitoring
+bro	network-monitor-node
+bro-config	network-monitor-node
 brotli	fonttools
 bsdcat	libarchive
 bsdcpio	libarchive
@@ -515,7 +515,7 @@ cgrulesengd	os-core-dev
 cgset	os-core-dev
 cgsnapshot	os-core-dev
 chacl	acl
-chardetect	sysadmin-remote
+chardetect	docker-compose
 chat	desktop-dev
 cheatmake	desktop-kde-apps
 check-manifest	django
@@ -943,6 +943,7 @@ docbook2texi	docbook-utils
 docbook2txt	docbook-utils
 docfdisk	mtd-utils
 docker	cloud-control
+docker-compose	docker-compose
 docker-containerd	cloud-control
 docker-containerd-ctr	cloud-control
 docker-containerd-shim	cloud-control
@@ -1502,7 +1503,7 @@ glib-genmarshal	desktop-apps
 glib-gettextize	desktop-apps
 glib-mkenums	desktop-apps
 glilypond	sysadmin-basic
-glinfo	os-utils-gui
+glinfo	os-testsuite-phoronix-desktop
 glmark2	glmark2
 glmark2-drm	glmark2
 glmark2-es2	glmark2
@@ -1511,7 +1512,7 @@ glmark2-es2-wayland	glmark2
 glmark2-wayland	glmark2
 global	global
 globash	global
-glsync	os-utils-gui
+glsync	os-testsuite-phoronix-desktop
 gluster	storage-cluster
 gluster-eventsapi	storage-cluster
 gluster-georep-sshkey	storage-cluster
@@ -1522,8 +1523,8 @@ glustereventsd	storage-cluster
 glusterfind	storage-cluster
 glusterfs	storage-cluster
 glusterfsd	storage-cluster
-glxgears	os-utils-gui
-glxinfo	os-utils-gui
+glxgears	os-testsuite-phoronix-desktop
+glxinfo	os-testsuite-phoronix-desktop
 gmake	make
 gmenudbusmenuproxy	desktop-kde
 gmic	desktop-apps-extras
@@ -1676,13 +1677,13 @@ gsnd	desktop
 gspell-app1	desktop-dev
 gss-client	enterprise-login
 gss-server	enterprise-login
-gst-device-monitor-1.0	desktop
-gst-discoverer-1.0	desktop
-gst-inspect-1.0	desktop
-gst-launch-1.0	desktop
-gst-play-1.0	desktop
-gst-stats-1.0	desktop
-gst-typefind-1.0	desktop
+gst-device-monitor-1.0	pidgin
+gst-discoverer-1.0	pidgin
+gst-inspect-1.0	pidgin
+gst-launch-1.0	pidgin
+gst-play-1.0	pidgin
+gst-stats-1.0	pidgin
+gst-typefind-1.0	pidgin
 gsutil	os-cloudguest-gce
 gsx	desktop
 gtags	global
@@ -1778,7 +1779,7 @@ hardlink	mixer
 hash-to-efi-sig-list	os-clr-on-clr
 hashstats	duperemove
 hass	domotica
-haswell	zstd
+haswell	flac
 hb-ot-shape-closure	fonts-basic
 hb-shape	fonts-basic
 hb-subset	fonts-basic
@@ -2273,7 +2274,7 @@ json_verify	kvm-host-dev
 jsondiff	diffoscope
 jsonpatch	openstack-common
 jsonpointer	openstack-common
-jsonschema	cloud-api
+jsonschema	docker-compose
 jstack	java-runtime
 jstack9	java9-basic
 jstar	joe
@@ -5439,7 +5440,7 @@ write-test	desktop-kde
 write2-test	desktop-kde
 wrjpgcom	devpkg-libjpeg-turbo
 wrmsr	performance-tools
-wsdump.py	sysadmin-remote
+wsdump.py	docker-compose
 wsgen	java-runtime
 wsgen9	java9-basic
 wsimport	java-runtime
@@ -5466,7 +5467,7 @@ x86_64-generic-linux-gcc-ar	c-basic
 x86_64-generic-linux-gcc-nm	c-basic
 x86_64-generic-linux-gcc-ranlib	c-basic
 x86_64-generic-linux-gfortran	c-basic
-x86_64-generic-linux-gnu-pkg-config	ruby-basic
+x86_64-generic-linux-gnu-pkg-config	igt-gpu-tools
 x86_energy_perf_policy	linux-tools
 xapian-check	mail-utils-dev
 xapian-compact	mail-utils-dev
