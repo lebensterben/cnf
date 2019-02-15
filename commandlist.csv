@@ -3094,6 +3094,7 @@ msgunfmt	kvm-host
 msguniq	kvm-host
 msiexec	wine
 msmtp	mail-utils
+msmtpd	mail-utils
 msql2mysql	database-basic
 msr-cpuid	performance-tools
 mstconfig	hpc-utils
