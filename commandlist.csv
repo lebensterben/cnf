@@ -596,7 +596,7 @@ classification_sample	computer-vision-basic
 classification_sample_async	computer-vision-basic
 cleanup_digikamdb	digikam
 clear	sysadmin-basic
-clinfo	os-testsuite-phoronix-desktop
+clinfo	os-testsuite-phoronix-server
 clipaccumulate	perl-extras
 clipbrowse	perl-extras
 clipedit	perl-extras
@@ -872,7 +872,7 @@ disdvi	texlive
 dislocate	tcl-basic
 display	ImageMagick
 distribute-exclude.sh	big-data-basic
-distro	python-extras
+distro	os-cloudguest-azure
 django-admin	django
 django-admin.py	django
 djpeg	devpkg-libjpeg-turbo
@@ -939,7 +939,6 @@ dnssec-signzone	network-basic
 dnssec-verify	network-basic
 dnstcpbench	pdns
 dnswasher	pdns
-doc8	openstack-common
 doc_loadbios	mtd-utils
 docbook2dvi	docbook-utils
 docbook2html	docbook-utils
@@ -1001,9 +1000,9 @@ dtestcm	hpc-utils
 dtestsrq	hpc-utils
 dtestx	hpc-utils
 dtxgen	texlive
-dul-receive-pack	django
-dul-upload-pack	django
-dulwich	django
+dul-receive-pack	cloud-api
+dul-upload-pack	cloud-api
+dulwich	cloud-api
 dump.f2fs	os-testsuite-0day
 dump_fts	hpc-utils
 dump_lfts.sh	hpc-utils
@@ -1193,16 +1192,16 @@ extractres	texlive
 f-engrave	maker-cnc
 f2fscrypt	os-testsuite-0day
 f2fstat	os-testsuite-0day
-f2py	python-extras
-f2py3	python-extras
-f2py3.7	python-extras
+f2py	jupyter
+f2py3	jupyter
+f2py3.7	jupyter
 f95	c-basic
 faked	os-testsuite-0day
 fakeroot	os-testsuite-0day
 fancontrol	lm-sensors
-fast-import-filter	django
-fast-import-info	django
-fast-import-query	django
+fast-import-filter	cloud-api
+fast-import-info	cloud-api
+fast-import-query	cloud-api
 fatlabel	dosfstools
 fax2ps	dev-utils-dev
 fax2tiff	dev-utils-dev
@@ -1264,7 +1263,7 @@ fixproc	performance-tools
 fixqt4headers.pl	devpkg-qtbase
 fixuifiles	desktop-kde-apps
 flac	flac
-flake8	python-extras
+flake8	django
 flarq	amateur-radio
 flash-var	os-clr-on-clr
 flash_erase	mtd-utils
@@ -3589,9 +3588,6 @@ oslo-config-validator	openstack-common
 oslo-messaging-send-notification	openstack-common
 oslo-rootwrap	openstack-common
 oslo-rootwrap-daemon	openstack-common
-oslo_debug_helper	openstack-common
-oslo_run_cross_tests	openstack-common
-oslo_run_pre_release_tests	openstack-common
 oslopolicy-checker	openstack-common
 oslopolicy-list-redundant	openstack-common
 oslopolicy-policy-generator	openstack-common
@@ -3679,10 +3675,10 @@ path-test	desktop-kde
 pavucontrol	desktop-apps
 pax11publish	desktop-kde
 pbibtex	texlive
-pbr	django
-pbunzip2	os-testsuite-phoronix-desktop
-pbzcat	os-testsuite-phoronix-desktop
-pbzip2	os-testsuite-phoronix-desktop
+pbr	cloud-api
+pbunzip2	os-testsuite-phoronix-server
+pbzcat	os-testsuite-phoronix-server
+pbzip2	os-testsuite-phoronix-server
 pcal	perl-extras
 pcap-config	sysadmin-basic-dev
 pcmanfm-qt	desktop-lxqt
@@ -3799,7 +3795,7 @@ phar	php-basic
 phar.phar	php-basic
 phc2sys	time-server-basic
 phc_ctl	time-server-basic
-phoronix-test-suite	os-testsuite-phoronix-desktop
+phoronix-test-suite	os-testsuite-phoronix-server
 php	php-basic
 php-cgi	php-basic
 php-config	php-basic
@@ -3981,7 +3977,7 @@ ptargrep	perl-basic
 ptex	texlive
 ptex2pdf	texlive
 ptftopl	texlive
-pth-config	os-testsuite-phoronix-desktop
+pth-config	os-testsuite-phoronix-server
 ptiptop	performance-tools
 ptp4l	time-server-basic
 ptsematest	dev-utils
@@ -4019,7 +4015,7 @@ pycodestyle	python3-basic
 pydoc	python2-basic
 pydoc3	python3-basic
 pydoc3.7	python3-basic
-pydocstyle	python-extras
+pydocstyle	django
 pyflakes	diffoscope
 pyftinspect	fonttools
 pyftmerge	fonttools
@@ -4215,7 +4211,7 @@ remmina	pidgin
 remmina-gnome	pidgin
 remote-viewer	virt-manager-gui
 remotectl	cockpit
-reno	django
+reno	cloud-api
 reordercap	wireshark
 repc	storage-utils-dev
 replace	database-basic
@@ -4231,7 +4227,6 @@ resizecons	kbd
 resolve_stack_dump	database-basic
 resolveip	database-basic
 restore_kernel_faults_default.sh	ltp
-restructuredtext-lint	openstack-common
 retype	python-extras
 reviewboard-am	desktop-kde-apps
 rfcomm	hardware-bluetooth
@@ -4300,7 +4295,6 @@ rpms2solv	os-clr-on-clr-dev
 rpmsign	package-utils
 rpmspec	package-utils
 rpmverify	package-utils
-rst-lint	openstack-common
 rst2html.py	docutils
 rst2html4.py	docutils
 rst2html5.py	docutils
@@ -4709,7 +4703,6 @@ splitdiff	dev-utils
 splitindex	texlive
 sponge	os-testsuite-0day
 sql	parallel
-sql2subunit	openstack-common
 sqlformat	machine-learning-web-ui
 sqlite3	devpkg-sqlite-autoconf
 sqliterepo_c	package-utils
@@ -4755,7 +4748,6 @@ startxfce4	xfce4-desktop
 steam	games
 stellarium	stellarium
 stest	desktop-i3
-stestr	openstack-common
 stl	maker-3dprinting
 stl2ascii	maker-3dprinting
 stl2bin	maker-3dprinting
@@ -4792,9 +4784,6 @@ subunit2disk	c-basic
 subunit2gtk	software-testing
 subunit2junitxml	software-testing
 subunit2pyunit	software-testing
-subunit2sql	openstack-common
-subunit2sql-db-manage	openstack-common
-subunit2sql-graph	openstack-common
 sudo	sudo
 sudoedit	sudo
 sudoreplay	sudo
@@ -5205,7 +5194,7 @@ unifdef	dev-utils
 unifdefall	dev-utils
 unison	unison
 unison-fsmonitor	unison
-unit2	python-testing
+unit2	software-testing
 unix-lpr.sh	desktop
 unix2dos	sysadmin-basic
 unix2mac	sysadmin-basic
