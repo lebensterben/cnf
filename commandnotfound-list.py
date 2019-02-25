@@ -129,7 +129,7 @@ def main():
     blacklist.append("devpkg-R")
     blacklist.append("dnf")
     
-    whitelist.append("python-basic")
+    whitelist.append("python3-basic")
     whitelist.append("python-extras")
     whitelist.append("perl-basic")
     whitelist.append("perl-extras")
