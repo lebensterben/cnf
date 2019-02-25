@@ -136,6 +136,7 @@ def main():
     whitelist.append("c-basic")
     whitelist.append("R-basic")
     whitelist.append("jupyter")
+    whitelist.append("find")
     whitelist.append("sysadmin-basic")
     
     # manual overrides
