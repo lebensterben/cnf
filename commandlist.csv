@@ -433,7 +433,7 @@ captype	wireshark
 cargo	rust-basic
 caribou-preferences	desktop
 casync	casync
-catchsegv	python-extras
+catchsegv	sysadmin-basic
 catman	sysadmin-basic
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -618,7 +618,7 @@ clr-service-restart	sysadmin-basic
 clr-service-restart-motd.sh	sysadmin-basic
 clr_debug_daemon	telemetrics
 clr_debug_fuse	telemetrics
-clrtrust	p11-kit
+clrtrust	perl-basic
 cluster	graphviz
 clusterdb	postgresql
 cm108	amateur-radio
@@ -676,9 +676,9 @@ copylink	perl-extras
 corelist	perl-basic
 count	llvm
 cover	perl-extras
-coverage	python-extras
-coverage-3.7	python-extras
-coverage3	python-extras
+coverage	python-testing
+coverage-3.7	python-testing
+coverage3	python-testing
 cpack	c-basic
 cpan	perl-basic
 cpancover	perl-extras
@@ -789,6 +789,12 @@ darktable-cltest	darktable
 darktable-cmstest	darktable
 darktable-generate-cache	darktable
 darktable-rs-identify	darktable
+dask-mpi	python-extras
+dask-remote	python-extras
+dask-scheduler	python-extras
+dask-ssh	python-extras
+dask-submit	python-extras
+dask-worker	python-extras
 datefudge	os-core-dev
 daxctl	storage-utils
 daxio	pmdk
@@ -1238,7 +1244,7 @@ filecap	os-core-dev
 filefrag	os-cloudguest-aws
 filelight	desktop-kde-apps
 filterdiff	dev-utils
-find	telemetrics
+find	perl-basic
 find-bundle.sh	os-core-update
 findhyph	texlive
 findmissingcrystal	desktop-kde-apps
@@ -2655,7 +2661,7 @@ ldbedit	storage-utils-dev
 ldbmodify	storage-utils-dev
 ldbrename	storage-utils-dev
 ldbsearch	storage-utils-dev
-ldd	python-extras
+ldd	sysadmin-basic
 lddlibc4	c-basic-legacy
 lensfun-add-adapter	desktop-dev
 lensfun-update-data	desktop-dev
@@ -2759,7 +2765,7 @@ loadkeys	kbd
 loadunimap	kbd
 local_lsmplugin	sysadmin-remote
 localedef	glibc-locale
-locate	telemetrics
+locate	perl-basic
 lockfile	mail-utils
 locktest	samba
 lockutils-wrapper	openstack-common
@@ -3040,7 +3046,7 @@ mkmapfile	perl-extras
 mkntfs	storage-utils
 mkocp	texlive
 mkoctfile	octave
-mkoctfile-4.4.1	octave
+mkoctfile-5.1.0	octave
 mkofm	texlive
 mkosi	mkosi
 mkpasswd	sysadmin-basic
@@ -3269,8 +3275,6 @@ net-snmp-create-v3-user	performance-tools
 netaddr	ansible
 netcap	os-core-dev
 netstat	os-cloudguest-azure
-nettle-hash	devpkg-nettle
-nettle-lfib-stream	devpkg-nettle
 nettle-pbkdf2	devpkg-nettle
 neutron	openstack-common
 neutron-api	openstack-common
@@ -3362,15 +3366,15 @@ nload	nload
 nm	binutils
 nm-applet	NetworkManager
 nm-connection-editor	NetworkManager
-nm-online	hardware-wifi
+nm-online	NetworkManager
 nmap	nmap
 nmbd	samba
 nmblookup	samba
-nmcli	hardware-wifi
-nmtui	hardware-wifi
-nmtui-connect	hardware-wifi
-nmtui-edit	hardware-wifi
-nmtui-hostname	hardware-wifi
+nmcli	NetworkManager
+nmtui	NetworkManager
+nmtui-connect	NetworkManager
+nmtui-edit	NetworkManager
+nmtui-hostname	NetworkManager
 node	nodejs-basic
 noncvslist	desktop-kde-apps
 nonsvnlist	desktop-kde-apps
@@ -3503,11 +3507,11 @@ ociolutimage	blender
 ocs	dev-utils
 ocsptool	cryptography
 octave	octave
-octave-4.4.1	octave
+octave-5.1.0	octave
 octave-cli	octave
-octave-cli-4.4.1	octave
+octave-cli-5.1.0	octave
 octave-config	octave
-octave-config-4.4.1	octave
+octave-config-5.1.0	octave
 odvicopy	texlive
 odvitype	texlive
 offlineimap	offlineimap
@@ -3631,7 +3635,7 @@ ownership	sysadmin-basic
 oxygen-demo5	desktop-kde-apps
 oxygen-settings5	desktop-kde-apps
 p11-kit	p11-kit
-p11-trust	p11-kit
+p11-trust	perl-basic
 p11tool	cryptography
 pacat	desktop-kde
 pacdiscovery	os-core-webproxy
@@ -3835,7 +3839,6 @@ pk2bm	texlive
 pkaction	polkit
 pkcheck	polkit
 pkcon	desktop
-pkcs1-conv	devpkg-nettle
 pkcs11-kek-rewrap	openstack-common
 pkcs11-key-generation	openstack-common
 pkexec	polkit
@@ -4005,7 +4008,7 @@ pwgen	pwgen
 pwmake	os-core-dev
 pwmconfig	lm-sensors
 pwscore	os-core-dev
-py.test	python-extras
+py.test	python-testing
 pyami_sendmail	cloud-api
 pybabel	Babel
 pycam	maker-cnc
@@ -4051,7 +4054,7 @@ pyrsa-sign	cloud-api
 pyrsa-verify	cloud-api
 pyscss	django
 pyspark	big-data-basic
-pytest	python-extras
+pytest	python-testing
 python	python3-basic
 python-argcomplete-check-easy-install-script	diffoscope
 python-argcomplete-tcsh	diffoscope
@@ -4418,6 +4421,7 @@ scummvm	games
 sdbadmin	cloud-api
 sddm	desktop-kde
 sddm-greeter	desktop-kde
+sddmthemeinstaller	desktop-kde
 sdiff	diffutils
 sdig	pdns
 sdkserver	openstack-common
@@ -4458,7 +4462,6 @@ setserial	sysadmin-basic
 setup_vars_opencv4.sh	devpkg-opencv
 setvtrgb	kbd
 setxkbmap	x11-tools
-sexp-conv	devpkg-nettle
 sfcsample	libva-utils
 sfddiff	qt-basic-dev
 sfdp	graphviz
@@ -4589,7 +4592,7 @@ slapschema	openldap
 slaptest	openldap
 slattach	os-cloudguest-azure
 slaves.sh	big-data-basic
-sln	python-extras
+sln	sysadmin-basic
 sload.f2fs	os-testsuite-0day
 slsh	os-core-dev
 slugify	domotica
@@ -4731,6 +4734,7 @@ sshd	openssh-server
 sshfs	storage-utils
 sshpass	ansible
 ssltap	cryptography
+ssocr	ssocr
 sst_dump	database-basic
 stack	haskell-basic
 start-all.sh	big-data-basic
@@ -5133,7 +5137,7 @@ tree	sysadmin-basic
 trietool	qt-basic-dev
 trietool-0.2	qt-basic-dev
 troff	sysadmin-basic
-trust	p11-kit
+trust	perl-basic
 ts	os-testsuite-0day
 tset	sysadmin-basic
 tshark	wireshark
@@ -5194,7 +5198,7 @@ unifdef	dev-utils
 unifdefall	dev-utils
 unison	unison
 unison-fsmonitor	unison
-unit2	software-testing
+unit2	python-testing
 unix-lpr.sh	desktop
 unix2dos	sysadmin-basic
 unix2mac	sysadmin-basic
@@ -5219,7 +5223,7 @@ update-helper	os-core-update
 update-mime-database	devpkg-shared-mime-info
 update-pciids	sysadmin-basic
 update-smart-drivedb	smartmontools
-updatedb	telemetrics
+updatedb	perl-basic
 updateinfoxml2solv	os-clr-on-clr-dev
 updmap	texlive
 updmap-sys	texlive
@@ -5527,7 +5531,7 @@ xapian-progsrv	mail-utils-dev
 xapian-replicate	mail-utils-dev
 xapian-replicate-server	mail-utils-dev
 xapian-tcpsrv	mail-utils-dev
-xargs	telemetrics
+xargs	perl-basic
 xastir	amateur-radio
 xastir_udp_client	amateur-radio
 xattr	openstack-common
