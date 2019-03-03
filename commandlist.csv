@@ -2710,7 +2710,7 @@ ldbmodify	storage-utils-dev
 ldbrename	storage-utils-dev
 ldbsearch	storage-utils-dev
 ldd	python-testing
-lddlibc4	v4l-utils
+lddlibc4	c-basic-legacy
 lensfun-add-adapter	desktop-dev
 lensfun-update-data	desktop-dev
 less	less
