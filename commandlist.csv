@@ -136,6 +136,7 @@ amqp-declare-queue	openstack-common
 amqp-delete-queue	openstack-common
 amqp-get	openstack-common
 amqp-publish	openstack-common
+amstex	texlive
 analyze	kde-frameworks5-dev
 animate	ImageMagick
 annotate	devpkg-libgd
@@ -456,7 +457,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	python-extras
+catchsegv	sysadmin-basic
 catman	sysadmin-basic
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -730,9 +731,9 @@ corelist	perl-basic
 coreutils	os-core
 count	llvm
 cover	perl-extras
-coverage	python-extras
-coverage-3.7	python-extras
-coverage3	python-extras
+coverage	letsencrypt-client
+coverage-3.7	letsencrypt-client
+coverage3	letsencrypt-client
 cp	os-core
 cpack	c-basic
 cpan	perl-basic
@@ -783,6 +784,8 @@ csc-dim	mono
 cscope	dev-utils
 csharp	mono
 csi	mono
+cslatex	texlive
+csplain	texlive
 csplit	os-core
 csslint-0.6	devpkg-libcroco
 csysdig	performance-tools
@@ -1126,6 +1129,8 @@ dvilj2p	texlive
 dvilj4	texlive
 dvilj4l	texlive
 dvilj6	texlive
+dvilualatex	texlive
+dviluatex	texlive
 dvipdf	desktop
 dvipdfm	texlive
 dvipdfmx	texlive
@@ -1207,6 +1212,7 @@ env_parallel.sh	parallel
 envs	domotica
 envsubst	kvm-host
 eog	eog
+eplain	texlive
 epmd	openstack-common
 eps2eps	desktop
 epsffit	texlive
@@ -1232,6 +1238,7 @@ escript	openstack-common
 esdcompat	pulseaudio
 espdiff	dev-utils
 etags	vim
+etex	texlive
 ethtool	ethtool
 eu-addr2line	package-utils
 eu-ar	package-utils
@@ -2382,6 +2389,7 @@ ivtv-ctl	v4l-utils
 iw	network-basic
 iwpmd	hpc-utils
 ixplore	pdns
+jadetex	texlive
 jailer	containers-virt
 jamo-normalize	texlive
 jar	java-runtime
@@ -2804,11 +2812,13 @@ l2test	hardware-bluetooth
 l3build	texlive
 l4p-tmpl	perl-extras
 lacheck	texlive
+lamed	texlive
 largeiptc-test	devpkg-exiv2
 last	os-core
 lastb	os-core
 lastlog	os-core
 latencytop	performance-tools
+latex	texlive
 latex-git-log	texlive
 latex-papersize	texlive
 latex2man	texlive
@@ -2854,7 +2864,7 @@ ldbmodify	storage-utils-dev
 ldbrename	storage-utils-dev
 ldbsearch	storage-utils-dev
 ldconfig	os-core
-ldd	python-extras
+ldd	sysadmin-basic
 lddlibc4	c-basic-legacy
 lensfun-add-adapter	desktop-dev
 lensfun-update-data	desktop-dev
@@ -2979,6 +2989,7 @@ logresolve	httpd
 logrotate	logrotate
 logsave	os-cloudguest-aws
 lokalize	desktop-kde-apps
+lollipop	texlive
 look	os-core
 lookandfeeltool	desktop-kde
 lookbib	sysadmin-basic
@@ -3040,6 +3051,7 @@ luac5.2	lua-basic
 luajit	lua-basic
 luajit-2.0.5	lua-basic
 luajittex	texlive
+lualatex	texlive
 luaotfload-tool	texlive
 luarocks	lua-basic
 luarocks-admin	lua-basic
@@ -3118,7 +3130,7 @@ lzmadec	xz
 lzmainfo	xz
 lzmore	xz
 m-tx	texlive
-m4	mixer
+m4	c-basic
 mac2unix	sysadmin-basic
 machinectl	os-core
 macpack	mono
@@ -3219,6 +3231,7 @@ metacity-theme-viewer	desktop
 metacity-window-demo	desktop
 metacopy	devpkg-exiv2
 metaflac	flac
+mex	texlive
 mf	texlive
 mf-nowin	texlive
 mf2pt1	texlive
@@ -3301,6 +3314,8 @@ mktexlsr	texlive
 mktexmf	texlive
 mktexpk	texlive
 mktextfm	texlive
+mllatex	texlive
+mltex	texlive
 mm2gv	graphviz
 mmafm	texlive
 mmap-test	devpkg-exiv2
@@ -4014,17 +4029,23 @@ pdfbook	texlive
 pdfbook2	texlive
 pdfclose	texlive
 pdfcrop	texlive
+pdfcslatex	texlive
+pdfcsplain	texlive
 pdfdetach	kde-frameworks5-dev
+pdfetex	texlive
 pdfflip	texlive
 pdffonts	kde-frameworks5-dev
 pdfimages	kde-frameworks5-dev
 pdfinfo	kde-frameworks5-dev
+pdfjadetex	texlive
 pdfjam	texlive
 pdfjam-pocketmod	texlive
 pdfjam-slides3up	texlive
 pdfjam-slides6up	texlive
 pdfjoin	texlive
+pdflatex	texlive
 pdflatexpicscale	texlive
+pdfmex	texlive
 pdfmom	sysadmin-basic
 pdfnup	texlive
 pdfopen	texlive
@@ -4043,6 +4064,7 @@ pdftops	kde-frameworks5-dev
 pdftosrc	texlive
 pdftotext	kde-frameworks5-dev
 pdfunite	kde-frameworks5-dev
+pdfxmltex	texlive
 pdfxup	texlive
 pdns_control	pdns
 pdns_notify	pdns
@@ -4173,6 +4195,7 @@ plasma-discover	desktop-kde
 plasma_waitforname	desktop-kde
 plasmashell	desktop-kde
 plasmawindowed	desktop-kde
+platex	texlive
 play	amateur-radio
 pldd	os-core
 plipconfig	os-cloudguest-azure
@@ -4341,7 +4364,7 @@ pwmake	os-core-dev
 pwmconfig	lm-sensors
 pwscore	os-core-dev
 pwunconv	os-core
-py.test	python-extras
+py.test	letsencrypt-client
 pyami_sendmail	cloud-api
 pybabel	Babel
 pycam	maker-cnc
@@ -4387,7 +4410,7 @@ pyrsa-sign	cloud-api
 pyrsa-verify	cloud-api
 pyscss	django
 pyspark	big-data-basic
-pytest	python-extras
+pytest	letsencrypt-client
 python	python3-basic
 python-argcomplete-check-easy-install-script	diffoscope
 python-argcomplete-tcsh	diffoscope
@@ -4993,7 +5016,7 @@ slaptest	openldap
 slattach	os-cloudguest-azure
 slaves.sh	big-data-basic
 sleep	os-core
-sln	python-extras
+sln	sysadmin-basic
 sload.f2fs	os-testsuite-0day
 slsh	os-core-dev
 slugify	domotica
@@ -5467,6 +5490,7 @@ texmfstart	texlive
 texosquery	texlive
 texosquery-jre5	texlive
 texosquery-jre8	texlive
+texsis	texlive
 text2pcap	wireshark
 text2tt	amateur-radio
 tflite_convert	machine-learning-tensorflow
@@ -5717,6 +5741,7 @@ updmap-sys	texlive
 updmap-user	texlive
 updvitomp	texlive
 updvitype	texlive
+uplatex	texlive
 upmendex	texlive
 upmpost	texlive
 upower	desktop
@@ -5742,6 +5767,7 @@ userdel	os-core
 userhelper	package-utils
 usermod	os-core
 users	os-core
+utf8mex	texlive
 utm2ll	amateur-radio
 utmpdump	os-core
 uuclient	enterprise-login
@@ -6073,6 +6099,7 @@ xdt-autogen	xfce4-desktop
 xdt-commit	xfce4-desktop
 xdt-csource	xfce4-desktop
 xdvipdfmx	texlive
+xelatex	texlive
 xemacs	xemacs
 xembedsniproxy	desktop-kde
 xenapi_bootstrap	openstack-common
@@ -6164,6 +6191,7 @@ xmlpatternsvalidator	qt-basic
 xmlsec1	devpkg-xmlsec1
 xmlsec1-config	devpkg-xmlsec1
 xmlstarlet	os-clr-on-clr
+xmltex	texlive
 xmlto	os-core-dev
 xmlwf	devpkg-expat
 xmodmap	x11-tools
