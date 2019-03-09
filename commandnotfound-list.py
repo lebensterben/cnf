@@ -128,6 +128,7 @@ def main():
     blacklist.append("software-defined-cockpit")   # not general purpose
     blacklist.append("devpkg-R")
     blacklist.append("dnf")
+    blacklist.append("telemetrics")
     
     whitelist.append("python3-basic")
     whitelist.append("python-extras")
