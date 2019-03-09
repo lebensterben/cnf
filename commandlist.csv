@@ -642,7 +642,7 @@ classification_sample	computer-vision-basic
 classification_sample_async	computer-vision-basic
 cleanup_digikamdb	digikam
 clear	sysadmin-basic
-clinfo	os-testsuite-phoronix-desktop
+clinfo	os-testsuite-phoronix-server
 clipaccumulate	perl-extras
 clipbrowse	perl-extras
 clipedit	perl-extras
@@ -665,7 +665,7 @@ clr-service-restart-motd.sh	sysadmin-basic
 clr_debug_daemon	telemetrics
 clr_debug_fuse	telemetrics
 clr_power	os-core
-clrtrust	telemetrics
+clrtrust	p11-kit
 cluster	graphviz
 clusterdb	postgresql
 cm108	amateur-radio
@@ -730,9 +730,9 @@ corelist	perl-basic
 coreutils	os-core
 count	llvm
 cover	perl-extras
-coverage	python-extras
-coverage-3.7	python-extras
-coverage3	python-extras
+coverage	python-testing
+coverage-3.7	python-testing
+coverage3	python-testing
 cp	os-core
 cpack	c-basic
 cpan	perl-basic
@@ -961,7 +961,7 @@ disdvi	texlive
 dislocate	tcl-basic
 display	ImageMagick
 distribute-exclude.sh	big-data-basic
-distro	os-cloudguest-azure
+distro	python-extras
 django-admin	django
 django-admin.py	django
 djpeg	devpkg-libjpeg-turbo
@@ -1297,9 +1297,9 @@ extractres	texlive
 f-engrave	maker-cnc
 f2fscrypt	os-testsuite-0day
 f2fstat	os-testsuite-0day
-f2py	jupyter
-f2py3	jupyter
-f2py3.7	jupyter
+f2py	python-extras
+f2py3	python-extras
+f2py3.7	python-extras
 f95	c-basic
 factor	os-core
 faillog	os-core
@@ -1350,7 +1350,7 @@ filefrag	os-cloudguest-aws
 filelight	desktop-kde-apps
 filterdiff	dev-utils
 fincore	os-core
-find	telemetrics
+find	findutils
 find-bundle.sh	os-core-update
 findfs	os-core
 findhyph	texlive
@@ -1646,7 +1646,7 @@ glib-genmarshal	firmware-update
 glib-gettextize	firmware-update
 glib-mkenums	firmware-update
 glilypond	sysadmin-basic
-glinfo	os-testsuite-phoronix-desktop
+glinfo	os-utils-gui
 glmark2	glmark2
 glmark2-drm	glmark2
 glmark2-es2	glmark2
@@ -1656,7 +1656,7 @@ glmark2-wayland	glmark2
 global	global
 globash	global
 glslangValidator	developer-gpu
-glsync	os-testsuite-phoronix-desktop
+glsync	os-utils-gui
 gluster	storage-cluster
 gluster-eventsapi	storage-cluster
 gluster-georep-sshkey	storage-cluster
@@ -1667,8 +1667,8 @@ glustereventsd	storage-cluster
 glusterfind	storage-cluster
 glusterfs	storage-cluster
 glusterfsd	storage-cluster
-glxgears	os-testsuite-phoronix-desktop
-glxinfo	os-testsuite-phoronix-desktop
+glxgears	os-utils-gui
+glxinfo	os-utils-gui
 gmake	make
 gmenudbusmenuproxy	desktop-kde
 gmic	desktop-apps-extras
@@ -2323,14 +2323,14 @@ iptables-xml	iptables
 iptceasy	desktop-kde
 iptcprint	desktop-kde
 iptctest	desktop-kde
-iptest	jupyter
-iptest3	jupyter
+iptest	python-testing
+iptest3	python-testing
 iptraf	network-basic
 ipvsadm	ipvsadm
 ipvsadm-restore	ipvsadm
 ipvsadm-save	ipvsadm
-ipython	jupyter
-ipython3	jupyter
+ipython	python-testing
+ipython3	python-testing
 ir-ctl	v4l-utils
 ir-keytable	v4l-utils
 irb	ruby-basic
@@ -2967,7 +2967,7 @@ local_lsmplugin	sysadmin-remote
 locale	os-core
 localectl	os-core
 localedef	glibc-locale
-locate	telemetrics
+locate	findutils
 lockfile	mail-utils
 locktest	samba
 lockutils-wrapper	openstack-common
@@ -3850,7 +3850,7 @@ opencv_visualisation	devpkg-opencv
 openjade	database-basic-dev
 openscad	maker-3dprinting
 opensm	hpc-utils
-openssl	telemetrics
+openssl	p11-kit
 openstack-inventory	openstack-common
 openvpn	network-basic
 openvt	kbd
@@ -3937,7 +3937,7 @@ ownership	sysadmin-basic
 oxygen-demo5	desktop-kde
 oxygen-settings5	desktop-kde
 p11-kit	p11-kit
-p11-trust	telemetrics
+p11-trust	p11-kit
 p11tool	cryptography
 pacat	pulseaudio
 pacdiscovery	os-core-webproxy
@@ -3990,9 +3990,9 @@ pavucontrol	desktop-apps
 pax11publish	pulseaudio
 pbibtex	texlive
 pbr	cloud-api
-pbunzip2	os-testsuite-phoronix-desktop
-pbzcat	os-testsuite-phoronix-desktop
-pbzip2	os-testsuite-phoronix-desktop
+pbunzip2	os-testsuite-phoronix-server
+pbzcat	os-testsuite-phoronix-server
+pbzip2	os-testsuite-phoronix-server
 pcal	perl-extras
 pcap-config	devpkg-libpcap
 pcmanfm-qt	desktop-lxqt
@@ -4115,7 +4115,7 @@ phar	php-basic
 phar.phar	php-basic
 phc2sys	time-server-basic
 phc_ctl	time-server-basic
-phoronix-test-suite	os-testsuite-phoronix-desktop
+phoronix-test-suite	os-testsuite-phoronix-server
 php	php-basic
 php-cgi	php-basic
 php-config	php-basic
@@ -4311,7 +4311,7 @@ ptargrep	perl-basic
 ptex	texlive
 ptex2pdf	texlive
 ptftopl	texlive
-pth-config	os-testsuite-phoronix-desktop
+pth-config	os-testsuite-phoronix-server
 ptiptop	performance-tools
 ptp4l	time-server-basic
 ptsematest	dev-utils
@@ -4345,7 +4345,7 @@ pwmake	os-core-dev
 pwmconfig	lm-sensors
 pwscore	os-core-dev
 pwunconv	os-core
-py.test	python-extras
+py.test	python-testing
 pyami_sendmail	cloud-api
 pybabel	Babel
 pycam	maker-cnc
@@ -4391,7 +4391,7 @@ pyrsa-sign	cloud-api
 pyrsa-verify	cloud-api
 pyscss	django
 pyspark	big-data-basic
-pytest	python-extras
+pytest	python-testing
 python	python3-basic
 python-argcomplete-check-easy-install-script	diffoscope
 python-argcomplete-tcsh	diffoscope
@@ -5614,7 +5614,7 @@ trietool-0.2	devpkg-libdatrie
 troff	sysadmin-basic
 true	os-core
 truncate	os-core
-trust	telemetrics
+trust	p11-kit
 ts	os-testsuite-0day
 tset	sysadmin-basic
 tshark	wireshark
@@ -5715,7 +5715,7 @@ update-helper	os-core-update
 update-mime-database	devpkg-shared-mime-info
 update-pciids	sysadmin-basic
 update-smart-drivedb	smartmontools
-updatedb	telemetrics
+updatedb	findutils
 updateinfoxml2solv	devpkg-libsolv
 updmap	texlive
 updmap-sys	texlive
@@ -6050,7 +6050,7 @@ xapian-progsrv	devpkg-xapian-core
 xapian-replicate	devpkg-xapian-core
 xapian-replicate-server	devpkg-xapian-core
 xapian-tcpsrv	devpkg-xapian-core
-xargs	telemetrics
+xargs	findutils
 xastir	amateur-radio
 xastir_udp_client	amateur-radio
 xattr	openstack-common
