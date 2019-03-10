@@ -311,7 +311,7 @@ bdftogd	devpkg-libgd
 bdftopcf	qt-basic-dev
 bdftruncate	devpkg-font-util
 beeline	big-data-basic
-bertprobe	telemetrics
+bertprobe	devpkg-telemetrics-client
 bg5+latex	texlive
 bg5+pdflatex	texlive
 bg5conv	texlive
@@ -662,8 +662,8 @@ clr-python-timestamp	os-core-dev
 clr-pyversion-strip	os-core-dev
 clr-service-restart	sysadmin-basic
 clr-service-restart-motd.sh	sysadmin-basic
-clr_debug_daemon	telemetrics
-clr_debug_fuse	telemetrics
+clr_debug_daemon	performance-tools
+clr_debug_fuse	performance-tools
 clr_power	os-core
 clrtrust	p11-kit
 cluster	graphviz
@@ -754,7 +754,7 @@ cracklib-format	os-core-dev
 cracklib-packer	os-core-dev
 cracklib-unpacker	os-core-dev
 crashlogctl	software-defined-cockpit-dev
-crashprobe	telemetrics
+crashprobe	devpkg-telemetrics-client
 create-cracklib-dict	os-core-dev
 create_cvsignore	desktop-kde-apps
 create_dmesg_entries_for_each_test.awk	ltp
@@ -2010,7 +2010,7 @@ hp-unload	hardware-printing
 hp-upgrade	hardware-printing
 hp-wificonfig	hardware-printing
 hpftodit	sysadmin-basic
-hprobe	telemetrics
+hprobe	devpkg-telemetrics-client
 hpsa_lsmplugin	sysadmin-remote
 ht	texlive
 htags	global
@@ -2453,7 +2453,7 @@ jmod9	java9-basic
 joe	joe
 join	os-core
 journalctl	os-core
-journalprobe	telemetrics
+journalprobe	devpkg-telemetrics-client
 jp.py	cloud-api
 jpegenc	libva-utils
 jpegtran	devpkg-libjpeg-turbo
@@ -2688,7 +2688,7 @@ klickety	desktop-kde-games
 klines	desktop-kde-games
 klipper	desktop-kde
 klist	enterprise-login
-klogscanner	telemetrics
+klogscanner	devpkg-telemetrics-client
 kmag	desktop-kde-apps
 kmail	desktop-kde-apps
 kmenuedit	desktop-kde
@@ -4301,8 +4301,8 @@ psselect	texlive
 psstop	performance-tools
 pst2pdf	texlive
 pstops	texlive
-pstoreclean	telemetrics
-pstoreprobe	telemetrics
+pstoreclean	devpkg-telemetrics-client
+pstoreprobe	devpkg-telemetrics-client
 pstree	sysadmin-basic
 pstree.x11	sysadmin-basic
 ptar	perl-basic
@@ -4406,7 +4406,7 @@ python3.7	python3-basic
 python3.7-config	python3-basic
 python3.7m	python3-basic
 python3.7m-config	python3-basic
-pythonprobe	telemetrics
+pythonprobe	devpkg-telemetrics-client
 pythontex	texlive
 pyuic5	maker-3dprinting
 pyvenv	python3-basic
@@ -5416,14 +5416,14 @@ telem-data.pl	amateur-radio
 telem-data91.pl	amateur-radio
 telem-eqns.pl	amateur-radio
 telem-parm.pl	amateur-radio
-telem-record-gen	telemetrics
+telem-record-gen	devpkg-telemetrics-client
 telem-seq.sh	amateur-radio
 telem-unit.pl	amateur-radio
 telem-volts.py	amateur-radio
-telem_journal	telemetrics
-telemctl	telemetrics
-telempostd	telemetrics
-telemprobd	telemetrics
+telem_journal	devpkg-telemetrics-client
+telemctl	devpkg-telemetrics-client
+telempostd	devpkg-telemetrics-client
+telemprobd	devpkg-telemetrics-client
 telinit	os-core
 tensorboard	machine-learning-tensorflow
 test	os-core
