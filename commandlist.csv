@@ -10,6 +10,7 @@ FileCheck	llvm
 FreeCAD	maker-cnc
 FreeCADCmd	maker-cnc
 Fritzing	education-tertiary
+GenX_IR	hardware-gpu
 Magick++-config	ImageMagick
 MagickCore-config	ImageMagick
 MagickWand-config	ImageMagick
@@ -196,7 +197,7 @@ artikulate_editor	desktop-kde-apps
 as	binutils
 asadmin	cloud-api
 asapcat	akonadi
-ascii-xfr	sysadmin-basic
+ascii-xfr	maker-basic
 asciidoc	dev-utils
 asciidoc.py	dev-utils
 asciinema	productivity
@@ -456,7 +457,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	sysadmin-basic
+catchsegv	python-testing
 catman	sysadmin-basic
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -642,7 +643,7 @@ classification_sample	computer-vision-basic
 classification_sample_async	computer-vision-basic
 cleanup_digikamdb	digikam
 clear	sysadmin-basic
-clinfo	os-testsuite-phoronix-server
+clinfo	os-testsuite-phoronix-desktop
 clipaccumulate	perl-extras
 clipbrowse	perl-extras
 clipedit	perl-extras
@@ -1440,6 +1441,7 @@ fsck.xfs	xfsprogs
 fsfreeze	os-core
 fstrim	os-core
 fsview	konqueror
+ftdi_eeprom	maker-basic
 ftl_check	mtd-utils
 ftl_format	mtd-utils
 ftp-rfc	tcl-basic
@@ -1646,7 +1648,7 @@ glib-genmarshal	firmware-update
 glib-gettextize	firmware-update
 glib-mkenums	firmware-update
 glilypond	sysadmin-basic
-glinfo	os-utils-gui
+glinfo	os-testsuite-phoronix-desktop
 glmark2	glmark2
 glmark2-drm	glmark2
 glmark2-es2	glmark2
@@ -1656,7 +1658,7 @@ glmark2-wayland	glmark2
 global	global
 globash	global
 glslangValidator	developer-gpu
-glsync	os-utils-gui
+glsync	os-testsuite-phoronix-desktop
 gluster	storage-cluster
 gluster-eventsapi	storage-cluster
 gluster-georep-sshkey	storage-cluster
@@ -1667,8 +1669,8 @@ glustereventsd	storage-cluster
 glusterfind	storage-cluster
 glusterfs	storage-cluster
 glusterfsd	storage-cluster
-glxgears	os-utils-gui
-glxinfo	os-utils-gui
+glxgears	os-testsuite-phoronix-desktop
+glxinfo	os-testsuite-phoronix-desktop
 gmake	make
 gmenudbusmenuproxy	desktop-kde
 gmic	desktop-apps-extras
@@ -2169,6 +2171,7 @@ ifnames213	c-basic-legacy
 ifne	os-testsuite-0day
 ifstat	os-core
 iftop	iftop
+iga64	hardware-gpu
 igrep	blender
 igzip	kvm-host-dev
 iinfo	blender
@@ -2607,7 +2610,7 @@ kde-open5	desktop-kde
 kde-print-queue	desktop-kde
 kde-systemsettings-tree.py	desktop-kde-apps
 kde_generate_export_header	desktop-kde-apps
-kdebugdialog5	storage-utils-dev
+kdebugdialog5	containers-basic-dev
 kdebugsettings	desktop-kde-apps
 kdecp5	desktop-kde
 kded5	desktop-kde
@@ -2646,7 +2649,7 @@ keystone-wsgi-public	openstack-common
 keytool	java-runtime
 keytool11	java11-basic
 keytool9	java9-basic
-kf5-config	storage-utils-dev
+kf5-config	containers-basic-dev
 kf5kross	desktop-kde-games
 kfind	desktop-kde-apps
 kfloppy	desktop-kde-apps
@@ -2655,7 +2658,7 @@ kfontinst	desktop-kde
 kfontview	desktop-kde
 kfourinline	desktop-kde-games
 kfourinlineproc	desktop-kde-games
-kgendesignerplugin	storage-utils-dev
+kgendesignerplugin	containers-basic-dev
 kgeography	desktop-kde-apps
 kget	desktop-kde-apps
 kglobalaccel5	desktop-kde
@@ -2857,7 +2860,7 @@ ldbmodify	storage-utils-dev
 ldbrename	storage-utils-dev
 ldbsearch	storage-utils-dev
 ldconfig	os-core
-ldd	sysadmin-basic
+ldd	python-testing
 lddlibc4	c-basic-legacy
 lensfun-add-adapter	desktop-dev
 lensfun-update-data	desktop-dev
@@ -2874,6 +2877,7 @@ lgroupmod	devpkg-libuser
 libassuan-config	devpkg-libassuan
 libdeps.py	os-clr-on-clr
 libevdev-tweak-device	devpkg-libevdev
+libftdi1-config	maker-basic
 libgcrypt-config	os-core-dev
 libinput	desktop
 libnetcfg	perl-basic
@@ -3026,8 +3030,8 @@ lss3	cloud-api
 lsscsi	storage-utils
 lssubsys	devpkg-libcgroup
 lstopo-no-graphics	hwloc
-lsusb	sysadmin-basic
-lsusb.py	sysadmin-basic
+lsusb	maker-basic
+lsusb.py	maker-basic
 ltp-bump	ltp
 ltp-pan	ltp
 ltrace	performance-tools
@@ -3247,7 +3251,7 @@ migratepages	sysadmin-basic
 migspeed	sysadmin-basic
 minetest	minetest
 minetestserver	minetestserver
-minicom	sysadmin-basic
+minicom	maker-basic
 minimodem	amateur-radio
 mirrorMappings	perl-extras
 mispipe	os-testsuite-0day
@@ -3848,7 +3852,7 @@ opencv_interactive-calibration	devpkg-opencv
 opencv_version	devpkg-opencv
 opencv_visualisation	devpkg-opencv
 openjade	database-basic-dev
-openscad	maker-3dprinting
+openscad	openscad
 opensm	hpc-utils
 openssl	p11-kit
 openstack-inventory	openstack-common
@@ -3990,9 +3994,9 @@ pavucontrol	desktop-apps
 pax11publish	pulseaudio
 pbibtex	texlive
 pbr	cloud-api
-pbunzip2	os-testsuite-phoronix-server
-pbzcat	os-testsuite-phoronix-server
-pbzip2	os-testsuite-phoronix-server
+pbunzip2	os-testsuite-phoronix-desktop
+pbzcat	os-testsuite-phoronix-desktop
+pbzip2	os-testsuite-phoronix-desktop
 pcal	perl-extras
 pcap-config	devpkg-libpcap
 pcmanfm-qt	desktop-lxqt
@@ -4115,7 +4119,7 @@ phar	php-basic
 phar.phar	php-basic
 phc2sys	time-server-basic
 phc_ctl	time-server-basic
-phoronix-test-suite	os-testsuite-phoronix-server
+phoronix-test-suite	os-testsuite-phoronix-desktop
 php	php-basic
 php-cgi	php-basic
 php-config	php-basic
@@ -4311,7 +4315,7 @@ ptargrep	perl-basic
 ptex	texlive
 ptex2pdf	texlive
 ptftopl	texlive
-pth-config	os-testsuite-phoronix-server
+pth-config	os-testsuite-phoronix-desktop
 ptiptop	performance-tools
 ptp4l	time-server-basic
 ptsematest	dev-utils
@@ -4455,13 +4459,13 @@ qpid-python-test	openstack-common
 qpid-python-test.bat	openstack-common
 qrencode	desktop-kde-apps
 qrenderdoc	developer-gpu
-qscxmlc	storage-utils-dev
+qscxmlc	containers-basic-dev
 qtattributionsscanner	devpkg-qttools
 qtdiag	qt-basic
 qtdoc	desktop-kde-apps
 qtpaths	qt-basic
 qtplugininfo	devpkg-qttools
-qtwaylandscanner	storage-utils-dev
+qtwaylandscanner	containers-basic-dev
 quassel	quassel
 quasselclient	quassel
 quasselcore	quassel
@@ -4565,7 +4569,7 @@ renderdoccmd	developer-gpu
 renice	os-core
 reno	openstack-common
 reordercap	wireshark
-repc	storage-utils-dev
+repc	containers-basic-dev
 replace	database-basic
 repo2solv	devpkg-libsolv
 repomdxml2solv	devpkg-libsolv
@@ -4713,7 +4717,7 @@ runc	cloud-control
 runcon	os-core
 rungs	texlive
 runlevel	os-core
-runscript	sysadmin-basic
+runscript	maker-basic
 runtest	os-core-dev
 runuser	os-core
 rust-gdb	rust-basic
@@ -4997,7 +5001,7 @@ slaptest	openldap
 slattach	os-cloudguest-azure
 slaves.sh	big-data-basic
 sleep	os-core
-sln	sysadmin-basic
+sln	python-testing
 sload.f2fs	os-testsuite-0day
 slsh	os-core-dev
 slugify	domotica
@@ -5425,6 +5429,7 @@ telemctl	devpkg-telemetrics-client
 telempostd	devpkg-telemetrics-client
 telemprobd	devpkg-telemetrics-client
 telinit	os-core
+telnet	netkit-telnet
 tensorboard	machine-learning-tensorflow
 test	os-core
 test-connect-t	database-basic
@@ -5735,8 +5740,8 @@ urlgrabber	koji
 urxvt	desktop-awesome
 urxvtc	desktop-awesome
 urxvtd	desktop-awesome
-usb-devices	sysadmin-basic
-usbhid-dump	sysadmin-basic
+usb-devices	maker-basic
+usbhid-dump	maker-basic
 usbredirserver	devpkg-usbredir
 use-devel-checklib	perl-extras
 useradd	os-core
@@ -5766,19 +5771,19 @@ vacuumdb	postgresql
 vads	software-defined-cockpit
 vainfo	libva-utils
 vala	devpkg-vala
-vala-0.42	devpkg-vala
+vala-0.44	devpkg-vala
 vala-gen-introspect	devpkg-vala
-vala-gen-introspect-0.42	devpkg-vala
+vala-gen-introspect-0.44	devpkg-vala
 valac	devpkg-vala
-valac-0.42	devpkg-vala
+valac-0.44	devpkg-vala
 valadoc	devpkg-vala
-valadoc-0.42	devpkg-vala
+valadoc-0.44	devpkg-vala
 valgrind	valgrind
 valgrind-di-server	valgrind
 valgrind-listener	valgrind
 validation_app	computer-vision-basic
 vapigen	devpkg-vala
-vapigen-0.42	devpkg-vala
+vapigen-0.44	devpkg-vala
 vavpp	libva-utils
 vbc	mono
 vdir	os-core
@@ -6152,7 +6157,7 @@ xkeystone	x11-tools
 xkibitz	tcl-basic
 xkill	x11-tools
 xlog	amateur-radio
-xminicom	sysadmin-basic
+xminicom	maker-basic
 xml	os-clr-on-clr
 xml2-config	libxml2
 xml2pot	desktop-kde-apps
