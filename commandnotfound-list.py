@@ -57,10 +57,9 @@ def declare_binary(bundle : str, binary : str, size : int):
     if not binary in bin_bundle or binary == bundle:
         bin_bundle[binary] = bundle
         bin_size[binary] = size
-    else:
-        if (bin_size[binary] > size or bundle in whitelist) and bin_bundle[binary] != binary and bundle not in blacklist:
-            bin_bundle[binary] = bundle
-            bin_size[binary] = size
+    if (bin_size[binary] > size or bundle in whitelist) and bin_bundle[binary] != binary and bundle not in blacklist and not bin_bundle[binary] in whitelist:
+        bin_bundle[binary] = bundle
+        bin_size[binary] = size
             
 
 
