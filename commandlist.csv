@@ -1,6 +1,6 @@
 2to3	python2-basic
 2to3-3.7	python3-basic
-3rd-party-post	os-core-update
+3rd-party-post	clr-user-bundles
 4channels	devpkg-LibRaw
 7z	dev-utils
 7za	dev-utils
@@ -158,7 +158,6 @@ aplaymidi	alsa-utils
 apm	atom
 append2simg	storage-utils
 appletviewer	java-runtime
-appletviewer11	java11-basic
 appletviewer9	java9-basic
 apply-kconfig	service-os-dev
 applygnupgdefaults	cryptography
@@ -1649,7 +1648,7 @@ glib-genmarshal	firmware-update
 glib-gettextize	firmware-update
 glib-mkenums	firmware-update
 glilypond	sysadmin-basic
-glinfo	os-utils-gui
+glinfo	os-testsuite-phoronix-desktop
 glmark2	glmark2
 glmark2-drm	glmark2
 glmark2-es2	glmark2
@@ -1659,7 +1658,7 @@ glmark2-wayland	glmark2
 global	global
 globash	global
 glslangValidator	developer-gpu
-glsync	os-utils-gui
+glsync	os-testsuite-phoronix-desktop
 gluster	storage-cluster
 gluster-eventsapi	storage-cluster
 gluster-georep-sshkey	storage-cluster
@@ -1670,8 +1669,8 @@ glustereventsd	storage-cluster
 glusterfind	storage-cluster
 glusterfs	storage-cluster
 glusterfsd	storage-cluster
-glxgears	os-utils-gui
-glxinfo	os-utils-gui
+glxgears	os-testsuite-phoronix-desktop
+glxinfo	os-testsuite-phoronix-desktop
 gmake	make
 gmenudbusmenuproxy	desktop-kde
 gmic	desktop-apps-extras
@@ -2157,7 +2156,6 @@ idle	python2-basic
 idle3	python3-basic
 idle3.7	python3-basic
 idlj	java-runtime
-idlj11	java11-basic
 idlj9	java9-basic
 idn	devpkg-libidn
 idn2	devpkg-libidn2
@@ -2390,6 +2388,7 @@ iwpmd	hpc-utils
 ixplore	pdns
 jailer	containers-virt
 jamo-normalize	texlive
+jaotc11	java11-basic
 jar	java-runtime
 jar11	java11-basic
 jar9	java9-basic
@@ -2408,7 +2407,6 @@ javadoc	java-runtime
 javadoc11	java11-basic
 javadoc9	java9-basic
 javah	java-runtime
-javah11	java11-basic
 javah9	java9-basic
 javap	java-runtime
 javap11	java11-basic
@@ -3253,7 +3251,7 @@ migratepages	sysadmin-basic
 migspeed	sysadmin-basic
 minetest	minetest
 minetestserver	minetestserver
-minicom	sysadmin-basic
+minicom	minicom
 minimodem	amateur-radio
 mirrorMappings	perl-extras
 mispipe	os-testsuite-0day
@@ -3865,7 +3863,6 @@ opt	llvm
 optimizegraphics	desktop-kde-apps
 optipng	desktop-dev
 orbd	java-runtime
-orbd11	java11-basic
 orbd9	java9-basic
 orc-bugreport	devpkg-orc
 orca	desktop
@@ -4217,7 +4214,6 @@ podlint	openqa
 podselect	perl-basic
 podspell	perl-extras
 policytool	java-runtime
-policytool11	java11-basic
 policytool9	java9-basic
 pom2	openqa
 pomdump	openqa
@@ -4470,7 +4466,7 @@ qtplugininfo	devpkg-qttools
 qtwaylandscanner	containers-basic-dev
 quassel	quassel
 quasselclient	quassel
-quasselcore	quassel
+quasselcore	quasselcore
 quest	devpkg-xapian-core
 queuelat	dev-utils
 quilt	dev-utils
@@ -4776,7 +4772,6 @@ scandeps.pl	perl-extras
 scanimage	desktop-dev
 sccmap	graphviz
 schemagen	java-runtime
-schemagen11	java11-basic
 schemagen9	java9-basic
 sclient	enterprise-login
 scmp_sys_resolver	file
@@ -4834,7 +4829,6 @@ serialver11	java11-basic
 serialver9	java9-basic
 serve_image	mtd-utils
 servertool	java-runtime
-servertool11	java11-basic
 servertool9	java9-basic
 servicemenudeinstallation	dolphin
 servicemenuinstallation	dolphin
@@ -5305,7 +5299,7 @@ swig	machine-learning-basic
 switch_root	os-core
 switcher	boinc-client
 swupd	os-core-update
-swupd-3rd-party	os-core-update
+swupd-3rd-party	clr-user-bundles
 swupd-extract	mixer
 swupd-inspector	mixer
 swupd-overdue	os-core-update
@@ -5545,7 +5539,6 @@ tload	os-core
 tlshell	texlive
 tmux	tmux
 tnameserv	java-runtime
-tnameserv11	java11-basic
 tnameserv9	java9-basic
 to_erl	openstack-common
 toco	machine-learning-tensorflow
@@ -6017,10 +6010,8 @@ wsdl	mono
 wsdl2	mono
 wsdump.py	docker-compose
 wsgen	java-runtime
-wsgen11	java11-basic
 wsgen9	java9-basic
 wsimport	java-runtime
-wsimport11	java11-basic
 wsimport9	java9-basic
 wsrep_sst_common	database-basic
 wsrep_sst_mariabackup	database-basic
@@ -6152,7 +6143,6 @@ xhost	x11-tools
 xinit	x11-server
 xinput	x11-tools
 xjc	java-runtime
-xjc11	java11-basic
 xjc9	java9-basic
 xkbcomp	x11-tools
 xkeystone	x11-tools
