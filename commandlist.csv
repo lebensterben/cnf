@@ -197,7 +197,7 @@ artikulate_editor	desktop-kde-apps
 as	binutils
 asadmin	cloud-api
 asapcat	akonadi
-ascii-xfr	maker-basic
+ascii-xfr	sysadmin-basic
 asciidoc	dev-utils
 asciidoc.py	dev-utils
 asciinema	productivity
@@ -295,6 +295,7 @@ barbican-wsgi-api	openstack-common
 base32	os-core
 base64	os-core
 basename	os-core
+basenc	os-core
 bash	os-core
 bashbug	shells
 bashdb	sysadmin-basic
@@ -457,7 +458,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	python-testing
+catchsegv	sysadmin-basic
 catman	sysadmin-basic
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -846,9 +847,9 @@ cxpm	devpkg-libXpm
 cxxmetric	desktop-kde-apps
 cyclicdeadline	dev-utils
 cyclictest	dev-utils
-cygdb	python-extras
-cython	python-extras
-cythonize	python-extras
+cygdb	desktop-apps
+cython	desktop-apps
+cythonize	desktop-apps
 dapltest	hpc-utils
 darktable	darktable
 darktable-chart	darktable
@@ -1709,7 +1710,6 @@ gnome-software	desktop
 gnome-software-editor	desktop
 gnome-system-monitor	gnome-system-monitor
 gnome-terminal	desktop
-gnome-text-editor	gedit
 gnome-thumbnail-font	gnome-font-viewer
 gnome-todo	gnome-todo
 gnome-tweaks	education
@@ -2860,7 +2860,7 @@ ldbmodify	storage-utils-dev
 ldbrename	storage-utils-dev
 ldbsearch	storage-utils-dev
 ldconfig	os-core
-ldd	python-testing
+ldd	sysadmin-basic
 lddlibc4	c-basic-legacy
 lensfun-add-adapter	desktop-dev
 lensfun-update-data	desktop-dev
@@ -2879,6 +2879,8 @@ libdeps.py	os-clr-on-clr
 libevdev-tweak-device	devpkg-libevdev
 libftdi1-config	maker-basic
 libgcrypt-config	os-core-dev
+libgtop_daemon2	devpkg-libgtop
+libgtop_server2	devpkg-libgtop
 libinput	desktop
 libnetcfg	perl-basic
 libpng-config	devpkg-libpng
@@ -3030,8 +3032,8 @@ lss3	cloud-api
 lsscsi	storage-utils
 lssubsys	devpkg-libcgroup
 lstopo-no-graphics	hwloc
-lsusb	maker-basic
-lsusb.py	maker-basic
+lsusb	sysadmin-basic
+lsusb.py	sysadmin-basic
 ltp-bump	ltp
 ltp-pan	ltp
 ltrace	performance-tools
@@ -3251,7 +3253,7 @@ migratepages	sysadmin-basic
 migspeed	sysadmin-basic
 minetest	minetest
 minetestserver	minetestserver
-minicom	maker-basic
+minicom	sysadmin-basic
 minimodem	amateur-radio
 mirrorMappings	perl-extras
 mispipe	os-testsuite-0day
@@ -4717,7 +4719,7 @@ runc	cloud-control
 runcon	os-core
 rungs	texlive
 runlevel	os-core
-runscript	maker-basic
+runscript	sysadmin-basic
 runtest	os-core-dev
 runuser	os-core
 rust-gdb	rust-basic
@@ -5001,7 +5003,7 @@ slaptest	openldap
 slattach	os-cloudguest-azure
 slaves.sh	big-data-basic
 sleep	os-core
-sln	python-testing
+sln	sysadmin-basic
 sload.f2fs	os-testsuite-0day
 slsh	os-core-dev
 slugify	domotica
@@ -5740,8 +5742,8 @@ urlgrabber	koji
 urxvt	desktop-awesome
 urxvtc	desktop-awesome
 urxvtd	desktop-awesome
-usb-devices	maker-basic
-usbhid-dump	maker-basic
+usb-devices	sysadmin-basic
+usbhid-dump	sysadmin-basic
 usbredirserver	devpkg-usbredir
 use-devel-checklib	perl-extras
 useradd	os-core
@@ -6157,7 +6159,7 @@ xkeystone	x11-tools
 xkibitz	tcl-basic
 xkill	x11-tools
 xlog	amateur-radio
-xminicom	maker-basic
+xminicom	sysadmin-basic
 xml	os-clr-on-clr
 xml2-config	libxml2
 xml2pot	desktop-kde-apps
