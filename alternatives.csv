@@ -1,0 +1,15 @@
+apt-cache	swupd-search
+apt-get	swupd
+apt	swupd
+dpkg	swupd
+dselect	swupd-search
+grub	clr-boot-manager
+ifconfig	ip
+ipchains	iptables
+ipfwadm	iptables
+lilo	extlinux
+nameif	ip
+pacman	swupd
+service	systemctl
+update-ca-certificates	clrtrust
+yum	dnf

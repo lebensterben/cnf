@@ -1,8 +1,9 @@
 Name     : cnf
 Version  : 1
-Release  : 223
+Release  : 224
 Source0  : 10-command-not-found.sh
 Source1  : commandlist.csv
+Source2  : alternatives.csv
 Summary  : Bash command not found handler
 Group    : Development/Tools
 License  : GPL-3.0
@@ -22,10 +23,12 @@ mkdir -p %{buildroot}/usr/share/defaults/etc/profile.d/
 
 cp %{SOURCE0} %{buildroot}/usr/share/defaults/etc/profile.d/
 cp %{SOURCE1} %{buildroot}/usr/share/clear
+cp %{SOURCE2} %{buildroot}/usr/share/clear
 chmod a+x %{buildroot}/usr/share/defaults/etc/profile.d/10-command-not-found.sh
 
 %files
 %defattr(-,root,root,-)
 /usr/share/defaults/etc/profile.d/10-command-not-found.sh
 /usr/share/clear/commandlist.csv
+/usr/share/clear/alternatives.csv
 

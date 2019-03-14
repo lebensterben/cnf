@@ -7,6 +7,12 @@ command_not_found_handle () {
     else
         MSG='$1 == cmd { print "To install " $1 " your system administrator needs to do:  swupd bundle-add " $2; exit }'
     fi
-    awk -F"\t" -v cmd="$1" "$MSG" /usr/share/clear/commandlist.csv
+    R=`awk -F"\t" -v cmd="$1" "$MSG" /usr/share/clear/commandlist.csv`
+    if [ -n "$R" ]; then
+        echo $R
+    else
+        MSG='$1 == cmd { print "The command " $1 " is not available, consider using: " $2; exit }'
+        awk -F"\t" -v cmd="$1" "$MSG" /usr/share/clear/alternatives.csv
+    fi
     return 127
 }
