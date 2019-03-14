@@ -2782,7 +2782,7 @@ ktp-debugger	desktop-kde-apps
 ktraderclient5	desktop-kde
 ktrash5	kde-frameworks5
 ktuberling	education-preschool
-kturtle	education-tertiary
+kturtle	education-primary
 ktutil	enterprise-login
 kubeadm	cloud-native-basic
 kubectl	cloud-native-basic
@@ -3163,8 +3163,8 @@ manual-proxy-test	os-core-webproxy
 map	perl-extras
 mapred	big-data-basic
 mapscrn	kbd
-marble	education-tertiary
-marble-qt	education-tertiary
+marble	education-primary
+marble-qt	education-primary
 marcdump	perl-extras
 mariabackup	database-basic
 mariadb_config	database-basic
@@ -3999,6 +3999,7 @@ pbzcat	os-testsuite-phoronix-server
 pbzip2	os-testsuite-phoronix-server
 pcal	perl-extras
 pcap-config	devpkg-libpcap
+pcasc	maker-basic
 pcmanfm-qt	desktop-lxqt
 pcprofiledump	os-core
 pcre-config	devpkg-pcre
@@ -4007,6 +4008,9 @@ pcre2grep	devpkg-pcre2
 pcre2test	devpkg-pcre2
 pcregrep	devpkg-pcre
 pcretest	devpkg-pcre
+pcxm	maker-basic
+pcym	maker-basic
+pczm	maker-basic
 pdata_tools	storage-utils
 pdb2mdb	mono
 pdbedit	samba
@@ -4130,6 +4134,7 @@ pi_stress	dev-utils
 pic	sysadmin-basic
 pic2graph	sysadmin-basic
 picmi	desktop-kde-games
+picocom	maker-basic
 piconv	perl-basic
 pidgin	pidgin
 pidl	samba
