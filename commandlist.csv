@@ -196,7 +196,7 @@ artikulate_editor	desktop-kde-apps
 as	binutils
 asadmin	cloud-api
 asapcat	akonadi
-ascii-xfr	sysadmin-basic
+ascii-xfr	minicom
 asciidoc	dev-utils
 asciidoc.py	dev-utils
 asciinema	productivity
@@ -457,7 +457,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	python-extras
+catchsegv	sysadmin-basic
 catman	sysadmin-basic
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -571,7 +571,7 @@ checkcites	texlive
 checkgid	httpd
 checklistings	texlive
 checkmk	c-basic
-checksctp	devpkg-libsctp
+checksctp	devpkg-lksctp-tools
 cheese	cheese
 cheetah	koji
 cheetah-analyze	koji
@@ -875,6 +875,8 @@ dbiprof	perl-basic
 dbiproxy	perl-basic
 dbmmanage	application-server
 dbus-binding-tool	devpkg-dbus-glib
+dbus-broker	qt-basic-dev
+dbus-broker-launch	qt-basic-dev
 dbus-cleanup-sockets	os-core
 dbus-daemon	os-core
 dbus-launch	desktop
@@ -1197,9 +1199,9 @@ emacsclient	emacs
 enc2xs	perl-basic
 encguess	perl-basic
 enchant	devpkg-compat-enchant-soname1
-enchant-2	devpkg-gspell
+enchant-2	devpkg-enchant
 enchant-lsmod	devpkg-compat-enchant-soname1
-enchant-lsmod-2	devpkg-gspell
+enchant-lsmod-2	devpkg-enchant
 encode_keychange	performance-tools
 endnote-format	perl-extras
 env	os-core
@@ -1325,6 +1327,7 @@ fc-pattern	devpkg-fontconfig
 fc-query	devpkg-fontconfig
 fc-scan	devpkg-fontconfig
 fc-validate	devpkg-fontconfig
+fcal	amateur-radio
 fcgistarter	httpd
 fdisk	os-core
 fdp	graphviz
@@ -1406,7 +1409,9 @@ flnet	amateur-radio
 flock	os-core
 fltk-config	desktop-dev
 fluid	desktop-dev
+fmeasure	amateur-radio
 fmt	os-core
+fmtave	amateur-radio
 fmtutil	texlive
 fmtutil-sys	texlive
 fmtutil-user	texlive
@@ -1442,6 +1447,7 @@ fsck.xfs	xfsprogs
 fsfreeze	os-core
 fstrim	os-core
 fsview	konqueror
+ft8code	amateur-radio
 ftdi_eeprom	maker-basic
 ftl_check	mtd-utils
 ftl_format	mtd-utils
@@ -1933,6 +1939,7 @@ hadoop-rcc	big-data-basic
 half_mt	devpkg-LibRaw
 halog	openstack-common
 halt	os-core
+handy-0.0-demo	desktop-dev
 haproxy	openstack-common
 hardlink	mixer
 hash-to-efi-sig-list	os-clr-on-clr
@@ -2468,8 +2475,8 @@ jq	jq
 jrunscript	java-runtime
 jrunscript11	java11-basic
 jrunscript9	java9-basic
-js24	kde-frameworks5-dev
-js24-config	kde-frameworks5-dev
+js24	qt-basic-dev
+js24-config	qt-basic-dev
 js52	devpkg-mozjs52
 js52-config	devpkg-mozjs52
 js60	devpkg-mozjs60
@@ -2496,6 +2503,10 @@ jstat9	java9-basic
 jstatd	java-runtime
 jstatd11	java11-basic
 jstatd9	java9-basic
+jt4code	amateur-radio
+jt65code	amateur-radio
+jt9	amateur-radio
+jt9code	amateur-radio
 jupyter	jupyter
 jupyter-bundlerextension	jupyter
 jupyter-console	jupyter
@@ -2859,7 +2870,7 @@ ldbmodify	storage-utils-dev
 ldbrename	storage-utils-dev
 ldbsearch	storage-utils-dev
 ldconfig	os-core
-ldd	python-extras
+ldd	sysadmin-basic
 lddlibc4	c-basic-legacy
 lensfun-add-adapter	desktop-dev
 lensfun-update-data	desktop-dev
@@ -3222,6 +3233,7 @@ mergerepo_c	package-utils
 mergesolv	devpkg-libsolv
 mesg	os-core
 meson	dev-utils
+message_aggregator	amateur-radio
 metacity	desktop
 metacity-message	desktop
 metacity-theme-viewer	desktop
@@ -3427,6 +3439,7 @@ msgmerge	kvm-host
 msgunfmt	kvm-host
 msguniq	kvm-host
 msiexec	wine
+msk144code	amateur-radio
 msmtp	mail-utils
 msmtpd	mail-utils
 msql2mysql	database-basic
@@ -4461,6 +4474,8 @@ qpaeq	pulseaudio
 qpdf	devpkg-qpdf
 qpid-python-test	openstack-common
 qpid-python-test.bat	openstack-common
+qra64code	amateur-radio
+qra64sim	amateur-radio
 qrencode	desktop-kde-apps
 qrenderdoc	developer-gpu
 qscxmlc	containers-basic-dev
@@ -4606,7 +4621,10 @@ rhythmbox	rhythmbox
 rhythmbox-client	rhythmbox
 ri	ruby-basic
 rigctl	amateur-radio
+rigctl-wsjtx	amateur-radio
+rigctlcom-wsjtx	amateur-radio
 rigctld	amateur-radio
+rigctld-wsjtx	amateur-radio
 rigmem	amateur-radio
 rigsmtr	amateur-radio
 rigswr	amateur-radio
@@ -4721,7 +4739,7 @@ runc	cloud-control
 runcon	os-core
 rungs	texlive
 runlevel	os-core
-runscript	sysadmin-basic
+runscript	minicom
 runtest	os-core-dev
 runuser	os-core
 rust-gdb	rust-basic
@@ -4756,7 +4774,7 @@ sar	sysstat
 saslauthd	devpkg-cyrus-sasl
 sasldblistusers2	devpkg-cyrus-sasl
 saslpasswd2	devpkg-cyrus-sasl
-sassc	desktop-dev
+sassc	qt-basic-dev
 saved_model_cli	machine-learning-tensorflow
 saxfr	pdns
 sbattach	os-clr-on-clr
@@ -4806,9 +4824,9 @@ scsi_satl	openstack-common
 scsi_start	openstack-common
 scsi_stop	openstack-common
 scsi_temperature	openstack-common
-sctp_darn	devpkg-libsctp
-sctp_status	devpkg-libsctp
-sctp_test	devpkg-libsctp
+sctp_darn	devpkg-lksctp-tools
+sctp_status	devpkg-lksctp-tools
+sctp_test	devpkg-lksctp-tools
 scummvm	games
 sdbadmin	cloud-api
 sddm	desktop-kde
@@ -5006,7 +5024,7 @@ slaptest	openldap
 slattach	os-cloudguest-azure
 slaves.sh	big-data-basic
 sleep	os-core
-sln	python-extras
+sln	sysadmin-basic
 sload.f2fs	os-testsuite-0day
 slsh	os-core-dev
 slugify	domotica
@@ -5373,7 +5391,7 @@ t4ht	texlive
 tabs	sysadmin-basic
 tabulate	python-extras
 tac	os-core
-taglib-config	desktop-dev
+taglib-config	kde-frameworks5-dev
 taglist	devpkg-exiv2
 tail	os-core
 tallow	openssh-server
@@ -5668,6 +5686,7 @@ ucs2any	devpkg-font-util
 udaddy	hpc-utils
 udevadm	os-core
 udisksctl	sysadmin-remote
+udp_daemon	amateur-radio
 udpong	hpc-utils
 uget-gtk	uget
 uget-gtk-1to2	uget
@@ -5990,7 +6009,7 @@ wipefs	os-core
 wireshark	wireshark
 wish	tcl-basic
 wish8.6	tcl-basic
-withsctp	devpkg-libsctp
+withsctp	devpkg-lksctp-tools
 wlfreerdp	pidgin
 wmc	wine
 wnck-urgency-monitor	os-utils-gui-dev
@@ -6023,13 +6042,13 @@ wsgen	java-runtime
 wsgen9	java9-basic
 wsimport	java-runtime
 wsimport9	java9-basic
+wsjtx	amateur-radio
+wsprd	amateur-radio
 wsrep_sst_common	database-basic
 wsrep_sst_mariabackup	database-basic
 wsrep_sst_mysqldump	database-basic
 wsrep_sst_rsync	database-basic
 wsrep_sst_rsync_wan	database-basic
-wsrep_sst_xtrabackup	database-basic
-wsrep_sst_xtrabackup-v2	database-basic
 wvgain	desktop-dev
 wvtag	desktop-dev
 wvunpack	desktop-dev
@@ -6159,7 +6178,7 @@ xkeystone	x11-tools
 xkibitz	tcl-basic
 xkill	x11-tools
 xlog	amateur-radio
-xminicom	sysadmin-basic
+xminicom	minicom
 xml	os-clr-on-clr
 xml2-config	libxml2
 xml2pot	desktop-kde-apps
