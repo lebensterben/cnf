@@ -1301,9 +1301,9 @@ extractres	texlive
 f-engrave	maker-cnc
 f2fscrypt	os-testsuite-0day
 f2fstat	os-testsuite-0day
-f2py	jupyter
-f2py3	jupyter
-f2py3.7	jupyter
+f2py	python-extras
+f2py3	python-extras
+f2py3.7	python-extras
 f95	c-basic
 factor	os-core
 faillog	os-core
@@ -4709,8 +4709,8 @@ rst2xetex.py	docutils
 rst2xml.py	docutils
 rstpep2html.py	docutils
 rstream	hpc-utils
-rsvg-convert	desktop
-rsvg-view-3	desktop
+rsvg-convert	devpkg-librsvg
+rsvg-view-3	devpkg-librsvg
 rsync	network-basic
 rsyslogd	rsyslog
 rt-migrate-test	dev-utils
