@@ -649,7 +649,7 @@ classification_sample	computer-vision-basic
 classification_sample_async	computer-vision-basic
 cleanup_digikamdb	digikam
 clear	sysadmin-basic
-clinfo	os-testsuite-phoronix-desktop
+clinfo	os-testsuite-phoronix-server
 clipaccumulate	perl-extras
 clipbrowse	perl-extras
 clipedit	perl-extras
@@ -1006,6 +1006,7 @@ dlt-test-stress	software-defined-cockpit-dev
 dlt-test-stress-client	software-defined-cockpit-dev
 dlt-test-stress-user	software-defined-cockpit-dev
 dlt-test-user	software-defined-cockpit-dev
+dltest	database-basic-dev
 dm-tool	lightdm
 dmap2gcode	maker-cnc
 dmcs	mono
@@ -1662,7 +1663,7 @@ glib-genmarshal	firmware-update
 glib-gettextize	firmware-update
 glib-mkenums	firmware-update
 glilypond	sysadmin-basic
-glinfo	os-testsuite-phoronix-desktop
+glinfo	os-utils-gui
 glmark2	glmark2
 glmark2-drm	glmark2
 glmark2-es2	glmark2
@@ -1672,7 +1673,7 @@ glmark2-wayland	glmark2
 global	global
 globash	global
 glslangValidator	developer-gpu
-glsync	os-testsuite-phoronix-desktop
+glsync	os-utils-gui
 gluster	storage-cluster
 gluster-eventsapi	storage-cluster
 gluster-georep-sshkey	storage-cluster
@@ -1683,8 +1684,8 @@ glustereventsd	storage-cluster
 glusterfind	storage-cluster
 glusterfs	storage-cluster
 glusterfsd	storage-cluster
-glxgears	os-testsuite-phoronix-desktop
-glxinfo	os-testsuite-phoronix-desktop
+glxgears	os-utils-gui
+glxinfo	os-utils-gui
 gmake	make
 gmenudbusmenuproxy	desktop-kde
 gmic	desktop-apps-extras
@@ -2290,7 +2291,7 @@ ip6tables-translate	iptables
 ipcmk	os-core
 ipcrm	os-core
 ipcs	os-core
-ipdb3	python-testing
+ipdb3	django
 iperf3	sysadmin-basic
 ipf-mod.pl	performance-tools
 ipmctl	storage-utils
@@ -2389,11 +2390,13 @@ isosize	os-core
 isotovideo	openqa
 ispdb	desktop-kde-apps
 ispellaff2myspell	kde-frameworks5-dev
+isql	database-basic-dev
 ister.py	os-installer
 ister_gui.py	os-installer
 isutf8	os-testsuite-0day
 isympy	python-data-science
 itstool	python-basic-dev
+iusql	database-basic-dev
 iv	blender
 ivshmem-client	kvm-host
 ivshmem-server	kvm-host
@@ -3344,7 +3347,7 @@ modifyrepo_c	package-utils
 modinfo	os-core
 modprobe	os-core
 module-starter	perl-extras
-modulemd-validator	os-clr-on-clr-dev
+modulemd-validator-v1	os-clr-on-clr-dev
 modutil	cryptography
 mof_compiler	desktop-dev
 mof_compiler.bat	desktop-dev
@@ -3841,6 +3844,8 @@ octave-cli-5.1.0	octave
 octave-config	octave
 octave-config-5.1.0	octave
 od	os-core
+odbc_config	database-basic-dev
+odbcinst	database-basic-dev
 odvicopy	texlive
 odvitype	texlive
 offlineimap	offlineimap
@@ -4015,9 +4020,9 @@ pavucontrol	desktop-apps
 pax11publish	pulseaudio
 pbibtex	texlive
 pbr	cloud-api
-pbunzip2	os-testsuite-phoronix-desktop
-pbzcat	os-testsuite-phoronix-desktop
-pbzip2	os-testsuite-phoronix-desktop
+pbunzip2	os-testsuite-phoronix-server
+pbzcat	os-testsuite-phoronix-server
+pbzip2	os-testsuite-phoronix-server
 pcal	perl-extras
 pcap-config	devpkg-libpcap
 pcasc	maker-basic
@@ -4144,7 +4149,7 @@ phar	php-basic
 phar.phar	php-basic
 phc2sys	time-server-basic
 phc_ctl	time-server-basic
-phoronix-test-suite	os-testsuite-phoronix-desktop
+phoronix-test-suite	os-testsuite-phoronix-server
 php	php-basic
 php-cgi	php-basic
 php-config	php-basic
@@ -4340,7 +4345,7 @@ ptargrep	perl-basic
 ptex	texlive
 ptex2pdf	texlive
 ptftopl	texlive
-pth-config	os-testsuite-phoronix-desktop
+pth-config	os-testsuite-phoronix-server
 ptiptop	performance-tools
 ptp4l	time-server-basic
 ptsematest	dev-utils
@@ -5031,6 +5036,7 @@ slaptest	openldap
 slattach	os-cloudguest-azure
 slaves.sh	big-data-basic
 sleep	os-core
+slencheck	database-basic-dev
 sln	python-extras
 sload.f2fs	os-testsuite-0day
 slsh	os-core-dev
