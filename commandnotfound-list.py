@@ -128,6 +128,10 @@ def main():
     blacklist.append("devpkg-R")
     blacklist.append("dnf")
     blacklist.append("telemetrics")
+    blacklist.append("os-cloudguest-azure")
+    blacklist.append("os-cloudguest-aws")
+    blacklist.append("os-cloudguest-gce")
+    blacklist.append("os-cloudguest-oracle")
     
     whitelist.append("python3-basic")
     whitelist.append("python-extras")
