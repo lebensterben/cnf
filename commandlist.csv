@@ -465,7 +465,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	sysadmin-basic
+catchsegv	python-extras
 catman	sysadmin-basic
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -2898,7 +2898,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	sysadmin-basic
+ldd	python-extras
 lddlibc4	c-basic-legacy
 ldmd2	d-basic
 lensfun-add-adapter	desktop-dev
@@ -4070,6 +4070,7 @@ pdf2ps	desktop
 pdf90	texlive
 pdfannotextractor	texlive
 pdfatfi	texlive
+pdfattach	kde-frameworks5-dev
 pdfbklt	perl-extras
 pdfbook	texlive
 pdfbook2	texlive
@@ -5066,7 +5067,7 @@ slattach	network-basic
 slaves.sh	big-data-basic
 sleep	os-core
 slencheck	database-basic-dev
-sln	sysadmin-basic
+sln	python-extras
 sload.f2fs	os-testsuite-0day
 slsh	os-core-dev
 slugify	domotica
