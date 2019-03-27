@@ -374,7 +374,7 @@ bomber	desktop-kde-games
 bootctl	os-core
 borg	borgbackup
 borgfs	borgbackup
-bovo	desktop-kde-apps
+bovo	desktop-kde-games
 brctl	network-basic
 breeze-settings5	desktop-kde
 bridge	os-core
@@ -465,7 +465,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	python-extras
+catchsegv	sysadmin-basic
 catman	sysadmin-basic
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -561,7 +561,7 @@ cgset	devpkg-libcgroup
 cgsnapshot	devpkg-libcgroup
 chacl	acl
 chage	os-core
-chardetect	docker-compose
+chardetect	gpgme
 chat	desktop-dev
 chattr	os-core
 chcon	os-core
@@ -652,7 +652,7 @@ classification_sample	computer-vision-basic
 classification_sample_async	computer-vision-basic
 cleanup_digikamdb	digikam
 clear	sysadmin-basic
-clinfo	os-testsuite-phoronix-server
+clinfo	os-testsuite-phoronix-desktop
 clipaccumulate	perl-extras
 clipbrowse	perl-extras
 clipedit	perl-extras
@@ -2594,7 +2594,7 @@ kata-qemu-lite-system-x86_64	containers-virt
 kata-runtime	containers-virt
 kata-virtfs-lite-proxy-helper	containers-virt
 kate	kate
-katomic	desktop-kde-apps
+katomic	desktop-kde-games
 kbackup	desktop-kde-apps
 kbd_mode	kbd
 kbdinfo	kbd
@@ -2719,7 +2719,7 @@ kitenkanjibrowser	desktop-kde-apps
 kitenradselect	desktop-kde-apps
 kjs5	kde-frameworks5
 kjumpingcube	desktop-kde-games
-kleopatra	desktop-kde-games
+kleopatra	kleopatra
 klettres	education-preschool
 klickety	desktop-kde-games
 klines	desktop-kde-games
@@ -2787,8 +2787,8 @@ kruler	desktop-kde-games
 krunner	desktop-kde
 ks	cloud-native-basic
 ksba-config	containers-basic-dev
-kscreen-console	desktop-kde
-kscreen-doctor	desktop-kde
+kscreen-console	desktop-kde-apps
+kscreen-doctor	desktop-kde-apps
 kshell5	desktop-kde
 kshisen	desktop-kde-games
 ksirk	desktop-kde-games
@@ -2830,7 +2830,7 @@ kvno	enterprise-login
 kwallet-query	kde-frameworks5
 kwalletd5	kde-frameworks5
 kwalletmanager5	desktop-kde-apps
-kwatchgnupg	desktop-kde-games
+kwatchgnupg	kleopatra
 kwikdisk	desktop-kde-apps
 kwin_wayland	desktop-kde
 kwin_x11	desktop-kde
@@ -2898,7 +2898,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	python-extras
+ldd	sysadmin-basic
 lddlibc4	c-basic-legacy
 ldmd2	d-basic
 lensfun-add-adapter	desktop-dev
@@ -3057,7 +3057,7 @@ lsi-exec	games
 lsi-settings	games
 lsinitrd	sysadmin-basic
 lsipc	os-core
-lskat	desktop-kde-apps
+lskat	desktop-kde-games
 lslocks	os-core
 lslogins	os-core
 lsmcli	sysadmin-remote
@@ -3857,6 +3857,7 @@ ociocheck	blender
 ocioconvert	blender
 ociodisplay	blender
 ociolutimage	blender
+ocloc	computer-vision-basic
 ocs	dev-utils
 ocsptool	cryptography
 octave	octave
@@ -3987,8 +3988,8 @@ ovsdb-client	network-basic
 ovsdb-server	network-basic
 ovsdb-tool	network-basic
 ownership	sysadmin-basic
-oxygen-demo5	desktop-kde
-oxygen-settings5	desktop-kde
+oxygen-demo5	desktop-kde-apps
+oxygen-settings5	desktop-kde-apps
 p11-kit	p11-kit
 p11-trust	p11-kit
 p11tool	cryptography
@@ -4043,9 +4044,9 @@ pavucontrol	desktop-apps
 pax11publish	pulseaudio
 pbibtex	texlive
 pbr	cloud-api
-pbunzip2	os-testsuite-phoronix-server
-pbzcat	os-testsuite-phoronix-server
-pbzip2	os-testsuite-phoronix-server
+pbunzip2	os-testsuite-phoronix-desktop
+pbzcat	os-testsuite-phoronix-desktop
+pbzip2	os-testsuite-phoronix-desktop
 pcal	perl-extras
 pcap-config	devpkg-libpcap
 pcasc	maker-basic
@@ -4173,7 +4174,7 @@ phar	php-basic
 phar.phar	php-basic
 phc2sys	time-server-basic
 phc_ctl	time-server-basic
-phoronix-test-suite	os-testsuite-phoronix-server
+phoronix-test-suite	os-testsuite-phoronix-desktop
 php	php-basic
 php-cgi	php-basic
 php-config	php-basic
@@ -4373,7 +4374,7 @@ ptargrep	perl-basic
 ptex	texlive
 ptex2pdf	texlive
 ptftopl	texlive
-pth-config	os-testsuite-phoronix-server
+pth-config	os-testsuite-phoronix-desktop
 ptiptop	performance-tools
 ptp4l	time-server-basic
 ptsematest	dev-utils
@@ -5067,7 +5068,7 @@ slattach	network-basic
 slaves.sh	big-data-basic
 sleep	os-core
 slencheck	database-basic-dev
-sln	python-extras
+sln	sysadmin-basic
 sload.f2fs	os-testsuite-0day
 slsh	os-core-dev
 slugify	domotica
@@ -5178,16 +5179,16 @@ spice-client-glib-usb-acl-helper	spice-gtk
 spicy	spice-gtk
 spicy-screenshot	spice-gtk
 spicy-stats	spice-gtk
-spirv-as	hardware-gpu
-spirv-cfg	hardware-gpu
-spirv-dis	hardware-gpu
-spirv-lesspipe.sh	hardware-gpu
-spirv-link	hardware-gpu
-spirv-opt	hardware-gpu
-spirv-reduce	hardware-gpu
+spirv-as	developer-gpu
+spirv-cfg	developer-gpu
+spirv-dis	developer-gpu
+spirv-lesspipe.sh	developer-gpu
+spirv-link	developer-gpu
+spirv-opt	developer-gpu
+spirv-reduce	developer-gpu
 spirv-remap	developer-gpu
-spirv-stats	hardware-gpu
-spirv-val	hardware-gpu
+spirv-stats	developer-gpu
+spirv-val	developer-gpu
 splain	perl-basic
 split	os-core
 split2po	desktop-kde-apps
