@@ -160,7 +160,7 @@ apm	atom
 append2simg	storage-utils
 appletviewer	java-runtime
 appletviewer9	java9-basic
-apply-kconfig	service-os-dev
+apply-kconfig	containers-virt-dev
 applygnupgdefaults	cryptography
 appstream-builder	devpkg-appstream-glib
 appstream-compose	devpkg-appstream-glib
@@ -5784,7 +5784,7 @@ unzipsfx	unzip
 unzstd	zstd
 upbibtex	texlive
 update-desktop-database	desktop
-update-fragment	service-os-dev
+update-fragment	containers-virt-dev
 update-helper	os-core-update
 update-mime-database	devpkg-shared-mime-info
 update-pciids	sysadmin-basic
