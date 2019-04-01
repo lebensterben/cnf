@@ -465,7 +465,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	python-extras
+catchsegv	sysadmin-basic
 catman	sysadmin-basic
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -2899,7 +2899,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	python-extras
+ldd	sysadmin-basic
 lddlibc4	c-basic-legacy
 ldmd2	d-basic
 lensfun-add-adapter	desktop-dev
@@ -5072,7 +5072,7 @@ slattach	network-basic
 slaves.sh	big-data-basic
 sleep	os-core
 slencheck	database-basic-dev
-sln	python-extras
+sln	sysadmin-basic
 sload.f2fs	os-testsuite-0day
 slsh	os-core-dev
 slugify	domotica
