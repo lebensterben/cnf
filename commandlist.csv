@@ -429,7 +429,6 @@ c++-rename-class-and-file	desktop-kde-apps
 c++filt	binutils
 c-index-test	llvm
 cabextract	cabextract
-cabrip	devpkg-libmspack
 cache_check	storage-utils
 cache_dump	storage-utils
 cache_metadata_size	storage-utils
@@ -594,7 +593,6 @@ chktex	texlive
 chktrust	mono
 chkweb	texlive
 chmem	os-core
-chmextract	devpkg-libmspack
 chmod	os-core
 chmorph	kde-frameworks5-dev
 choom	os-core
@@ -3455,7 +3453,6 @@ mptopdf	texlive
 mr-jobhistory-daemon.sh	big-data-basic
 mrwthumb	devpkg-exiv2
 ms_print	valgrind
-msexpand	devpkg-libmspack
 msgattrib	kvm-host
 msgcat	kvm-host
 msgcmp	kvm-host
@@ -3804,7 +3801,6 @@ nvis	machine-learning-basic
 nvlc	vlc
 nvme	storage-utils
 oLschema2ldif	samba
-oabextract	devpkg-libmspack
 oathtool	devpkg-oath-toolkit
 obj2yaml	llvm
 objcopy	binutils
@@ -3977,10 +3973,8 @@ ovn-sbctl	network-basic
 ovn-trace	network-basic
 ovp2ovf	texlive
 ovs-appctl	network-basic
-ovs-docker	network-basic
 ovs-dpctl	network-basic
 ovs-ofctl	network-basic
-ovs-pki	network-basic
 ovs-testcontroller	network-basic
 ovs-vlan-bug-workaround	network-basic
 ovs-vsctl	network-basic
@@ -5084,6 +5078,7 @@ smbcontrol	samba
 smbcquotas	samba
 smbd	samba
 smbget	samba
+smbinfo	storage-utils
 smbios-battery-ctl	devpkg-libsmbios
 smbios-get-ut-data	devpkg-libsmbios
 smbios-keyboard-ctl	devpkg-libsmbios
