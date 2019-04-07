@@ -464,7 +464,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	sysadmin-basic
+catchsegv	python-extras
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -673,7 +673,7 @@ clr-service-restart-motd.sh	sysadmin-basic
 clr_debug_daemon	performance-tools
 clr_debug_fuse	performance-tools
 clr_power	os-core
-clrtrust	p11-kit
+clrtrust	os-core
 cluster	graphviz
 clusterdb	postgresql
 cm108	amateur-radio
@@ -1318,9 +1318,9 @@ extractres	texlive
 f-engrave	maker-cnc
 f2fscrypt	os-testsuite-0day
 f2fstat	os-testsuite-0day
-f2py	jupyter
-f2py3	jupyter
-f2py3.7	jupyter
+f2py	python-extras
+f2py3	python-extras
+f2py3.7	python-extras
 f95	c-basic
 factor	os-core
 faillog	os-core
@@ -1372,7 +1372,7 @@ filefrag	storage-utils
 filelight	desktop-kde-apps
 filterdiff	dev-utils
 fincore	os-core
-find	findutils
+find	os-core
 find-bundle.sh	os-core-search
 findfs	os-core
 findhyph	texlive
@@ -1674,7 +1674,7 @@ glib-genmarshal	firmware-update
 glib-gettextize	firmware-update
 glib-mkenums	firmware-update
 glilypond	man-pages
-glinfo	os-utils-gui
+glinfo	os-testsuite-phoronix-desktop
 glmark2	glmark2
 glmark2-drm	glmark2
 glmark2-es2	glmark2
@@ -1684,7 +1684,7 @@ glmark2-wayland	glmark2
 global	global
 globash	global
 glslangValidator	developer-gpu
-glsync	os-utils-gui
+glsync	os-testsuite-phoronix-desktop
 gluster	storage-cluster
 gluster-eventsapi	storage-cluster
 gluster-georep-sshkey	storage-cluster
@@ -1695,8 +1695,8 @@ glustereventsd	storage-cluster
 glusterfind	storage-cluster
 glusterfs	storage-cluster
 glusterfsd	storage-cluster
-glxgears	os-utils-gui
-glxinfo	os-utils-gui
+glxgears	os-testsuite-phoronix-desktop
+glxinfo	os-testsuite-phoronix-desktop
 gmake	make
 gmenudbusmenuproxy	desktop-kde
 gmic	desktop-apps-extras
@@ -1778,7 +1778,7 @@ gpgscm	cryptography
 gpgsm	cryptography
 gpgtar	cryptography
 gpgv	cryptography
-gphoto2	desktop-apps-extras
+gphoto2	gphoto2
 gphoto2-config	devpkg-libgphoto2
 gphoto2-port-config	devpkg-libgphoto2
 gpinyin	man-pages
@@ -2896,7 +2896,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	sysadmin-basic
+ldd	python-extras
 lddlibc4	c-basic-legacy
 ldmd2	d-basic
 lensfun-add-adapter	desktop-dev
@@ -2923,6 +2923,7 @@ libnetcfg	perl-basic
 libpng-config	devpkg-libpng
 libpng16-config	devpkg-libpng
 librados-config	ceph
+libreoffice	libreoffice
 libtool	c-basic
 libtoolize	c-basic
 libvirtd	kvm-host
@@ -3006,14 +3007,19 @@ lnstat	os-core
 loadjpeg	libva-utils
 loadkeys	kbd
 loadunimap	kbd
+lobase	libreoffice
 local_lsmplugin	sysadmin-remote
+localc	libreoffice
 locale	os-core
 localectl	os-core
 localedef	glibc-locale
-locate	findutils
+locate	os-core
 lockfile	mail-utils
 locktest	samba
 lockutils-wrapper	openstack-common
+lodraw	libreoffice
+loffice	libreoffice
+lofromtemplate	libreoffice
 log2gpx	amateur-radio
 logger	os-core
 login	os-core
@@ -3023,12 +3029,16 @@ logoutd	os-core
 logresolve	httpd
 logrotate	logrotate
 logsave	storage-utils
+loimpress	libreoffice
 lokalize	desktop-kde-apps
+lomath	libreoffice
 look	os-core
 lookandfeeltool	desktop-kde
 lookbib	man-pages
 losetup	os-core
+loweb	libreoffice
 lowntfs-3g	storage-utils
+lowriter	libreoffice
 lp	hardware-printing
 lpadmin	hardware-printing
 lpasswd	devpkg-libuser
@@ -3902,7 +3912,7 @@ opencv_visualisation	devpkg-opencv
 openjade	database-basic-dev
 openscad	openscad
 opensm	storage-utils
-openssl	p11-kit
+openssl	os-core
 openstack-inventory	openstack-common
 openvpn	network-basic
 openvt	kbd
@@ -3985,8 +3995,8 @@ ovsdb-tool	network-basic
 ownership	sysadmin-basic
 oxygen-demo5	desktop-kde-apps
 oxygen-settings5	desktop-kde-apps
-p11-kit	p11-kit
-p11-trust	p11-kit
+p11-kit	os-core
+p11-trust	os-core
 p11tool	cryptography
 pacat	pulseaudio
 pacdiscovery	os-core-webproxy
@@ -5065,7 +5075,7 @@ slattach	network-basic
 slaves.sh	big-data-basic
 sleep	os-core
 slencheck	database-basic-dev
-sln	sysadmin-basic
+sln	python-extras
 sload.f2fs	os-testsuite-0day
 slsh	os-core-dev
 slugify	domotica
@@ -5146,6 +5156,7 @@ snmpwalk	performance-tools
 soapsuds	mono
 socat	sysadmin-basic
 soelim	man-pages
+soffice	libreoffice
 solid-action-desktop-gen	desktop-kde
 solid-hardware5	kde-frameworks5
 sort	os-core
@@ -5685,7 +5696,7 @@ trietool-0.2	devpkg-libdatrie
 troff	man-pages
 true	os-core
 truncate	os-core
-trust	p11-kit
+trust	os-core
 ts	os-testsuite-0day
 tset	sysadmin-basic
 tshark	wireshark
@@ -5768,6 +5779,7 @@ unlink	os-core
 unlz4	lz4
 unlzma	xz
 unmunch	kde-frameworks5-dev
+unopkg	libreoffice
 unpack200	java-runtime
 unpack20011	java11-basic
 unpack2009	java9-basic
@@ -5787,7 +5799,7 @@ update-helper	os-core-update
 update-mime-database	devpkg-shared-mime-info
 update-pciids	sysadmin-basic
 update-smart-drivedb	smartmontools
-updatedb	findutils
+updatedb	os-core
 updateinfoxml2solv	devpkg-libsolv
 updmap	texlive
 updmap-sys	texlive
@@ -6124,7 +6136,7 @@ xapian-progsrv	devpkg-xapian-core
 xapian-replicate	devpkg-xapian-core
 xapian-replicate-server	devpkg-xapian-core
 xapian-tcpsrv	devpkg-xapian-core
-xargs	findutils
+xargs	os-core
 xastir	amateur-radio
 xastir_udp_client	amateur-radio
 xattr	openstack-common
