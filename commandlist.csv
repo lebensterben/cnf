@@ -620,6 +620,7 @@ cinder-manage	openstack-common
 cinder-rootwrap	openstack-common
 cinder-rtstool	openstack-common
 cinder-scheduler	openstack-common
+cinder-status	openstack-common
 cinder-volume	openstack-common
 cinder-volume-usage-audit	openstack-common
 cinder-wsgi	openstack-common
