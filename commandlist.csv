@@ -562,7 +562,7 @@ cgset	devpkg-libcgroup
 cgsnapshot	devpkg-libcgroup
 chacl	acl
 chage	os-core
-chat	desktop-dev
+chat	games-dev
 chattr	os-core
 chcon	os-core
 chcpu	os-core
@@ -1691,7 +1691,7 @@ glib-genmarshal	firmware-update
 glib-gettextize	firmware-update
 glib-mkenums	firmware-update
 glilypond	man-pages
-glinfo	os-utils-gui
+glinfo	os-testsuite-phoronix-desktop
 glmark2	glmark2
 glmark2-drm	glmark2
 glmark2-es2	glmark2
@@ -1701,7 +1701,7 @@ glmark2-wayland	glmark2
 global	global
 globash	global
 glslangValidator	developer-gpu
-glsync	os-utils-gui
+glsync	os-testsuite-phoronix-desktop
 gluster	storage-cluster
 gluster-eventsapi	storage-cluster
 gluster-georep-sshkey	storage-cluster
@@ -1712,8 +1712,8 @@ glustereventsd	storage-cluster
 glusterfind	storage-cluster
 glusterfs	storage-cluster
 glusterfsd	storage-cluster
-glxgears	os-utils-gui
-glxinfo	os-utils-gui
+glxgears	os-testsuite-phoronix-desktop
+glxinfo	os-testsuite-phoronix-desktop
 gmake	make
 gmenudbusmenuproxy	desktop-kde
 gmic	desktop-apps-extras
@@ -3253,8 +3253,8 @@ mash	koji
 masktest	samba
 match_parens	texlive
 mathspic	texlive
-mbim-network	desktop-dev
-mbimcli	desktop-dev
+mbim-network	games-dev
+mbimcli	games-dev
 mbstream	mariadb
 mc	sysadmin-basic
 mcdiff	sysadmin-basic
@@ -4353,9 +4353,9 @@ pphs	desktop
 ppltotf	texlive
 ppm2tiff	devpkg-tiff
 ppmtolss16	syslinux
-pppd	desktop-dev
-pppdump	desktop-dev
-pppstats	desktop-dev
+pppd	games-dev
+pppdump	games-dev
+pppstats	games-dev
 pprof	devpkg-gperftools
 pprof2calltree	kcachegrind
 pr	os-core
@@ -4557,9 +4557,9 @@ qgltf	qt-basic
 qhelpgenerator	devpkg-qttools
 qlalr	editors-dev
 qmake	editors-dev
-qmi-firmware-update	desktop-dev
-qmi-network	desktop-dev
-qmicli	desktop-dev
+qmi-firmware-update	games-dev
+qmi-network	games-dev
+qmicli	games-dev
 qml	qt-basic
 qmlcachegen	devpkg-qtdeclarative
 qmleasing	devpkg-qtdeclarative
