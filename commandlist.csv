@@ -1219,7 +1219,7 @@ elinks	network-basic
 elixir	openstack-common
 elixirc	openstack-common
 emacs	emacs
-emacs-26.1	emacs
+emacs-26.2	emacs
 emacsclient	emacs
 enc2xs	perl-basic
 encguess	perl-basic
@@ -1509,7 +1509,7 @@ gacutil2	mono
 gamma4scanimage	desktop-dev
 gapplication	firmware-update
 gawk	os-core
-gawk-4.2.1	os-core
+gawk-5.0.0	os-core
 gbklatex	texlive
 gbkpdflatex	texlive
 gc	graphviz
