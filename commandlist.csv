@@ -466,7 +466,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	python-extras
+catchsegv	sysadmin-basic
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -2919,7 +2919,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	python-extras
+ldd	sysadmin-basic
 lddlibc4	lib-opengl
 ldmd2	d-basic
 lensfun-add-adapter	desktop-dev
@@ -4903,15 +4903,15 @@ sclient	enterprise-login
 scmp_sys_resolver	file
 scncopy	dev-utils
 scons	scons
-scons-3.0.4	scons
-scons-3.0.4.bat	scons
+scons-3.0.5	scons
+scons-3.0.5.bat	scons
 scons-configure-cache	scons
-scons-configure-cache-3.0.4	scons
+scons-configure-cache-3.0.5	scons
 scons-time	scons
-scons-time-3.0.4	scons
+scons-time-3.0.5	scons
 scons.bat	scons
 sconsign	scons
-sconsign-3.0.4	scons
+sconsign-3.0.5	scons
 scor2prt	texlive
 scp	openssh-server
 screen	sysadmin-basic
@@ -5130,7 +5130,7 @@ slattach	net-tools
 slaves.sh	big-data-basic
 sleep	os-core
 slencheck	database-basic-dev
-sln	python-extras
+sln	sysadmin-basic
 sload.f2fs	os-testsuite-0day
 slsh	os-core-dev
 slugify	domotica
