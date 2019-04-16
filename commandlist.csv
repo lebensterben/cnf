@@ -3141,6 +3141,7 @@ lvcreate	boot-encrypted
 lvdisplay	boot-encrypted
 lvextend	boot-encrypted
 lvm	boot-encrypted
+lvm-cache-stats	sysadmin-remote
 lvmconf	boot-encrypted
 lvmconfig	boot-encrypted
 lvmdiskscan	boot-encrypted
