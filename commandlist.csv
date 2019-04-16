@@ -2623,7 +2623,7 @@ kbookmarkmerger	desktop-kde-apps
 kbounce	desktop-kde-games
 kbreakout	desktop-kde-games
 kbroadcastnotification	desktop-kde
-kbruch	education-primary
+kbruch	desktop-kde-games
 kbuildsycoca5	kde-frameworks5
 kbxutil	cryptography
 kcachegrind	kcachegrind
@@ -2721,7 +2721,7 @@ khangman	education-preschool
 khelpcenter	desktop-kde-apps
 kibitz	tcl-basic
 kiconfinder5	kde-frameworks5
-kig	education-primary
+kig	desktop-kde-games
 kigo	desktop-kde-games
 kill	os-core
 kill_instance	cloud-api
@@ -2836,7 +2836,7 @@ ktp-debugger	desktop-kde-apps
 ktraderclient5	desktop-kde
 ktrash5	kde-frameworks5
 ktuberling	education-preschool
-kturtle	education-primary
+kturtle	education-tertiary
 ktutil	enterprise-login
 kubeadm	cloud-native-basic
 kubectl	cloud-native-basic
@@ -2853,7 +2853,7 @@ kwatchgnupg	kleopatra
 kwikdisk	desktop-kde-apps
 kwin_wayland	desktop-kde
 kwin_x11	desktop-kde
-kwordquiz	education-primary
+kwordquiz	desktop-kde-games
 kwrapper5	desktop-kde
 kwrite	kate
 kwriteconfig5	kde-frameworks5
@@ -3243,8 +3243,8 @@ manual-proxy-test	os-core-webproxy
 map	perl-extras
 mapred	big-data-basic
 mapscrn	kbd
-marble	education-primary
-marble-qt	education-primary
+marble	education-tertiary
+marble-qt	education-tertiary
 marcdump	perl-extras
 mariabackup	mariadb
 mariadb_config	mariadb
@@ -4077,7 +4077,7 @@ parallel	parallel
 parcat	parallel
 parec	pulseaudio
 parecord	pulseaudio
-parley	education-primary
+parley	desktop-kde-games
 parse.f2fs	os-testsuite-0day
 parse_xsd2.py	openstack-common
 parset	parallel
@@ -4497,7 +4497,7 @@ pygtk-codegen-2.0	maker-cnc
 pygtk-demo	maker-cnc
 pyhs100	domotica
 pyjwt	domotica
-pykig.py	education-primary
+pykig.py	desktop-kde-games
 pylint	computer-vision-models
 pylupdate5	maker-3dprinting
 pyozw_check	domotica
