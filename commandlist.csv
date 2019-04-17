@@ -1,4 +1,4 @@
-2to3	python2-basic
+2to3	network-basic
 2to3-3.7	python3-basic
 3rd-party-post	clr-user-bundles
 4channels	devpkg-LibRaw
@@ -1365,7 +1365,7 @@ fdtdump	dtc
 fdtget	dtc
 fdtoverlay	dtc
 fdtput	dtc
-feh	desktop-awesome
+feh	desktop-i3
 fetch_file	cloud-api
 fetchmail	mail-utils
 ffsb	ltp
@@ -2197,7 +2197,7 @@ identify	ImageMagick
 idiag-socket-details	libnl
 idiff	blender
 idl2wrs	wireshark
-idle	python2-basic
+idle	network-basic
 idle3	python3-basic
 idle3.7	python3-basic
 idlj	java-runtime
@@ -3708,7 +3708,7 @@ nfsconf	nfs-utils
 nfsdcltrack	nfs-utils
 nfsidmap	nfs-utils
 nfsstat	nfs-utils
-nft	network-basic
+nft	devpkg-nftables
 nftl_format	mtd-utils
 nftldump	mtd-utils
 ngettext	kvm-host
@@ -4102,9 +4102,9 @@ pavucontrol	desktop-apps
 pax11publish	pulseaudio
 pbibtex	texlive
 pbr	cloud-api
-pbunzip2	os-testsuite-phoronix-server
-pbzcat	os-testsuite-phoronix-server
-pbzip2	os-testsuite-phoronix-server
+pbunzip2	os-testsuite-phoronix-desktop
+pbzcat	os-testsuite-phoronix-desktop
+pbzip2	os-testsuite-phoronix-desktop
 pcal	perl-extras
 pcap-config	devpkg-libpcap
 pcasc	maker-basic
@@ -4116,6 +4116,8 @@ pcre2grep	devpkg-pcre2
 pcre2test	devpkg-pcre2
 pcregrep	devpkg-pcre
 pcretest	devpkg-pcre
+pcsc-spy	cryptography
+pcscd	cryptography
 pcxm	maker-basic
 pcym	maker-basic
 pczm	maker-basic
@@ -4240,7 +4242,7 @@ phar	php-basic
 phar.phar	php-basic
 phc2sys	time-server-basic
 phc_ctl	time-server-basic
-phoronix-test-suite	os-testsuite-phoronix-server
+phoronix-test-suite	os-testsuite-phoronix-desktop
 php	php-basic
 php-cgi	php-basic
 php-config	php-basic
@@ -4442,7 +4444,7 @@ ptargrep	perl-basic
 ptex	texlive
 ptex2pdf	texlive
 ptftopl	texlive
-pth-config	os-testsuite-phoronix-server
+pth-config	os-testsuite-phoronix-desktop
 ptiptop	performance-tools
 ptp4l	time-server-basic
 ptsematest	dev-utils
@@ -4484,7 +4486,7 @@ pycam	maker-cnc
 pycam-cli	maker-cnc
 pycc	python-data-science
 pycodestyle	python3-basic
-pydoc	python2-basic
+pydoc	network-basic
 pydoc3	python3-basic
 pydoc3.7	python3-basic
 pydocstyle	python-extras
@@ -4522,16 +4524,19 @@ pyrsa-priv2pub	cloud-api
 pyrsa-sign	cloud-api
 pyrsa-verify	cloud-api
 pyscss	django
+pyside2-lupdate	python-qt
+pyside2-rcc	python-qt
+pyside2-uic	python-qt
 pyspark	big-data-basic
 pytest	python-extras
 python	python3-basic
 python-argcomplete-check-easy-install-script	diffoscope
 python-argcomplete-tcsh	diffoscope
-python-config	python2-basic
-python2	python2-basic
-python2-config	python2-basic
+python-config	network-basic
+python2	network-basic
+python2-config	network-basic
 python2.7	python2-basic
-python2.7-config	python2-basic
+python2.7-config	network-basic
 python3	python3-basic
 python3-config	python3-basic
 python3.7	python3-basic
@@ -4759,8 +4764,8 @@ rmiregistry11	java11-basic
 rmiregistry9	java9-basic
 rmmod	os-core
 rnano	os-core
-rngd	cryptography
-rngtest	cryptography
+rngd	kernel-aws
+rngtest	kernel-aws
 roff2dvi	man-pages
 roff2html	man-pages
 roff2pdf	man-pages
@@ -5081,6 +5086,7 @@ shar	sysadmin-basic
 sharesec	samba
 sharkd	wireshark
 shasum	perl-basic
+shiboken2	python-qt
 shmemcc	openmpi
 shmemfort	openmpi
 shmemrun	openmpi
@@ -5177,7 +5183,7 @@ sminfo	hpc-utils
 smispy_lsmplugin	sysadmin-remote
 smpdump	hpc-utils
 smpquery	hpc-utils
-smtpd.py	python2-basic
+smtpd.py	network-basic
 sn	mono
 snap_scheduler.py	storage-cluster
 snd2png	openqa
