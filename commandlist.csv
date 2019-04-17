@@ -4116,7 +4116,6 @@ pcre2grep	devpkg-pcre2
 pcre2test	devpkg-pcre2
 pcregrep	devpkg-pcre
 pcretest	devpkg-pcre
-pcsc-spy	cryptography
 pcscd	cryptography
 pcxm	maker-basic
 pcym	maker-basic
@@ -4764,8 +4763,8 @@ rmiregistry11	java11-basic
 rmiregistry9	java9-basic
 rmmod	os-core
 rnano	os-core
-rngd	kernel-aws
-rngtest	kernel-aws
+rngd	cryptography
+rngtest	cryptography
 roff2dvi	man-pages
 roff2html	man-pages
 roff2pdf	man-pages
