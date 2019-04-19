@@ -466,7 +466,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	sysadmin-basic
+catchsegv	python-extras
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -1691,7 +1691,7 @@ glib-genmarshal	firmware-update
 glib-gettextize	firmware-update
 glib-mkenums	firmware-update
 glilypond	man-pages
-glinfo	os-utils-gui
+glinfo	os-testsuite-phoronix-desktop
 glmark2	glmark2
 glmark2-drm	glmark2
 glmark2-es2	glmark2
@@ -1701,7 +1701,7 @@ glmark2-wayland	glmark2
 global	global
 globash	global
 glslangValidator	developer-gpu
-glsync	os-utils-gui
+glsync	os-testsuite-phoronix-desktop
 gluster	storage-cluster
 gluster-eventsapi	storage-cluster
 gluster-georep-sshkey	storage-cluster
@@ -1712,8 +1712,8 @@ glustereventsd	storage-cluster
 glusterfind	storage-cluster
 glusterfs	storage-cluster
 glusterfsd	storage-cluster
-glxgears	os-utils-gui
-glxinfo	os-utils-gui
+glxgears	os-testsuite-phoronix-desktop
+glxinfo	os-testsuite-phoronix-desktop
 gmake	make
 gmenudbusmenuproxy	desktop-kde
 gmic	desktop-apps-extras
@@ -2919,7 +2919,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	sysadmin-basic
+ldd	python-extras
 lddlibc4	lib-opengl
 ldmd2	d-basic
 lensfun-add-adapter	desktop-dev
@@ -5145,7 +5145,7 @@ slattach	net-tools
 slaves.sh	big-data-basic
 sleep	os-core
 slencheck	database-basic-dev
-sln	sysadmin-basic
+sln	python-extras
 sload.f2fs	os-testsuite-0day
 slsh	os-core-dev
 slugify	domotica
