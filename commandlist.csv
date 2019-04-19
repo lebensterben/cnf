@@ -1691,7 +1691,7 @@ glib-genmarshal	firmware-update
 glib-gettextize	firmware-update
 glib-mkenums	firmware-update
 glilypond	man-pages
-glinfo	os-testsuite-phoronix-desktop
+glinfo	os-utils-gui
 glmark2	glmark2
 glmark2-drm	glmark2
 glmark2-es2	glmark2
@@ -1701,7 +1701,7 @@ glmark2-wayland	glmark2
 global	global
 globash	global
 glslangValidator	developer-gpu
-glsync	os-testsuite-phoronix-desktop
+glsync	os-utils-gui
 gluster	storage-cluster
 gluster-eventsapi	storage-cluster
 gluster-georep-sshkey	storage-cluster
@@ -1712,8 +1712,8 @@ glustereventsd	storage-cluster
 glusterfind	storage-cluster
 glusterfs	storage-cluster
 glusterfsd	storage-cluster
-glxgears	os-testsuite-phoronix-desktop
-glxinfo	os-testsuite-phoronix-desktop
+glxgears	os-utils-gui
+glxinfo	os-utils-gui
 gmake	make
 gmenudbusmenuproxy	desktop-kde
 gmic	desktop-apps-extras
@@ -2623,7 +2623,7 @@ kbookmarkmerger	desktop-kde-apps
 kbounce	desktop-kde-games
 kbreakout	desktop-kde-games
 kbroadcastnotification	desktop-kde
-kbruch	desktop-kde-games
+kbruch	education-primary
 kbuildsycoca5	kde-frameworks5
 kbxutil	cryptography
 kcachegrind	kcachegrind
@@ -2712,7 +2712,7 @@ kfontview	desktop-kde
 kfourinline	desktop-kde-games
 kfourinlineproc	desktop-kde-games
 kgendesignerplugin	containers-basic-dev
-kgeography	desktop-kde-apps
+kgeography	education-primary
 kget	desktop-kde-apps
 kglobalaccel5	desktop-kde
 kgoldrunner	desktop-kde-games
@@ -2721,7 +2721,7 @@ khangman	education-preschool
 khelpcenter	desktop-kde-apps
 kibitz	tcl-basic
 kiconfinder5	kde-frameworks5
-kig	desktop-kde-games
+kig	education-primary
 kigo	desktop-kde-games
 kill	os-core
 kill_instance	cloud-api
@@ -2753,8 +2753,8 @@ kmimetypefinder5	desktop-kde
 kmines	desktop-kde-games
 kmod	os-core
 kmousetool	desktop-kde-apps
-kmouth	desktop-kde-apps
-kmplot	desktop-kde-apps
+kmouth	desktop-kde-games
+kmplot	education-primary
 kms.sh	big-data-basic
 knavalbattle	desktop-kde-games
 knetattach	desktop-kde
@@ -2806,8 +2806,8 @@ kruler	desktop-kde-games
 krunner	desktop-kde
 ks	cloud-native-basic
 ksba-config	containers-basic-dev
-kscreen-console	desktop-kde-apps
-kscreen-doctor	desktop-kde-apps
+kscreen-console	desktop-kde
+kscreen-doctor	desktop-kde
 kshell5	desktop-kde
 kshisen	desktop-kde-games
 ksirk	desktop-kde-games
@@ -2836,7 +2836,7 @@ ktp-debugger	desktop-kde-apps
 ktraderclient5	desktop-kde
 ktrash5	kde-frameworks5
 ktuberling	education-preschool
-kturtle	education-tertiary
+kturtle	education-primary
 ktutil	enterprise-login
 kubeadm	cloud-native-basic
 kubectl	cloud-native-basic
@@ -2853,7 +2853,7 @@ kwatchgnupg	kleopatra
 kwikdisk	desktop-kde-apps
 kwin_wayland	desktop-kde
 kwin_x11	desktop-kde
-kwordquiz	desktop-kde-games
+kwordquiz	education-primary
 kwrapper5	desktop-kde
 kwrite	kate
 kwriteconfig5	kde-frameworks5
@@ -3122,7 +3122,7 @@ lua5.2	lua-basic
 luac	lua-basic
 luac5.2	lua-basic
 luajit	lua-basic
-luajit-2.0.5	lua-basic
+luajit-2.1.0-beta3	lua-basic
 luajittex	texlive
 lualatex	texlive
 luaotfload-tool	texlive
@@ -3244,8 +3244,8 @@ manual-proxy-test	os-core-webproxy
 map	perl-extras
 mapred	big-data-basic
 mapscrn	kbd
-marble	education-tertiary
-marble-qt	education-tertiary
+marble	education-primary
+marble-qt	education-primary
 marcdump	perl-extras
 mariabackup	mariadb
 mariadb_config	mariadb
@@ -4046,8 +4046,8 @@ ovsdb-client	openvswitch
 ovsdb-server	openvswitch
 ovsdb-tool	openvswitch
 ownership	sysadmin-basic
-oxygen-demo5	desktop-kde-apps
-oxygen-settings5	desktop-kde-apps
+oxygen-demo5	desktop-kde
+oxygen-settings5	desktop-kde
 p11-kit	p11-kit
 p11-trust	p11-kit
 p11tool	cryptography
@@ -4078,7 +4078,7 @@ parallel	parallel
 parcat	parallel
 parec	pulseaudio
 parecord	pulseaudio
-parley	desktop-kde-games
+parley	education-primary
 parse.f2fs	os-testsuite-0day
 parse_xsd2.py	openstack-common
 parset	parallel
@@ -4329,7 +4329,7 @@ png2mng.pl	desktop-kde-apps
 pngfix	devpkg-libpng
 pngtogd	devpkg-libgd
 pngtogd2	devpkg-libgd
-po2xml	desktop-kde-apps
+po2xml	desktop-kde-games
 pod2html	perl-basic
 pod2latex	perl-extras
 pod2man	perl-basic
@@ -4499,7 +4499,7 @@ pygtk-codegen-2.0	maker-cnc
 pygtk-demo	maker-cnc
 pyhs100	domotica
 pyjwt	domotica
-pykig.py	desktop-kde-games
+pykig.py	education-primary
 pylint	computer-vision-models
 pylupdate5	maker-3dprinting
 pyozw_check	domotica
@@ -5270,7 +5270,7 @@ spirv-stats	developer-gpu
 spirv-val	developer-gpu
 splain	perl-basic
 split	os-core
-split2po	desktop-kde-apps
+split2po	desktop-kde-games
 splitdiff	dev-utils
 splitindex	texlive
 sponge	os-testsuite-0day
@@ -5404,7 +5404,7 @@ svsematest	dev-utils
 swaplabel	os-core
 swapoff	os-core
 swapon	os-core
-swappo	desktop-kde-apps
+swappo	desktop-kde-games
 sweeper	desktop-kde-games
 swift	openstack-common
 swift-account-audit	openstack-common
@@ -6324,7 +6324,7 @@ xlog	amateur-radio
 xminicom	minicom
 xml	os-clr-on-clr
 xml2-config	libxml2
-xml2pot	desktop-kde-apps
+xml2pot	desktop-kde-games
 xml2stems	gtkwave
 xml_grep	perl-extras
 xml_merge	perl-extras
