@@ -1159,7 +1159,7 @@ dumpcap	wireshark
 dumpe2fs	storage-utils
 dumpkeys	kbd
 dumpmscat	samba
-dumpsexp	os-core-dev
+dumpsexp	devpkg-libgcrypt
 dumpsolv	devpkg-libsolv
 dumresp	pdns
 duperemove	duperemove
@@ -2038,7 +2038,7 @@ hexinfo.py	python-extras
 hexmerge.py	python-extras
 hg	mercurial
 hg-ssh	mercurial
-hmac256	os-core-dev
+hmac256	devpkg-libgcrypt
 hmaptool	llvm
 host	clr-network-troubleshooter
 hostid	os-core
@@ -2974,7 +2974,7 @@ libassuan-config	devpkg-libassuan
 libdeps.py	os-clr-on-clr
 libevdev-tweak-device	devpkg-libevdev
 libftdi1-config	maker-basic
-libgcrypt-config	os-core-dev
+libgcrypt-config	devpkg-libgcrypt
 libgtop_daemon2	devpkg-libgtop
 libgtop_server2	devpkg-libgtop
 libinput	desktop
@@ -3518,7 +3518,7 @@ mpg123-id3dump	mpg123
 mpg123-strip	mpg123
 mpiCC	openmpi
 mpic++	openmpi
-mpicalc	os-core-dev
+mpicalc	devpkg-libgcrypt
 mpicc	openmpi
 mpicxx	openmpi
 mpiexec	openmpi
