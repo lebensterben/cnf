@@ -488,7 +488,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	python-extras
+catchsegv	sysadmin-basic
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -1067,10 +1067,13 @@ dnsreplay	pdns
 dnsscan	pdns
 dnsscope	pdns
 dnssec-cds	clr-network-troubleshooter
+dnssec-checkds	clr-network-troubleshooter
+dnssec-coverage	clr-network-troubleshooter
 dnssec-dsfromkey	clr-network-troubleshooter
 dnssec-importkey	clr-network-troubleshooter
 dnssec-keyfromlabel	clr-network-troubleshooter
 dnssec-keygen	clr-network-troubleshooter
+dnssec-keymgr	clr-network-troubleshooter
 dnssec-revoke	clr-network-troubleshooter
 dnssec-settime	clr-network-troubleshooter
 dnssec-signzone	clr-network-troubleshooter
@@ -2955,7 +2958,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	python-extras
+ldd	sysadmin-basic
 lddlibc4	llvm
 ldmd2	d-basic
 lensfun-add-adapter	desktop-dev
@@ -4590,7 +4593,7 @@ qdistancefieldgenerator	devpkg-qttools
 qemu-edid	kvm-host
 qemu-ga	qemu-guest-additions
 qemu-i386	kvm-host
-qemu-img	clr-installer
+qemu-img	kvm-host
 qemu-io	kvm-host
 qemu-keymap	kvm-host
 qemu-nbd	kvm-host
@@ -5180,7 +5183,7 @@ slcand	automotive-tools
 slcanpty	automotive-tools
 sleep	os-core
 slencheck	database-basic-dev
-sln	python-extras
+sln	sysadmin-basic
 sload.f2fs	os-testsuite-0day
 slsh	os-core-dev
 slugify	domotica
