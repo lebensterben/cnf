@@ -488,7 +488,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	sysadmin-basic
+catchsegv	python-extras
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -950,6 +950,7 @@ decode-vaio	os-testsuite-0day
 decode_aprs	amateur-radio
 decode_tm6000	v4l-utils
 decryptdir	tcl-basic
+defconfig	service-os-dev
 defrag.f2fs	os-testsuite-0day
 dehtmldiff	dev-utils
 delpart	os-core
@@ -2751,7 +2752,7 @@ kfontview	desktop-kde
 kfourinline	desktop-kde-games
 kfourinlineproc	desktop-kde-games
 kgendesignerplugin	containers-basic-dev
-kgeography	education-primary
+kgeography	desktop-kde-apps
 kget	desktop-kde-apps
 kglobalaccel5	desktop-kde
 kgoldrunner	desktop-kde-games
@@ -2792,8 +2793,8 @@ kmimetypefinder5	desktop-kde
 kmines	desktop-kde-games
 kmod	os-core
 kmousetool	desktop-kde-apps
-kmouth	desktop-kde-games
-kmplot	education-primary
+kmouth	desktop-kde-apps
+kmplot	desktop-kde-apps
 kms.sh	big-data-basic
 knavalbattle	desktop-kde-games
 knetattach	desktop-kde
@@ -2958,8 +2959,8 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	sysadmin-basic
-lddlibc4	llvm
+ldd	python-extras
+lddlibc4	os-core-legacy
 ldmd2	d-basic
 lensfun-add-adapter	desktop-dev
 lensfun-update-data	desktop-dev
@@ -4368,7 +4369,7 @@ png2mng.pl	desktop-kde-apps
 pngfix	devpkg-libpng
 pngtogd	devpkg-libgd
 pngtogd2	devpkg-libgd
-po2xml	desktop-kde-games
+po2xml	desktop-kde-apps
 pod2html	perl-basic
 pod2latex	perl-extras
 pod2man	perl-basic
@@ -5183,7 +5184,7 @@ slcand	automotive-tools
 slcanpty	automotive-tools
 sleep	os-core
 slencheck	database-basic-dev
-sln	sysadmin-basic
+sln	python-extras
 sload.f2fs	os-testsuite-0day
 slsh	os-core-dev
 slugify	domotica
@@ -5309,7 +5310,7 @@ spirv-stats	developer-gpu
 spirv-val	developer-gpu
 splain	perl-basic
 split	os-core
-split2po	desktop-kde-games
+split2po	desktop-kde-apps
 splitdiff	dev-utils
 splitindex	texlive
 sponge	os-testsuite-0day
@@ -5444,7 +5445,7 @@ svsematest	dev-utils
 swaplabel	os-core
 swapoff	os-core
 swapon	os-core
-swappo	desktop-kde-games
+swappo	desktop-kde-apps
 sweeper	desktop-kde-games
 swift	openstack-common
 swift-account-audit	openstack-common
@@ -6366,7 +6367,7 @@ xlog	amateur-radio
 xminicom	minicom
 xml	os-clr-on-clr
 xml2-config	libxml2
-xml2pot	desktop-kde-games
+xml2pot	desktop-kde-apps
 xml2stems	gtkwave
 xml_grep	perl-extras
 xml_merge	perl-extras
@@ -6429,6 +6430,7 @@ xterm	xterm
 xtrace	os-core
 xvfb-run	x11-server
 xwd	x11-tools
+xwdrun	os-testsuite-graphics
 xwininfo	x11-tools
 xxd	vim
 xz	xz
