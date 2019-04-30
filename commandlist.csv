@@ -1400,6 +1400,8 @@ fdtput	dtc
 feh	desktop-i3
 fetch_file	cloud-api
 fetchmail	mail-utils
+ffmpeg	kde-frameworks5-dev
+ffplay	kde-frameworks5-dev
 ffsb	ltp
 fftw-wisdom	devpkg-fftw
 fftw-wisdom-to-conf	devpkg-fftw
@@ -2993,6 +2995,7 @@ libvirtd	kvm-host
 libwacom-list-local-devices	devpkg-libwacom
 lid	devpkg-libuser
 lightdm	lightdm
+lightdm-gtk-greeter	lightdm
 lightdm-session	lightdm
 lily-glyph-commands	texlive
 lily-image-commands	texlive
