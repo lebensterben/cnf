@@ -1,5 +1,5 @@
 2to3	network-basic
-2to3-3.7	c-basic
+2to3-3.7	python3-basic
 3rd-party-post	clr-user-bundles
 4channels	devpkg-LibRaw
 4dsphere	calc
@@ -1219,8 +1219,8 @@ e2pall	texlive
 e2undo	storage-utils
 e4crypt	os-core
 e4defrag	storage-utils
-easy_install	c-basic
-easy_install-3.7	c-basic
+easy_install	python3-basic
+easy_install-3.7	python3-basic
 easyaccess-test	desktop-kde
 ebb	texlive
 ebong	texlive
@@ -1365,9 +1365,9 @@ extractres	texlive
 f-engrave	maker-cnc
 f2fscrypt	os-testsuite-0day
 f2fstat	os-testsuite-0day
-f2py	jupyter
-f2py3	jupyter
-f2py3.7	jupyter
+f2py	python-extras
+f2py3	python-extras
+f2py3.7	python-extras
 f95	c-basic
 factor	os-core
 faillog	os-core
@@ -1761,7 +1761,6 @@ gnome-calculator	gnome-calculator
 gnome-calendar	desktop
 gnome-characters	gnome-characters
 gnome-control-center	desktop
-gnome-desktop-item-edit	desktop
 gnome-disk-image-mounter	gnome-disk-utility
 gnome-disks	gnome-disk-utility
 gnome-flashback	desktop
@@ -2234,8 +2233,8 @@ idiag-socket-details	libnl
 idiff	blender
 idl2wrs	wireshark
 idle	network-basic
-idle3	c-basic
-idle3.7	c-basic
+idle3	python3-basic
+idle3.7	python3-basic
 idlj	java-runtime
 idlj9	java9-basic
 idn	devpkg-libidn
@@ -2670,7 +2669,7 @@ kbookmarkmerger	desktop-kde-apps
 kbounce	desktop-kde-games
 kbreakout	desktop-kde-games
 kbroadcastnotification	desktop-kde
-kbruch	education-primary
+kbruch	desktop-kde-games
 kbuildsycoca5	kde-frameworks5
 kbxutil	cryptography
 kcachegrind	kcachegrind
@@ -2767,7 +2766,7 @@ khangman	education-preschool
 khelpcenter	desktop-kde-apps
 kibitz	tcl-basic
 kiconfinder5	kde-frameworks5
-kig	education-primary
+kig	desktop-kde-games
 kigo	desktop-kde-games
 kill	os-core
 kill_instance	cloud-api
@@ -2882,7 +2881,7 @@ ktp-debugger	desktop-kde-apps
 ktraderclient5	desktop-kde
 ktrash5	kde-frameworks5
 ktuberling	education-preschool
-kturtle	education-primary
+kturtle	desktop-kde-games
 ktutil	enterprise-login
 kubeadm	cloud-native-basic
 kubectl	cloud-native-basic
@@ -2899,7 +2898,7 @@ kwatchgnupg	kleopatra
 kwikdisk	desktop-kde-apps
 kwin_wayland	desktop-kde
 kwin_x11	desktop-kde
-kwordquiz	education-primary
+kwordquiz	desktop-kde-games
 kwrapper5	desktop-kde
 kwrite	kate
 kwriteconfig5	kde-frameworks5
@@ -3292,8 +3291,8 @@ manual-proxy-test	os-core-webproxy
 map	perl-extras
 mapred	big-data-basic
 mapscrn	kbd
-marble	education-primary
-marble-qt	education-primary
+marble	desktop-kde-games
+marble-qt	desktop-kde-games
 marcdump	perl-extras
 mariabackup	mariadb
 mariadb_config	mariadb
@@ -3640,8 +3639,10 @@ mypy	python-extras
 myrocks_hotbackup	mariadb
 mysql	mariadb
 mysql_client_test	mariadb
+mysql_client_test_embedded	mariadb
 mysql_config	mariadb
 mysql_convert_table_format	mariadb
+mysql_embedded	mariadb
 mysql_find_rows	mariadb
 mysql_fix_extensions	mariadb
 mysql_install_db	mariadb
@@ -3667,6 +3668,7 @@ mysqlimport	mariadb
 mysqlshow	mariadb
 mysqlslap	mariadb
 mysqltest	mariadb
+mysqltest_embedded	mariadb
 mytop	mariadb
 named-checkzone	clr-network-troubleshooter
 named-compilezone	clr-network-troubleshooter
@@ -4126,7 +4128,7 @@ parallel	parallel
 parcat	parallel
 parec	pulseaudio
 parecord	pulseaudio
-parley	education-primary
+parley	desktop-kde-games
 parse.f2fs	os-testsuite-0day
 parse_xsd2.py	openstack-common
 parset	parallel
@@ -4532,8 +4534,8 @@ pycam-cli	maker-cnc
 pycc	python-data-science
 pycodestyle	python3-basic
 pydoc	network-basic
-pydoc3	c-basic
-pydoc3.7	c-basic
+pydoc3	python3-basic
+pydoc3.7	python3-basic
 pydocstyle	python-extras
 pyflakes	django
 pyftmerge	fonttools
@@ -4545,7 +4547,7 @@ pygtk-codegen-2.0	maker-cnc
 pygtk-demo	maker-cnc
 pyhs100	domotica
 pyjwt	domotica
-pykig.py	education-primary
+pykig.py	desktop-kde-games
 pylint	computer-vision-models
 pylupdate5	maker-3dprinting
 pyozw_check	domotica
@@ -4583,16 +4585,16 @@ python2-config	network-basic
 python2.7	python2-basic
 python2.7-config	network-basic
 python3	python3-basic
-python3-config	c-basic
+python3-config	python3-basic
 python3.7	python3-basic
-python3.7-config	c-basic
-python3.7m	c-basic
-python3.7m-config	c-basic
+python3.7-config	python3-basic
+python3.7m	python3-basic
+python3.7m-config	python3-basic
 pythonprobe	devpkg-telemetrics-client
 pythontex	texlive
 pyuic5	maker-3dprinting
-pyvenv	c-basic
-pyvenv-3.7	c-basic
+pyvenv	python3-basic
+pyvenv-3.7	python3-basic
 qcollectiongenerator	qt-basic
 qdbus	qt-basic
 qdbuscpp2xml	editors-dev
