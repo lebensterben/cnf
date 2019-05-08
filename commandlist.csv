@@ -22,7 +22,7 @@ Magick++-config	ImageMagick
 MagickCore-config	ImageMagick
 MagickWand-config	ImageMagick
 Markdown.pl	perl-extras
-ModemManager	NetworkManager
+ModemManager	NetworkManager-extras
 MySQL	big-data-basic
 NetworkManager	NetworkManager
 R	R-basic
@@ -3448,7 +3448,7 @@ mm2gv	graphviz
 mmafm	texlive
 mmap-test	desktop-kde
 mmc-tool	os-utils-gui-dev
-mmcli	NetworkManager
+mmcli	NetworkManager-extras
 mmpfb	texlive
 mmroff	man-pages
 moc	editors-dev
@@ -3809,8 +3809,8 @@ nl-tctree-list	libnl
 nl-util-addr	libnl
 nload	nload
 nm	binutils
-nm-applet	NetworkManager
-nm-connection-editor	NetworkManager
+nm-applet	NetworkManager-extras
+nm-connection-editor	NetworkManager-extras
 nm-online	NetworkManager
 nmap	nmap
 nmbd	samba
@@ -4731,6 +4731,8 @@ redis-check-rdb	redis-native
 redis-cli	redis-native
 redis-sentinel	redis-native
 redis-server	redis-native
+redshift	redshift
+redshift-gtk	redshift
 redsocks	network-basic
 refer	man-pages
 refresh-namenodes.sh	big-data-basic
