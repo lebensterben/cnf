@@ -214,7 +214,7 @@ asciidoc.py	dev-utils
 asciinema	productivity
 aseqdump	alsa-utils
 aseqnet	alsa-utils
-aserver	devpkg-alsa-lib
+aserver	thunderbird
 asn1Coding	devpkg-libtasn1
 asn1Decoding	devpkg-libtasn1
 asn1Parser	devpkg-libtasn1
@@ -489,7 +489,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	sysadmin-basic
+catchsegv	python-extras
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -1329,6 +1329,7 @@ evince	evince
 evince-previewer	evince
 evince-thumbnailer	evince
 evolution	evolution
+evtest	x11-tools
 ex	vim
 exceltex	texlive
 execltp	ltp
@@ -2970,7 +2971,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	sysadmin-basic
+ldd	python-extras
 lddlibc4	os-core-legacy
 ldmd2	d-basic
 lensfun-add-adapter	desktop-dev
@@ -5203,7 +5204,7 @@ slcand	automotive-tools
 slcanpty	automotive-tools
 sleep	os-core
 slencheck	database-basic-dev
-sln	sysadmin-basic
+sln	python-extras
 sload.f2fs	os-testsuite-0day
 slsh	os-core-dev
 slugify	domotica
