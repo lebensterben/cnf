@@ -489,7 +489,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	python-extras
+catchsegv	sysadmin-basic
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -2971,7 +2971,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	python-extras
+ldd	sysadmin-basic
 lddlibc4	os-core-legacy
 ldmd2	d-basic
 lensfun-add-adapter	desktop-dev
@@ -4128,8 +4128,8 @@ pam_timestamp_check	os-core
 pamon	pulseaudio
 pandoc	os-testsuite-0day
 pandoc-citeproc	os-testsuite-0day
-pango-list	devpkg-pango
-pango-view	devpkg-pango
+pango-list	firefox
+pango-view	firefox
 paplay	pulseaudio
 parallel	parallel
 parcat	parallel
@@ -5204,7 +5204,7 @@ slcand	automotive-tools
 slcanpty	automotive-tools
 sleep	os-core
 slencheck	database-basic-dev
-sln	python-extras
+sln	sysadmin-basic
 sload.f2fs	os-testsuite-0day
 slsh	os-core-dev
 slugify	domotica
@@ -6526,6 +6526,7 @@ zrun	os-testsuite-0day
 zsh	zsh
 zsh-5.7.1	zsh
 zstd	zstd
+zstd-frugal	zstd
 zstdcat	zstd
 zstdgrep	zstd
 zstdless	zstd
