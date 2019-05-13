@@ -489,7 +489,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	sysadmin-basic
+catchsegv	python-extras
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -1218,6 +1218,8 @@ e2image	storage-utils
 e2label	os-core
 e2mmpstatus	os-core
 e2pall	texlive
+e2scrub	os-core
+e2scrub_all	os-core
 e2undo	storage-utils
 e4crypt	os-core
 e4defrag	storage-utils
@@ -1658,9 +1660,9 @@ gdk-pixbuf-pixdata	firefox
 gdk-pixbuf-query-loaders	firefox
 gdk-pixbuf-thumbnailer	firefox
 gdlib-config	devpkg-libgd
-gdm	desktop-enlightenment
-gdm-screenshot	desktop-enlightenment
-gdmflexiserver	desktop-enlightenment
+gdm	desktop
+gdm-screenshot	desktop
+gdmflexiserver	desktop
 gdparttopng	devpkg-libgd
 gdtopng	devpkg-libgd
 geany	geany
@@ -3017,7 +3019,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	sysadmin-basic
+ldd	python-extras
 lddlibc4	os-core-legacy
 ldmd2	d-basic
 lensfun-add-adapter	desktop-dev
@@ -4205,9 +4207,9 @@ pavucontrol	desktop-apps
 pax11publish	pulseaudio
 pbibtex	texlive
 pbr	cloud-api
-pbunzip2	os-testsuite-phoronix-desktop
-pbzcat	os-testsuite-phoronix-desktop
-pbzip2	os-testsuite-phoronix-desktop
+pbunzip2	os-testsuite-phoronix-server
+pbzcat	os-testsuite-phoronix-server
+pbzip2	os-testsuite-phoronix-server
 pcal	perl-extras
 pcap-config	devpkg-libpcap
 pcasc	maker-basic
@@ -4344,7 +4346,7 @@ phar	php-basic
 phar.phar	php-basic
 phc2sys	time-server-basic
 phc_ctl	time-server-basic
-phoronix-test-suite	os-testsuite-phoronix-desktop
+phoronix-test-suite	os-testsuite-phoronix-server
 php	php-basic
 php-cgi	php-basic
 php-config	php-basic
@@ -4545,7 +4547,7 @@ ptargrep	perl-basic
 ptex	texlive
 ptex2pdf	texlive
 ptftopl	texlive
-pth-config	os-testsuite-phoronix-desktop
+pth-config	os-testsuite-phoronix-server
 ptiptop	performance-tools
 ptp4l	time-server-basic
 ptsematest	dev-utils
@@ -5250,7 +5252,7 @@ slcand	automotive-tools
 slcanpty	automotive-tools
 sleep	os-core
 slencheck	database-basic-dev
-sln	sysadmin-basic
+sln	python-extras
 sload.f2fs	os-testsuite-0day
 slsh	os-core-dev
 slugify	domotica
