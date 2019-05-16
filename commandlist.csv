@@ -489,7 +489,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	python-extras
+catchsegv	sysadmin-basic
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -602,7 +602,7 @@ checkcites	texlive
 checkgid	httpd
 checklistings	texlive
 checkmk	c-basic
-checksctp	devpkg-libsctp
+checksctp	devpkg-lksctp-tools
 cheese	cheese
 cheetah	koji
 cheetah-analyze	koji
@@ -1015,9 +1015,9 @@ distro	python-extras
 django-admin	django
 django-admin.py	django
 djpeg	devpkg-libjpeg-turbo
-dkms	kernel-lts2018-dkms
-dkms-new-kernel.sh	kernel-lts2018-dkms
-dkms-remove-old.sh	kernel-lts2018-dkms
+dkms	kernel-native-dkms
+dkms-new-kernel.sh	kernel-native-dkms
+dkms-remove-old.sh	kernel-native-dkms
 dlist_test	openstack-common
 dlltool	binutils
 dllwrap	binutils
@@ -3020,7 +3020,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	python-extras
+ldd	sysadmin-basic
 lddlibc4	os-core-legacy
 ldmd2	d-basic
 lensfun-add-adapter	desktop-dev
@@ -4179,8 +4179,8 @@ pam_timestamp_check	os-core
 pamon	pulseaudio
 pandoc	os-testsuite-0day
 pandoc-citeproc	os-testsuite-0day
-pango-list	devpkg-pango
-pango-view	devpkg-pango
+pango-list	firefox
+pango-view	firefox
 paplay	pulseaudio
 parallel	parallel
 parcat	parallel
@@ -5049,9 +5049,9 @@ scsi_satl	openstack-common
 scsi_start	openstack-common
 scsi_stop	openstack-common
 scsi_temperature	openstack-common
-sctp_darn	devpkg-libsctp
-sctp_status	devpkg-libsctp
-sctp_test	devpkg-libsctp
+sctp_darn	devpkg-lksctp-tools
+sctp_status	devpkg-lksctp-tools
+sctp_test	devpkg-lksctp-tools
 scummvm	games
 sdbadmin	cloud-api
 sddm	desktop-kde
@@ -5255,7 +5255,7 @@ slcand	automotive-tools
 slcanpty	automotive-tools
 sleep	os-core
 slencheck	database-basic-dev
-sln	python-extras
+sln	sysadmin-basic
 sload.f2fs	os-testsuite-0day
 slsh	os-core-dev
 slugify	domotica
@@ -6265,7 +6265,7 @@ wipefs	os-core
 wireshark	wireshark
 wish	tcl-basic
 wish8.6	tcl-basic
-withsctp	devpkg-libsctp
+withsctp	devpkg-lksctp-tools
 wlfreerdp	pidgin
 wmc	wine
 wnck-urgency-monitor	os-utils-gui-dev
