@@ -1,5 +1,5 @@
 2to3	network-basic
-2to3-3.7	c-basic
+2to3-3.7	python3-basic
 3rd-party-post	clr-user-bundles
 4channels	devpkg-LibRaw
 4dsphere	calc
@@ -489,7 +489,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	sysadmin-basic
+catchsegv	python-extras
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -1006,10 +1006,13 @@ direwolf	amateur-radio
 dirmngr	cryptography
 dirmngr-client	cryptography
 dirname	os-core
+disable-paste	sysadmin-basic
 disco	mono
 disdvi	texlive
 dislocate	tcl-basic
 display	ImageMagick
+display-buttons	sysadmin-basic
+display-coords	sysadmin-basic
 distribute-exclude.sh	big-data-basic
 distro	python-extras
 django-admin	django
@@ -1223,8 +1226,8 @@ e2scrub_all	os-core
 e2undo	storage-utils
 e4crypt	os-core
 e4defrag	storage-utils
-easy_install	c-basic
-easy_install-3.7	c-basic
+easy_install	python3-basic
+easy_install-3.7	python3-basic
 easyaccess-test	devpkg-exiv2
 ebb	texlive
 ebong	texlive
@@ -1701,6 +1704,7 @@ gentest	samba
 gentrigrams	kde-frameworks5
 genxs	mono
 geotag	devpkg-exiv2
+get-versions	sysadmin-basic
 get_device	openstack-common
 get_driver	openstack-common
 get_module	openstack-common
@@ -1780,7 +1784,7 @@ glib-genmarshal	firmware-update
 glib-gettextize	firmware-update
 glib-mkenums	firmware-update
 glilypond	man-pages
-glinfo	os-testsuite-phoronix-desktop
+glinfo	os-utils-gui
 glmark2	glmark2
 glmark2-drm	glmark2
 glmark2-es2	glmark2
@@ -1790,7 +1794,7 @@ glmark2-wayland	glmark2
 global	global
 globash	global
 glslangValidator	developer-gpu
-glsync	os-testsuite-phoronix-desktop
+glsync	os-utils-gui
 gluster	storage-cluster
 gluster-eventsapi	storage-cluster
 gluster-georep-sshkey	storage-cluster
@@ -1801,8 +1805,8 @@ glustereventsd	storage-cluster
 glusterfind	storage-cluster
 glusterfs	storage-cluster
 glusterfsd	storage-cluster
-glxgears	os-testsuite-phoronix-desktop
-glxinfo	os-testsuite-phoronix-desktop
+glxgears	os-utils-gui
+glxinfo	os-utils-gui
 gmake	make
 gmenudbusmenuproxy	desktop-kde
 gmic	desktop-apps-extras
@@ -1887,6 +1891,8 @@ gphoto2	gphoto2
 gphoto2-config	devpkg-libgphoto2
 gphoto2-port-config	devpkg-libgphoto2
 gpinyin	man-pages
+gpm	sysadmin-basic
+gpm-root	sysadmin-basic
 gpredict	amateur-radio
 gprof	binutils
 gr2fonttest	devpkg-graphite
@@ -2100,6 +2106,7 @@ hexinfo.py	python-extras
 hexmerge.py	python-extras
 hg	mercurial
 hg-ssh	mercurial
+hltest	sysadmin-basic
 hmac256	devpkg-libgcrypt
 hmaptool	llvm
 host	clr-network-troubleshooter
@@ -2286,8 +2293,8 @@ idiag-socket-details	libnl
 idiff	blender
 idl2wrs	wireshark
 idle	network-basic
-idle3	c-basic
-idle3.7	c-basic
+idle3	python3-basic
+idle3.7	python3-basic
 idlj	java-runtime
 idlj9	java9-basic
 idn	devpkg-libidn
@@ -3020,7 +3027,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	sysadmin-basic
+ldd	python-extras
 lddlibc4	os-core-legacy
 ldmd2	d-basic
 lensfun-add-adapter	desktop-dev
@@ -3416,6 +3423,7 @@ metacity-theme-viewer	desktop
 metacity-window-demo	desktop
 metacopy	devpkg-exiv2
 metaflac	flac
+mev	sysadmin-basic
 mex	texlive
 mf	texlive
 mf-nowin	texlive
@@ -3577,6 +3585,7 @@ mount.sshfs	storage-utils
 mount.vmhgfs	os-cloudguest-vmware
 mountpoint	os-core
 mouse-dpi-tool	devpkg-libevdev
+mouse-test	sysadmin-basic
 mozroots	mono
 mpathpersist	storage-utils
 mpeg2vaenc	libva-utils
@@ -3746,7 +3755,7 @@ ncdu	ncdu
 ncurses6-config	sysadmin-basic
 ncursesw6-config	sysadmin-basic
 ndctl	storage-utils
-ndg_httpclient	desktop-dev
+ndg_httpclient	games-dev
 ndisasm	nasm
 ndpiReader	network-security-monitoring
 ndptool	devpkg-libndp
@@ -4210,9 +4219,9 @@ pavucontrol	desktop-apps
 pax11publish	pulseaudio
 pbibtex	texlive
 pbr	cloud-api
-pbunzip2	os-testsuite-phoronix-desktop
-pbzcat	os-testsuite-phoronix-desktop
-pbzip2	os-testsuite-phoronix-desktop
+pbunzip2	os-testsuite-phoronix-server
+pbzcat	os-testsuite-phoronix-server
+pbzip2	os-testsuite-phoronix-server
 pcal	perl-extras
 pcap-config	devpkg-libpcap
 pcasc	maker-basic
@@ -4349,7 +4358,7 @@ phar	php-basic
 phar.phar	php-basic
 phc2sys	time-server-basic
 phc_ctl	time-server-basic
-phoronix-test-suite	os-testsuite-phoronix-desktop
+phoronix-test-suite	os-testsuite-phoronix-server
 php	php-basic
 php-cgi	php-basic
 php-config	php-basic
@@ -4550,7 +4559,7 @@ ptargrep	perl-basic
 ptex	texlive
 ptex2pdf	texlive
 ptftopl	texlive
-pth-config	os-testsuite-phoronix-desktop
+pth-config	os-testsuite-phoronix-server
 ptiptop	performance-tools
 ptp4l	time-server-basic
 ptsematest	dev-utils
@@ -4592,8 +4601,8 @@ pycam-cli	maker-cnc
 pycc	python-data-science
 pycodestyle	python3-basic
 pydoc	network-basic
-pydoc3	c-basic
-pydoc3.7	c-basic
+pydoc3	python3-basic
+pydoc3.7	python3-basic
 pydocstyle	python-extras
 pyflakes	django
 pyftmerge	fonttools
@@ -4643,16 +4652,17 @@ python2-config	network-basic
 python2.7	python2-basic
 python2.7-config	network-basic
 python3	python3-basic
-python3-config	c-basic
+python3-config	python3-basic
 python3.7	python3-basic
-python3.7-config	c-basic
-python3.7m	c-basic
-python3.7m-config	c-basic
+python3.7-config	python3-basic
+python3.7m	python3-basic
+python3.7m-config	python3-basic
 pythonprobe	devpkg-telemetrics-client
 pythontex	texlive
 pyuic5	maker-3dprinting
-pyvenv	c-basic
-pyvenv-3.7	c-basic
+pyvenv	python3-basic
+pyvenv-3.7	python3-basic
+qbittorrent	qbittorrent
 qcollectiongenerator	qt-basic
 qdbus	qt-basic
 qdbuscpp2xml	editors-dev
@@ -5255,7 +5265,7 @@ slcand	automotive-tools
 slcanpty	automotive-tools
 sleep	os-core
 slencheck	database-basic-dev
-sln	sysadmin-basic
+sln	python-extras
 sload.f2fs	os-testsuite-0day
 slsh	os-core-dev
 slugify	domotica
