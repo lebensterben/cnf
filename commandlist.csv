@@ -303,6 +303,7 @@ barbican-db-manage	openstack-common
 barbican-keystone-listener	openstack-common
 barbican-manage	openstack-common
 barbican-retry	openstack-common
+barbican-status	openstack-common
 barbican-worker	openstack-common
 barbican-wsgi-api	openstack-common
 base32	os-core
@@ -613,6 +614,7 @@ cherryd	ceph
 chfn	os-core
 chgpasswd	os-core
 chgrp	os-core
+chkdvifont	texlive
 chkstow	sysadmin-basic
 chktex	texlive
 chktrust	mono
@@ -681,6 +683,7 @@ clipbrowse	perl-extras
 clipedit	perl-extras
 clipfilter	perl-extras
 clipjoin	perl-extras
+cllualatex	texlive
 cloc	cloc
 clr-avx2-move.pl	os-core-dev
 clr-boot-manager	sysadmin-basic
@@ -702,6 +705,8 @@ clr_power	os-core
 clrtrust	p11-kit
 cluster	graphviz
 clusterdb	postgresql
+cluttex	texlive
+clxelatex	texlive
 cm108	amateur-radio
 cm2html	Sphinx
 cm2latex	Sphinx
@@ -830,6 +835,7 @@ csysdig	performance-tools
 ct_run	openstack-common
 ctags	vim
 ctan-o-mat	texlive
+ctanbib	texlive
 ctangle	texlive
 ctanify	texlive
 ctanupload	texlive
@@ -846,6 +852,9 @@ ctr	cloud-control
 ctracer	dev-utils
 ctrlaltdel	os-core
 ctstat	os-core
+ctwill	texlive
+ctwill-refsort	texlive
+ctwill-twinx	texlive
 cups-browsed	hardware-printing
 cups-calibrate	desktop
 cups-config	hardware-printing
@@ -1206,6 +1215,7 @@ dvipos	texlive
 dvips	texlive
 dvired	texlive
 dviselect	texlive
+dvispc	texlive
 dvitodvi	texlive
 dvitomp	texlive
 dvitype	texlive
@@ -1784,7 +1794,7 @@ glib-genmarshal	firmware-update
 glib-gettextize	firmware-update
 glib-mkenums	firmware-update
 glilypond	man-pages
-glinfo	os-utils-gui
+glinfo	os-testsuite-phoronix-desktop
 glmark2	glmark2
 glmark2-drm	glmark2
 glmark2-es2	glmark2
@@ -1794,7 +1804,7 @@ glmark2-wayland	glmark2
 global	global
 globash	global
 glslangValidator	developer-gpu
-glsync	os-utils-gui
+glsync	os-testsuite-phoronix-desktop
 gluster	storage-cluster
 gluster-eventsapi	storage-cluster
 gluster-georep-sshkey	storage-cluster
@@ -1805,8 +1815,8 @@ glustereventsd	storage-cluster
 glusterfind	storage-cluster
 glusterfs	storage-cluster
 glusterfsd	storage-cluster
-glxgears	os-utils-gui
-glxinfo	os-utils-gui
+glxgears	os-testsuite-phoronix-desktop
+glxinfo	os-testsuite-phoronix-desktop
 gmake	make
 gmenudbusmenuproxy	desktop-kde
 gmic	desktop-apps-extras
@@ -3231,6 +3241,7 @@ lua2dox_filter	texlive
 lua5.2	lua-basic
 luac	lua-basic
 luac5.2	lua-basic
+luacsplain	texlive
 luajit	lua-basic
 luajit-2.1.0-beta3	lua-basic
 luajittex	texlive
@@ -3239,7 +3250,6 @@ luaotfload-tool	texlive
 luarocks	lua-basic
 luarocks-admin	lua-basic
 luatex	texlive
-luatex53	texlive
 luatools	texlive
 lupdate	devpkg-qttools
 luseradd	devpkg-libuser
@@ -3372,7 +3382,7 @@ mbstream	mariadb
 mc	sysadmin-basic
 mcdiff	sysadmin-basic
 mcedit	sysadmin-basic
-mcelog	kernel-lts2017
+mcelog	kernel-iot-lts2017-preempt-rt
 mckey	hpc-utils
 mconfig	mono
 mcookie	os-core
@@ -3776,6 +3786,7 @@ net-snmp-config	performance-tools
 net-snmp-create-v3-user	performance-tools
 netaddr	ansible
 netcap	devpkg-libcap-ng
+netdata	netdata
 netstat	net-tools
 nettle-pbkdf2	devpkg-nettle
 networkctl	os-core
@@ -4280,6 +4291,7 @@ pdfseparate	poppler
 pdfsig	poppler
 pdfstamp	perl-extras
 pdftex	texlive
+pdftex-quiet	texlive
 pdftexi2dvi	texinfo
 pdftocairo	poppler
 pdftohtml	poppler
@@ -4728,6 +4740,9 @@ qvkgen	editors-dev
 qvlc	vlc
 qwebengine_convert_dict	lib-qt5webengine
 r	R-basic
+r-mpost	texlive
+r-pmpost	texlive
+r-upmpost	texlive
 rabbitmq-defaults	openstack-common
 rabbitmq-diagnostics	openstack-common
 rabbitmq-env	openstack-common
@@ -5740,7 +5755,6 @@ texlinks	texlive
 texliveonfly	texlive
 texloganalyser	texlive
 texlua	texlive
-texlua53	texlive
 texluac	texlive
 texluajit	texlive
 texluajitc	texlive
@@ -5993,7 +6007,7 @@ upbibtex	texlive
 update-desktop-database	desktop
 update-fragment	containers-virt-dev
 update-helper	os-core-update
-update-mime-database	firefox
+update-mime-database	qt-core
 update-pciids	sysadmin-basic
 update-smart-drivedb	smartmontools
 updatedb	findutils
@@ -6199,6 +6213,7 @@ weblint	perl-extras
 webpinfo	devpkg-libwebp
 webpmux	devpkg-libwebp
 webpng	devpkg-libgd
+webquiz	texlive
 websockify	openstack-common
 weechat	weechat
 weechat-curses	weechat
@@ -6437,6 +6452,7 @@ xgettext	kvm-host
 xgettext.pl	perl-extras
 xhlatex	texlive
 xhost	x11-tools
+xindex	texlive
 xinit	x11-server
 xinput	x11-tools
 xjc	java-runtime
