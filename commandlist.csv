@@ -784,6 +784,7 @@ cpio	cpio
 cpio-filter	perl-extras
 cpp	c-basic
 cpp2html	dev-utils
+cpp8	c-extras-gcc8
 cppcheck	dev-utils
 cpuid	sysadmin-basic
 cpuinfo2cpuid	sysadmin-basic
@@ -1599,6 +1600,7 @@ futurize	Sphinx
 fwupdate	fwupdate
 fwupdmgr	firmware-update
 g++	c-basic
+g++8	c-extras-gcc8
 g-ir-annotation-tool	devpkg-gobject-introspection
 g-ir-compiler	devpkg-gobject-introspection
 g-ir-doc-tool	devpkg-gobject-introspection
@@ -1619,8 +1621,12 @@ gcab	devpkg-gcab
 gcalccmd	gnome-calculator
 gcc	c-basic
 gcc-ar	c-basic
+gcc-ar8	c-extras-gcc8
 gcc-nm	c-basic
+gcc-nm8	c-extras-gcc8
 gcc-ranlib	c-basic
+gcc-ranlib8	c-extras-gcc8
+gcc8	c-extras-gcc8
 gcm-calibrate	gnome-color-manager
 gcm-import	gnome-color-manager
 gcm-inspect	gnome-color-manager
@@ -1633,7 +1639,9 @@ gcore	gdb
 gcov	c-basic
 gcov-dump	c-basic
 gcov-tool	c-basic
+gcov-tool8	c-extras-gcc8
 gcov2perl	perl-extras
+gcov8	c-extras-gcc8
 gcr-viewer	devpkg-gcr
 gcron.py	storage-cluster
 gcut	devpkg-gimp
@@ -4197,8 +4205,8 @@ pam_tally	os-core
 pam_tally2	os-core
 pam_timestamp_check	os-core
 pamon	pulseaudio
-pandoc	os-testsuite-0day
-pandoc-citeproc	os-testsuite-0day
+pandoc	R-extras
+pandoc-citeproc	R-extras
 pango-list	firefox
 pango-view	firefox
 paplay	pulseaudio
@@ -4395,6 +4403,7 @@ pimsettingexporter	desktop-kde-apps
 pimsettingexporterconsole	desktop-kde-apps
 pinentry	cryptography
 pinentry-curses	cryptography
+pinentry-gnome3	desktop-gnomelibs
 ping	clr-network-troubleshooter
 ping6	clr-network-troubleshooter
 ping_pong	samba
@@ -6340,12 +6349,19 @@ x11perfcomp	os-testsuite-phoronix-desktop
 x11vnc	x11vnc
 x86_64	os-core
 x86_64-generic-linux-c++	c-basic
+x86_64-generic-linux-c++8	c-extras-gcc8
 x86_64-generic-linux-g++	c-basic
+x86_64-generic-linux-g++8	c-extras-gcc8
 x86_64-generic-linux-gcc	c-basic
+x86_64-generic-linux-gcc-8	c-extras-gcc8
 x86_64-generic-linux-gcc-9	c-basic
 x86_64-generic-linux-gcc-ar	c-basic
+x86_64-generic-linux-gcc-ar8	c-extras-gcc8
 x86_64-generic-linux-gcc-nm	c-basic
+x86_64-generic-linux-gcc-nm8	c-extras-gcc8
 x86_64-generic-linux-gcc-ranlib	c-basic
+x86_64-generic-linux-gcc-ranlib8	c-extras-gcc8
+x86_64-generic-linux-gcc8	c-extras-gcc8
 x86_64-generic-linux-gfortran	c-basic
 x86_64-generic-linux-gnu-pkg-config	c-basic
 x86_energy_perf_policy	linux-tools
