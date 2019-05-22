@@ -512,6 +512,7 @@ ccconfig	perl-extras
 ccmake	c-basic
 ccomps	graphviz
 ccrewrite	mono
+cct	maker-gis
 cd-convert	desktop-dev
 cd-create-profile	desktop
 cd-drive	os-utils-gui-dev
@@ -828,6 +829,7 @@ crushtool	ceph
 cryptdir	tcl-basic
 cryptsetup	boot-encrypted
 cryptsetup-reencrypt	boot-encrypted
+cs2cs	maker-gis
 csc	mono
 csc-dim	mono
 cscope	dev-utils
@@ -1439,9 +1441,9 @@ extractres	texlive
 f-engrave	maker-cnc
 f2fscrypt	os-testsuite-0day
 f2fstat	os-testsuite-0day
-f2py	python-extras
-f2py3	python-extras
-f2py3.7	python-extras
+f2py	jupyter
+f2py3	jupyter
+f2py3.7	jupyter
 f95	c-basic
 faas-cli	faas-cli
 factor	os-core
@@ -1747,6 +1749,8 @@ gensprep	devpkg-icu4c
 gentest	samba
 gentrigrams	kde-frameworks5
 genxs	mono
+geod	maker-gis
+geos-config	maker-gis
 geotag	devpkg-exiv2
 get-versions	sysadmin-basic
 get_device	openstack-common
@@ -1780,6 +1784,7 @@ gftp-gtk	gftp
 gftp-text	gftp
 gftype	texlive
 ghwdump	gtkwave
+gie	maker-gis
 gif2h5	machine-learning-basic
 giftogd2	devpkg-libgd
 gimp	gimp
@@ -2443,6 +2448,8 @@ intltool-merge	intltool
 intltool-prepare	intltool
 intltool-update	intltool
 intltoolize	intltool
+invgeod	maker-gis
+invproj	maker-gis
 ionice	os-core
 ioping	performance-tools
 iostat	sysstat
@@ -3783,6 +3790,7 @@ mysqlslap	mariadb
 mysqltest	mariadb
 mysqltest_embedded	mariadb
 mytop	mariadb
+nad2bin	maker-gis
 named-checkzone	clr-network-troubleshooter
 named-compilezone	clr-network-troubleshooter
 namei	os-core
@@ -4235,8 +4243,8 @@ pam_timestamp_check	os-core
 pamon	pulseaudio
 pandoc	R-extras
 pandoc-citeproc	R-extras
-pango-list	firefox
-pango-view	firefox
+pango-list	devpkg-pango
+pango-view	devpkg-pango
 paplay	pulseaudio
 parallel	parallel
 parcat	parallel
@@ -4554,6 +4562,7 @@ prlimit	os-core
 procan	sysadmin-basic
 procmail	mail-utils
 profiles	samba
+proj	maker-gis
 protoc	machine-learning-pytorch
 protoc-c	devpkg-protobuf-c
 protoc-gen-c	devpkg-protobuf-c
@@ -6440,6 +6449,7 @@ xdt-commit	xfce4-desktop
 xdt-csource	xfce4-desktop
 xdvipdfmx	texlive
 xelatex	texlive
+xemacs	emacs-x11
 xembedsniproxy	desktop-kde
 xenapi_bootstrap	openstack-common
 xetex	texlive
