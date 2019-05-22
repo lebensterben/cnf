@@ -577,6 +577,9 @@ cfftot1	texlive
 cg_annotate	valgrind
 cg_diff	valgrind
 cg_merge	valgrind
+cgal_create_CMakeLists	maker-gis
+cgal_create_cmake_script	maker-gis
+cgal_make_macosx_app	maker-gis
 cgclassify	devpkg-libcgroup
 cgclear	devpkg-libcgroup
 cgconfigparser	devpkg-libcgroup
@@ -4364,7 +4367,7 @@ pedump	mono
 pee	os-testsuite-0day
 peekfd	sysadmin-basic
 pef-config	sysadmin-hostmgmt
-pep8	machine-learning-basic
+pep8	maker-gis
 perf	linux-tools
 perfquery	hpc-utils
 perl	perl-basic
@@ -4410,6 +4413,7 @@ pgbench	postgresql
 pglobal	dev-utils
 pgpewrap	mutt
 pgrep	os-core
+pgsql2shp	maker-gis
 phar	php-basic
 phar.phar	php-basic
 phc2sys	time-server-basic
@@ -4808,6 +4812,7 @@ rake	ruby-basic
 randpkt	wireshark
 ranlib	binutils
 rarp	net-tools
+raster2pgsql	maker-gis
 raw	os-core
 raw-identify	devpkg-LibRaw
 raw2tiff	devpkg-tiff
@@ -5275,6 +5280,7 @@ showconsolefont	kbd
 showfoto	digikam
 showkey	kbd
 showmount	nfs-utils
+shp2pgsql	maker-gis
 shred	os-core
 shuf	os-core
 shutdown	os-core
