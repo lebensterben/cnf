@@ -329,6 +329,7 @@ bdftogd	devpkg-libgd
 bdftopcf	qt-basic-dev
 bdftruncate	devpkg-font-util
 beeline	big-data-basic
+benchmark_app	computer-vision-basic
 bertprobe	devpkg-telemetrics-client
 bg5+latex	texlive
 bg5+pdflatex	texlive
@@ -6329,6 +6330,8 @@ windmc	binutils
 windres	binutils
 wine	wine
 wine-preloader	wine
+wine64	wine
+wine64-preloader	wine
 wineboot	wine
 winebuild	wine
 winecfg	wine
