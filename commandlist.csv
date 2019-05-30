@@ -163,6 +163,7 @@ amqp-delete-queue	openstack-common
 amqp-get	openstack-common
 amqp-publish	openstack-common
 amstex	texlive
+amuFormat.sh	storage-utils
 analyze	kde-frameworks5-dev
 animate	ImageMagick
 annotate	devpkg-libgd
@@ -512,7 +513,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	python-extras
+catchsegv	sysadmin-basic
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -929,9 +930,9 @@ cxpm	devpkg-libXpm
 cxxmetric	desktop-kde-apps
 cyclicdeadline	dev-utils
 cyclictest	dev-utils
-cygdb	python-extras
-cython	python-extras
-cythonize	python-extras
+cygdb	jupyter
+cython	jupyter
+cythonize	jupyter
 dapltest	hpc-utils
 darktable	darktable
 darktable-chart	darktable
@@ -1462,9 +1463,9 @@ extractres	texlive
 f-engrave	maker-cnc
 f2fscrypt	os-testsuite-0day
 f2fstat	os-testsuite-0day
-f2py	python-extras
-f2py3	python-extras
-f2py3.7	python-extras
+f2py	jupyter
+f2py3	jupyter
+f2py3.7	jupyter
 f95	c-basic
 faas-cli	faas-cli
 factor	os-core
@@ -1805,6 +1806,12 @@ gftp	gftp
 gftp-gtk	gftp
 gftp-text	gftp
 gftype	texlive
+ghc	haskell-basic
+ghc-8.6.4	haskell-basic
+ghc-pkg	haskell-basic
+ghc-pkg-8.6.4	haskell-basic
+ghci	haskell-basic
+ghci-8.6.4	haskell-basic
 ghwdump	gtkwave
 gie	maker-gis
 gif2h5	machine-learning-basic
@@ -2137,6 +2144,8 @@ h5stat	machine-learning-basic
 h5unjam	machine-learning-basic
 h5watch	machine-learning-basic
 hackbench	dev-utils
+haddock	haskell-basic
+haddock-ghc-8.6.4	haskell-basic
 hadoop	big-data-basic
 hadoop-daemon.sh	big-data-basic
 hadoop-daemons.sh	big-data-basic
@@ -2222,9 +2231,12 @@ hp-uninstall	hardware-printing
 hp-unload	hardware-printing
 hp-upgrade	hardware-printing
 hp-wificonfig	hardware-printing
+hp2ps	haskell-basic
+hpc	haskell-basic
 hpftodit	man-pages
 hprobe	devpkg-telemetrics-client
 hpsa_lsmplugin	sysadmin-remote
+hsc2hs	haskell-basic
 ht	texlive
 htags	global
 htags-server	global
@@ -3103,7 +3115,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	python-extras
+ldd	sysadmin-basic
 lddlibc4	os-core-legacy
 ldmd2	d-basic
 lensfun-add-adapter	desktop-dev
@@ -3380,6 +3392,7 @@ lxt2miner	gtkwave
 lxt2vcd	gtkwave
 lyx	LyX
 lyxclient	LyX
+lz	storage-utils
 lz4	lz4
 lz4c	lz4
 lz4cat	lz4
@@ -3442,16 +3455,24 @@ mash	koji
 masktest	samba
 match_parens	texlive
 mathspic	texlive
+mattrib	storage-utils
+mbadblocks	storage-utils
 mbim-network	games-dev
 mbimcli	games-dev
 mbstream	mariadb
 mc	sysadmin-basic
+mcat	storage-utils
+mcd	storage-utils
 mcdiff	sysadmin-basic
 mcedit	sysadmin-basic
 mcelog	kernel-iot-lts2017-preempt-rt
+mcheck	storage-utils
 mckey	hpc-utils
+mclasserase	storage-utils
+mcomp	storage-utils
 mconfig	mono
 mcookie	os-core
+mcopy	storage-utils
 mcs	mono
 mcview	sysadmin-basic
 md5sum	os-core
@@ -3462,8 +3483,11 @@ mdb_dump	machine-learning-basic
 mdb_load	machine-learning-basic
 mdb_stat	machine-learning-basic
 mdbrebase	mono
+mdel	storage-utils
+mdeltree	storage-utils
 mdexport.py	openstack-common
 mdig	clr-network-troubleshooter
+mdir	storage-utils
 mdmon	storage-utils
 mdoc	mono
 mdoc-assemble	mono
@@ -3471,6 +3495,7 @@ mdoc-export-html	mono
 mdoc-export-msxdoc	mono
 mdoc-update	mono
 mdoc-validate	mono
+mdu	storage-utils
 mdvalidater	mono
 media-ctl	v4l-utils
 megaraid_lsmplugin	sysadmin-remote
@@ -3507,6 +3532,7 @@ mflua	texlive
 mflua-nowin	texlive
 mfluajit	texlive
 mfluajit-nowin	texlive
+mformat	storage-utils
 mfplain	texlive
 mft	texlive
 mib2c	performance-tools
@@ -3524,6 +3550,7 @@ migratepages	sysadmin-basic
 migspeed	sysadmin-basic
 minetest	minetest
 minetestserver	minetestserver
+minfo	storage-utils
 minicom	minicom
 minimodem	amateur-radio
 mirrorMappings	perl-extras
@@ -3563,6 +3590,7 @@ mkindex	texlive
 mkinitrd	sysadmin-basic
 mkjobtexmf	texlive
 mklost+found	os-core
+mkmanifest	storage-utils
 mkmapfile	perl-extras
 mknod	os-core
 mkntfs	storage-utils
@@ -3582,6 +3610,7 @@ mktexlsr	texlive
 mktexmf	texlive
 mktexpk	texlive
 mktextfm	texlive
+mlabel	storage-utils
 mllatex	texlive
 mltex	texlive
 mm2gv	graphviz
@@ -3589,6 +3618,9 @@ mmafm	texlive
 mmap-test	devpkg-exiv2
 mmc-tool	os-utils-gui-dev
 mmcli	NetworkManager-extras
+mmd	storage-utils
+mmount	storage-utils
+mmove	storage-utils
 mmpfb	texlive
 mmroff	man-pages
 moc	editors-dev
@@ -3662,6 +3694,7 @@ mountpoint	os-core
 mouse-dpi-tool	devpkg-libevdev
 mouse-test	sysadmin-basic
 mozroots	mono
+mpartition	storage-utils
 mpathpersist	storage-utils
 mpeg2vaenc	libva-utils
 mpeg2vldemo	libva-utils
@@ -3685,6 +3718,8 @@ mpstat	sysstat
 mptopdf	texlive
 mpv	mpv
 mr-jobhistory-daemon.sh	big-data-basic
+mrd	storage-utils
+mren	storage-utils
 mrwthumb	devpkg-exiv2
 ms_print	valgrind
 mscore	MuseScore
@@ -3702,6 +3737,8 @@ msginit	kvm-host
 msgmerge	kvm-host
 msgunfmt	kvm-host
 msguniq	kvm-host
+mshortname	storage-utils
+mshowfat	storage-utils
 msidb	wine
 msiexec	wine
 msk144code	amateur-radio
@@ -3722,6 +3759,8 @@ mtd_debug	mtd-utils
 mtdev-test	qt-basic-dev
 mtdinfo	mtd-utils
 mtdpart	mtd-utils
+mtools	storage-utils
+mtoolstest	storage-utils
 mtp-albumart	devpkg-libmtp
 mtp-albums	devpkg-libmtp
 mtp-connect	devpkg-libmtp
@@ -3749,6 +3788,7 @@ mtr-packet	mtr
 mturk	cloud-api
 mtxrun	texlive
 mtxrunjit	texlive
+mtype	storage-utils
 multibibliography	texlive
 multimon-ng	amateur-radio
 multipath	storage-utils
@@ -3771,6 +3811,7 @@ mvn	java-basic
 mvnDebug	java-basic
 mvnyjp	java-basic
 mvxattr	samba
+mxtar	storage-utils
 my_print_defaults	mariadb
 myisam_ftdump	mariadb
 myisamchk	mariadb
@@ -3812,6 +3853,7 @@ mysqlslap	mariadb
 mysqltest	mariadb
 mysqltest_embedded	mariadb
 mytop	mariadb
+mzip	storage-utils
 named-checkzone	clr-network-troubleshooter
 named-compilezone	clr-network-troubleshooter
 namei	os-core
@@ -4295,9 +4337,9 @@ pavucontrol	desktop-apps
 pax11publish	pulseaudio
 pbibtex	texlive
 pbr	cloud-api
-pbunzip2	os-testsuite-phoronix-server
-pbzcat	os-testsuite-phoronix-server
-pbzip2	os-testsuite-phoronix-server
+pbunzip2	os-testsuite-phoronix-desktop
+pbzcat	os-testsuite-phoronix-desktop
+pbzip2	os-testsuite-phoronix-desktop
 pcal	perl-extras
 pcap-config	devpkg-libpcap
 pcasc	maker-basic
@@ -4437,7 +4479,7 @@ phar	php-basic
 phar.phar	php-basic
 phc2sys	time-server-basic
 phc_ctl	time-server-basic
-phoronix-test-suite	os-testsuite-phoronix-server
+phoronix-test-suite	os-testsuite-phoronix-desktop
 photorec	testdisk
 php	php-basic
 php-cgi	php-basic
@@ -4643,7 +4685,7 @@ ptargrep	perl-basic
 ptex	texlive
 ptex2pdf	texlive
 ptftopl	texlive
-pth-config	os-testsuite-phoronix-server
+pth-config	os-testsuite-phoronix-desktop
 ptiptop	performance-tools
 ptp4l	time-server-basic
 ptsematest	dev-utils
@@ -5068,7 +5110,10 @@ run_perftest_multi_devices	hpc-utils
 run_srp_daemon	hpc-utils
 runc	cloud-control
 runcon	os-core
+runghc	haskell-basic
+runghc-8.6.4	haskell-basic
 rungs	texlive
+runhaskell	haskell-basic
 runlevel	os-core
 runscript	minicom
 runtest	os-core-dev
@@ -5362,7 +5407,7 @@ slcand	automotive-tools
 slcanpty	automotive-tools
 sleep	os-core
 slencheck	database-basic-dev
-sln	python-extras
+sln	sysadmin-basic
 sload.f2fs	os-testsuite-0day
 slsh	os-core-dev
 slugify	domotica
@@ -5857,6 +5902,7 @@ tgt-setup-lun	openstack-common
 tgtadm	openstack-common
 tgtd	openstack-common
 tgtimg	openstack-common
+tgz	storage-utils
 theano-cache	machine-learning-basic
 theano-nose	machine-learning-basic
 thermald	thermal_daemon
@@ -6140,6 +6186,7 @@ uuidparse	os-core
 uuserver	enterprise-login
 uwsgi	application-server
 uxterm	xterm
+uz	storage-utils
 v4l2-compliance	v4l-utils
 v4l2-ctl	v4l-utils
 v4l2-dbg	v4l-utils
