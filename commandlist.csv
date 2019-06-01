@@ -533,13 +533,13 @@ ccrewrite	mono
 cct	maker-gis
 cd-convert	desktop-dev
 cd-create-profile	desktop
-cd-drive	virt-manager
+cd-drive	os-utils-gui-dev
 cd-fix-profile	desktop
 cd-iccdump	desktop
-cd-info	virt-manager
+cd-info	os-utils-gui-dev
 cd-it8	desktop
-cd-read	virt-manager
-cdda-player	virt-manager
+cd-read	os-utils-gui-dev
+cdda-player	os-utils-gui-dev
 cdrskin	os-utils-gui-dev
 cec-compliance	v4l-utils
 cec-ctl	v4l-utils
@@ -2596,8 +2596,8 @@ isisd	quagga
 isnsadm	storage-utils-dev
 isnsd	storage-utils-dev
 isnsdd	storage-utils-dev
-iso-info	virt-manager
-iso-read	virt-manager
+iso-info	os-utils-gui-dev
+iso-read	os-utils-gui-dev
 isohybrid	syslinux
 isort	computer-vision-models
 isosize	os-core
@@ -3616,7 +3616,7 @@ mltex	texlive
 mm2gv	graphviz
 mmafm	texlive
 mmap-test	devpkg-exiv2
-mmc-tool	virt-manager
+mmc-tool	os-utils-gui-dev
 mmcli	NetworkManager-extras
 mmd	storage-utils
 mmount	storage-utils
