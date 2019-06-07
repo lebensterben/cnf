@@ -20,7 +20,7 @@ FederationStateStoreUser.sql	big-data-basic
 FileCheck	llvm
 FreeCAD	maker-cnc
 FreeCADCmd	maker-cnc
-Fritzing	education-secondary
+Fritzing	education-tertiary
 GenX_IR	hardware-gpu
 Magick++-config	ImageMagick
 MagickCore-config	ImageMagick
@@ -533,13 +533,13 @@ ccrewrite	mono
 cct	maker-gis
 cd-convert	desktop-dev
 cd-create-profile	desktop
-cd-drive	os-utils-gui-dev
+cd-drive	virt-manager
 cd-fix-profile	desktop
 cd-iccdump	desktop
-cd-info	os-utils-gui-dev
+cd-info	virt-manager
 cd-it8	desktop
-cd-read	os-utils-gui-dev
-cdda-player	os-utils-gui-dev
+cd-read	virt-manager
+cdda-player	virt-manager
 cdrskin	os-utils-gui-dev
 cec-compliance	v4l-utils
 cec-ctl	v4l-utils
@@ -558,11 +558,10 @@ ceph-authtool	ceph
 ceph-bluestore-tool	ceph
 ceph-clsinfo	ceph
 ceph-conf	ceph
+ceph-crash	ceph
 ceph-create-keys	ceph
 ceph-dencoder	ceph
 ceph-deploy	storage-cluster
-ceph-detect-init	ceph
-ceph-disk	ceph
 ceph-fuse	ceph
 ceph-kvstore-tool	ceph
 ceph-mds	ceph
@@ -630,7 +629,7 @@ checkcites	texlive
 checkgid	httpd
 checklistings	texlive
 checkmk	c-basic
-checksctp	devpkg-lksctp-tools
+checksctp	devpkg-libsctp
 cheese	cheese
 cheetah	koji
 cheetah-analyze	koji
@@ -678,7 +677,7 @@ cinder-volume-usage-audit	openstack-common
 cinder-wsgi	openstack-common
 ciptool	hardware-bluetooth
 circo	graphviz
-cisco-decrypt	NetworkManager-basic
+cisco-decrypt	NetworkManager-extras
 cjk-gs-integrate	texlive
 cjpeg	devpkg-libjpeg-turbo
 cksum	os-core
@@ -716,7 +715,7 @@ cloc	cloc
 clr-avx2-move.pl	os-core-dev
 clr-boot-manager	bootloader
 clr-boot-manager-motd.sh	bootloader
-clr-desktop-files.sh	desktop
+clr-desktop-files.sh	xfce4-desktop
 clr-fwupd-update	firmware-update
 clr-installer	clr-installer
 clr-installer-gui	clr-installer-gui
@@ -958,8 +957,8 @@ dbiprof	perl-basic
 dbiproxy	perl-basic
 dbmmanage	application-server
 dbus-binding-tool	devpkg-dbus-glib
-dbus-broker	qt-basic-dev
-dbus-broker-launch	qt-basic-dev
+dbus-broker	database-basic-dev
+dbus-broker-launch	database-basic-dev
 dbus-cleanup-sockets	os-core
 dbus-daemon	os-core
 dbus-launch	os-core
@@ -1058,9 +1057,9 @@ distro	python-extras
 django-admin	django
 django-admin.py	django
 djpeg	devpkg-libjpeg-turbo
-dkms	kernel-native-dkms
-dkms-new-kernel.sh	kernel-native-dkms
-dkms-remove-old.sh	kernel-native-dkms
+dkms	kernel-lts2018-dkms
+dkms-new-kernel.sh	kernel-lts2018-dkms
+dkms-remove-old.sh	kernel-lts2018-dkms
 dlist_test	openstack-common
 dlltool	binutils
 dllwrap	binutils
@@ -1338,6 +1337,7 @@ emacs-x11	emacs-x11
 emacsclient	emacs
 embryo_cc	desktop-enlightenment
 emixer	desktop-enlightenment
+emoji-picker	desktop
 enc2xs	perl-basic
 encguess	perl-basic
 enchant	devpkg-compat-enchant-soname1
@@ -1505,7 +1505,7 @@ fdtoverlay	dtc
 fdtput	dtc
 fec_dec	amateur-radio
 fec_enc	amateur-radio
-feh	desktop-i3
+feh	feh
 fetch_file	cloud-api
 fetchmail	mail-utils
 ffmpeg	kde-frameworks5-dev
@@ -1743,10 +1743,10 @@ gedit	gedit
 gegl	devpkg-gimp
 gegl-imgcmp	devpkg-gimp
 gem	ruby-basic
-gen_binary_files	devpkg-libpinyin
+gen_binary_files	desktop
 gen_client	os-cloudguest-gce
 gen_packets	amateur-radio
-gen_unigram	devpkg-libpinyin
+gen_unigram	desktop
 genbrk	devpkg-icu4c
 gencat	os-core
 genccode	devpkg-icu4c
@@ -2097,7 +2097,7 @@ guile	c-basic
 guile-config	c-basic
 guile-snarf	c-basic
 guile-tools	c-basic
-gunicorn_pecan	ceph
+gunicorn_pecan	openstack-common
 gunzip	gzip
 gusbcmd	devpkg-libgusb
 gv2gml	graphviz
@@ -2347,6 +2347,7 @@ ibtracert	hpc-utils
 ibus	desktop
 ibus-daemon	desktop
 ibus-setup	desktop
+ibus-table-createdb	desktop
 ibv_asyncwatch	hpc-utils
 ibv_devices	hpc-utils
 ibv_devinfo	hpc-utils
@@ -2408,7 +2409,7 @@ img2simg	storage-utils
 img2webp	devpkg-libwebp
 imgsize	perl-extras
 import	ImageMagick
-import_interpolation	devpkg-libpinyin
+import_interpolation	desktop
 includemocs	desktop-kde-apps
 includeres	texlive
 indent	c-basic
@@ -2427,6 +2428,7 @@ initra-desktop	kernel-lts2017
 inkscape	inkscape
 inkview	inkscape
 innochecksum	mariadb
+innoextract	sysadmin-basic
 inotifywait	inotify-tools
 inotifywatch	inotify-tools
 insert_errors	amateur-radio
@@ -2596,8 +2598,8 @@ isisd	quagga
 isnsadm	storage-utils-dev
 isnsd	storage-utils-dev
 isnsdd	storage-utils-dev
-iso-info	os-utils-gui-dev
-iso-read	os-utils-gui-dev
+iso-info	virt-manager
+iso-read	virt-manager
 isohybrid	syslinux
 isort	computer-vision-models
 isosize	os-core
@@ -2667,9 +2669,9 @@ jdeprscan9	java9-basic
 jdeps	java-runtime
 jdeps11	java11-basic
 jdeps9	java9-basic
-jemalloc-config	qt-basic-dev
-jemalloc.sh	qt-basic-dev
-jeprof	qt-basic-dev
+jemalloc-config	database-basic-dev
+jemalloc.sh	database-basic-dev
+jeprof	database-basic-dev
 jffs2dump	mtd-utils
 jffs2reader	mtd-utils
 jfmutil	texlive
@@ -2709,8 +2711,8 @@ jq	jq
 jrunscript	java-runtime
 jrunscript11	java11-basic
 jrunscript9	java9-basic
-js24	qt-basic-dev
-js24-config	qt-basic-dev
+js24	database-basic-dev
+js24-config	database-basic-dev
 js52	devpkg-mozjs52
 js52-config	devpkg-mozjs52
 js60	devpkg-mozjs60
@@ -2721,8 +2723,8 @@ jshell9	java9-basic
 json-glib-format	devpkg-json-glib
 json-glib-validate	devpkg-json-glib
 json_pp	perl-basic
-json_reformat	kvm-host-dev
-json_verify	kvm-host-dev
+json_reformat	desktop-dev
+json_verify	desktop-dev
 jsondiff	diffoscope
 jsonpatch	openstack-common
 jsonpointer	openstack-common
@@ -2942,6 +2944,7 @@ klipper	desktop-kde
 klist	enterprise-login
 klogscanner	devpkg-telemetrics-client
 kmag	desktop-kde-apps
+kmahjongg	desktop-kde-games
 kmail	desktop-kde-apps
 kmenuedit	desktop-kde
 kmidiff	devpkg-libabigail
@@ -3437,7 +3440,7 @@ makejvf	texlive
 makeobj	desktop-kde-apps
 maketext	perl-extras
 maketx	blender
-mako-render	ceph
+mako-render	openstack-common
 man	man-pages
 mandb	man-pages
 manpath	man-pages
@@ -3588,6 +3591,7 @@ mkgrkindex	texlive
 mkhomedir_helper	os-core
 mkindex	texlive
 mkinitrd	sysadmin-basic
+mkisofs	xorriso
 mkjobtexmf	texlive
 mklost+found	os-core
 mkmanifest	storage-utils
@@ -3616,7 +3620,7 @@ mltex	texlive
 mm2gv	graphviz
 mmafm	texlive
 mmap-test	devpkg-exiv2
-mmc-tool	os-utils-gui-dev
+mmc-tool	virt-manager
 mmcli	NetworkManager-extras
 mmd	storage-utils
 mmount	storage-utils
@@ -3756,7 +3760,7 @@ mstregdump	hpc-utils
 mstvpd	hpc-utils
 msxlint	texlive
 mtd_debug	mtd-utils
-mtdev-test	qt-basic-dev
+mtdev-test	database-basic-dev
 mtdinfo	mtd-utils
 mtdpart	mtd-utils
 mtools	storage-utils
@@ -3953,6 +3957,10 @@ nhrpd	quagga
 nice	os-core
 niceload	parallel
 nicstat	performance-tools
+nim	nim
+nimble	nim
+nimgrep	nim
+nimsuggest	nim
 ninja	dev-utils
 nisdomainname	net-tools
 nl	os-core
@@ -4142,7 +4150,7 @@ ociocheck	blender
 ocioconvert	blender
 ociodisplay	blender
 ociolutimage	blender
-ocloc	computer-vision-basic
+ocloc	devpkg-opencv
 ocs	dev-utils
 ocsptool	cryptography
 octave	octave
@@ -4227,7 +4235,7 @@ osinfo-db-validate	virt-manager
 osinfo-detect	virt-manager
 osinfo-install-script	virt-manager
 osinfo-query	virt-manager
-osirrox	clr-installer
+osirrox	xorriso
 osken	openstack-common
 osken-manager	openstack-common
 oslo-config-generator	openstack-common
@@ -4343,7 +4351,7 @@ pbzip2	os-testsuite-phoronix-desktop
 pcal	perl-extras
 pcap-config	devpkg-libpcap
 pcasc	maker-basic
-pcf2vpnc	NetworkManager-basic
+pcf2vpnc	NetworkManager-extras
 pcmanfm-qt	desktop-lxqt
 pcprofiledump	os-core
 pcre-config	devpkg-pcre
@@ -4421,7 +4429,7 @@ pdwtags	dev-utils
 pear	php-basic
 peardev	php-basic
 peas-demo	devpkg-libpeas
-pecan	ceph
+pecan	openstack-common
 pecl	php-basic
 pedigree	texlive
 pedump	mono
@@ -5148,7 +5156,7 @@ sar	sysstat
 saslauthd	devpkg-cyrus-sasl
 sasldblistusers2	devpkg-cyrus-sasl
 saslpasswd2	devpkg-cyrus-sasl
-sassc	qt-basic-dev
+sassc	database-basic-dev
 saved_model_cli	machine-learning-tensorflow
 savedefconfig	service-os-dev
 saxfr	pdns
@@ -5170,6 +5178,7 @@ scan-view	llvm
 scandeps.pl	perl-extras
 scanimage	desktop-dev
 sccmap	graphviz
+scdoc	dev-utils
 schemagen	java-runtime
 schemagen9	java9-basic
 sclient	enterprise-login
@@ -5199,9 +5208,9 @@ scsi_satl	openstack-common
 scsi_start	openstack-common
 scsi_stop	openstack-common
 scsi_temperature	openstack-common
-sctp_darn	devpkg-lksctp-tools
-sctp_status	devpkg-lksctp-tools
-sctp_test	devpkg-lksctp-tools
+sctp_darn	devpkg-libsctp
+sctp_status	devpkg-libsctp
+sctp_test	devpkg-libsctp
 scummvm	games
 sdbadmin	cloud-api
 sddm	desktop-kde
@@ -6303,8 +6312,8 @@ vpddecode	sysadmin-basic
 vpe	texlive
 vpl2ovp	texlive
 vpl2vpl	texlive
-vpnc	NetworkManager-basic
-vpnc-disconnect	NetworkManager-basic
+vpnc	NetworkManager-extras
+vpnc-disconnect	NetworkManager-extras
 vppblending	libva-utils
 vppchromasitting	libva-utils
 vppdenoise	libva-utils
@@ -6322,7 +6331,7 @@ vzt2vcd	gtkwave
 vztminer	gtkwave
 w	os-core
 waagent	os-cloudguest-azure
-waitress-serve	ceph
+waitress-serve	openstack-common
 wall	os-core
 wasm-ld	llvm
 watch	os-core
@@ -6425,7 +6434,7 @@ wipefs	os-core
 wireshark	wireshark
 wish	tcl-basic
 wish8.6	tcl-basic
-withsctp	devpkg-lksctp-tools
+withsctp	devpkg-libsctp
 wlfreerdp	pidgin
 wmc	wine
 wnck-urgency-monitor	os-utils-gui-dev
@@ -6637,9 +6646,9 @@ xmpparse	devpkg-exiv2
 xmpparser-test	devpkg-exiv2
 xmpprint	devpkg-exiv2
 xmpsample	devpkg-exiv2
-xorrecord	clr-installer
-xorriso	clr-installer
-xorrisofs	clr-installer
+xorrecord	xorriso
+xorriso	xorriso
+xorrisofs	xorriso
 xpath	perl-extras
 xprop	x11-tools
 xpstat	tcl-basic
