@@ -266,7 +266,7 @@ aureport	audit
 ausearch	audit
 ausyscall	audit
 authorindex	texlive
-authvar	os-clr-on-clr
+authvar	service-os-dev
 autoconf	c-basic
 autoconf213	c-basic-legacy
 autoexpect	tcl-basic
@@ -515,7 +515,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	python-extras
+catchsegv	sysadmin-basic
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -1311,8 +1311,8 @@ efi-readvar	os-clr-on-clr
 efi-updatevar	os-clr-on-clr
 efibootdump	sysadmin-basic
 efibootmgr	sysadmin-basic
-efikeygen	os-clr-on-clr
-efisiglist	os-clr-on-clr
+efikeygen	service-os-dev
+efisiglist	service-os-dev
 efitool-mkusb	os-clr-on-clr
 efivar	os-core-update-dev
 efl_debug	desktop-enlightenment
@@ -3126,7 +3126,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	python-extras
+ldd	sysadmin-basic
 lddlibc4	os-core-legacy
 ldmd2	d-basic
 lensfun-add-adapter	desktop-dev
@@ -4460,9 +4460,9 @@ perlthanks	perl-basic
 perltidy	perl-extras
 permview	mono
 perror	mariadb
-pesigcheck	os-clr-on-clr
-pesign	os-clr-on-clr
-pesign-client	os-clr-on-clr
+pesigcheck	service-os-dev
+pesign	service-os-dev
+pesign-client	service-os-dev
 peverify	mono
 pf2afm	desktop
 pfarrei	texlive
@@ -5429,7 +5429,7 @@ slcand	automotive-tools
 slcanpty	automotive-tools
 sleep	os-core
 slencheck	database-basic-dev
-sln	python-extras
+sln	sysadmin-basic
 sload.f2fs	os-testsuite-0day
 slsh	os-core-dev
 slugify	domotica
