@@ -265,6 +265,7 @@ aulastlog	audit
 aureport	audit
 ausearch	audit
 ausyscall	audit
+authconfig	enterprise-login
 authorindex	texlive
 authvar	os-clr-on-clr
 autoconf	c-basic
@@ -470,6 +471,7 @@ c2demo	amateur-radio
 c2enc	amateur-radio
 c2sim	amateur-radio
 cabextract	cabextract
+cacertdir_rehash	enterprise-login
 cache_check	storage-utils
 cache_dump	storage-utils
 cache_metadata_size	storage-utils
@@ -661,7 +663,7 @@ chroot	os-core
 chrpath	c-basic
 chrt	os-core
 chsh	os-core
-chsh.ldap	openstack-common
+chsh.ldap	enterprise-login
 chvt	kbd
 cifscreds	storage-utils
 cifsdd	samba
@@ -1147,6 +1149,7 @@ docker-compose	docker-compose
 docker-containerd	cloud-control
 docker-containerd-ctr	cloud-control
 docker-containerd-shim	cloud-control
+docker-init	containers-basic
 docker-proxy	cloud-control
 docker-runc	cloud-control
 docker-set-default-runtime	cloud-control
@@ -1662,7 +1665,7 @@ gacutil2	mono
 gamma4scanimage	desktop-dev
 gapplication	firmware-update
 gawk	os-core
-gawk-5.0.0	os-core
+gawk-5.0.1	os-core
 gbklatex	texlive
 gbkpdflatex	texlive
 gc	graphviz
@@ -1790,7 +1793,7 @@ getcap	sysadmin-basic
 getconf	os-core
 getdefs	c-basic
 getent	os-core
-getent.ldap	openstack-common
+getent.ldap	enterprise-login
 getfacl	acl
 getfattr	devpkg-attr
 gethostip	syslinux
@@ -2192,6 +2195,7 @@ hex2hcd	hardware-bluetooth
 hexchat	hexchat
 hexdiff.py	python-extras
 hexdump	os-core
+hexedit	dev-utils
 hexinfo.py	python-extras
 hexmerge.py	python-extras
 hg	mercurial
@@ -4073,7 +4077,7 @@ nrpe	sysadmin-remote
 nsec3dig	pdns
 nsec3hash	clr-network-troubleshooter
 nsenter	os-core
-nslcd	openstack-common
+nslcd	enterprise-login
 nslookup	clr-network-troubleshooter
 nsm	time-server-basic
 nspr-config	devpkg-nspr
@@ -4183,6 +4187,7 @@ ogrinfo	python-extras
 ogrlineref	python-extras
 ogrtindex	python-extras
 oiiotool	blender
+okteta	okteta
 okular	okular
 okularkirigami	okular
 oldconfig	service-os-dev
@@ -4810,6 +4815,13 @@ pyuic5	maker-3dprinting
 pyvenv	python3-basic
 pyvenv-3.7	python3-basic
 qbittorrent	qbittorrent
+qbs	qt-creator
+qbs-config	qt-creator
+qbs-config-ui	qt-creator
+qbs-create-project	qt-creator
+qbs-setup-android	qt-creator
+qbs-setup-qt	qt-creator
+qbs-setup-toolchains	qt-creator
 qcollectiongenerator	qt-basic
 qconvex	R-extras-dev
 qdbus	qt-basic
@@ -4863,6 +4875,7 @@ qrencode	desktop-kde-apps
 qrenderdoc	developer-gpu
 qscxmlc	containers-basic-dev
 qtattributionsscanner	devpkg-qttools
+qtcreator	qt-creator
 qtdiag	qt-basic
 qtdoc	desktop-kde-apps
 qtpaths	qt-basic
@@ -5103,7 +5116,7 @@ rstream	hpc-utils
 rstudio	R-rstudio
 rsvg-convert	devpkg-librsvg
 rsvg-view-3	devpkg-librsvg
-rsync	network-basic
+rsync	rsync
 rsyslogd	rsyslog
 rt-migrate-test	dev-utils
 rtacct	os-core
@@ -5598,6 +5611,15 @@ sshfs	storage-utils
 sshpass	ansible
 ssltap	cryptography
 ssocr	ssocr
+sss_cache	enterprise-login
+sss_debuglevel	enterprise-login
+sss_obfuscate	enterprise-login
+sss_override	enterprise-login
+sss_seed	enterprise-login
+sss_ssh_authorizedkeys	enterprise-login
+sss_ssh_knownhostsproxy	enterprise-login
+sssctl	enterprise-login
+sssd	enterprise-login
 sst_dump	mariadb
 stack	haskell-basic
 start-all.sh	big-data-basic
@@ -5634,6 +5656,7 @@ stress-ng	dev-utils
 strings	binutils
 stringto-test	devpkg-exiv2
 strip	binutils
+struct2osd	okteta
 stty	os-core
 stubgen	python-extras
 stubquery	pdns
@@ -5976,6 +5999,7 @@ timed-run	tcl-basic
 timedatectl	os-core
 timemaster	time-server-basic
 timeout	os-core
+tini-static	containers-basic
 tipc	os-core
 tiptop	performance-tools
 tjbench	devpkg-libjpeg-turbo
