@@ -933,9 +933,9 @@ cxpm	devpkg-libXpm
 cxxmetric	desktop-kde-apps
 cyclicdeadline	dev-utils
 cyclictest	dev-utils
-cygdb	jupyter
-cython	jupyter
-cythonize	jupyter
+cygdb	python-extras
+cython	python-extras
+cythonize	python-extras
 dapltest	hpc-utils
 darktable	darktable
 darktable-chart	darktable
@@ -1470,9 +1470,9 @@ extractres	texlive
 f-engrave	maker-cnc
 f2fscrypt	storage-utils
 f2fstat	storage-utils
-f2py	jupyter
-f2py3	jupyter
-f2py3.7	jupyter
+f2py	python-extras
+f2py3	python-extras
+f2py3.7	python-extras
 f95	c-basic
 faas-cli	faas-cli
 factor	os-core
@@ -4453,7 +4453,7 @@ pedump	mono
 pee	os-testsuite-0day
 peekfd	sysadmin-basic
 pef-config	sysadmin-hostmgmt
-pep8	maker-gis
+pep8	machine-learning-basic
 perf	linux-tools
 perfquery	hpc-utils
 perl	perl-basic
