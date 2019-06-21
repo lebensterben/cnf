@@ -933,9 +933,9 @@ cxpm	devpkg-libXpm
 cxxmetric	desktop-kde-apps
 cyclicdeadline	dev-utils
 cyclictest	dev-utils
-cygdb	python-extras
-cython	python-extras
-cythonize	python-extras
+cygdb	jupyter
+cython	jupyter
+cythonize	jupyter
 dapltest	hpc-utils
 darktable	darktable
 darktable-chart	darktable
@@ -1470,9 +1470,9 @@ extractres	texlive
 f-engrave	maker-cnc
 f2fscrypt	storage-utils
 f2fstat	storage-utils
-f2py	python-extras
-f2py3	python-extras
-f2py3.7	python-extras
+f2py	jupyter
+f2py3	jupyter
+f2py3.7	jupyter
 f95	c-basic
 faas-cli	faas-cli
 factor	os-core
@@ -1871,7 +1871,7 @@ glib-genmarshal	firmware-update
 glib-gettextize	firmware-update
 glib-mkenums	firmware-update
 glilypond	man-pages
-glinfo	os-testsuite-phoronix-desktop
+glinfo	lib-opengl
 glmark2	glmark2
 glmark2-drm	glmark2
 glmark2-es2	glmark2
@@ -1881,7 +1881,7 @@ glmark2-wayland	glmark2
 global	global
 globash	global
 glslangValidator	developer-gpu
-glsync	os-testsuite-phoronix-desktop
+glsync	lib-opengl
 gluster	storage-cluster
 gluster-eventsapi	storage-cluster
 gluster-georep-sshkey	storage-cluster
@@ -1892,8 +1892,7 @@ glustereventsd	storage-cluster
 glusterfind	storage-cluster
 glusterfs	storage-cluster
 glusterfsd	storage-cluster
-glxgears	os-testsuite-phoronix-desktop
-glxinfo	os-testsuite-phoronix-desktop
+glxinfo	lib-opengl
 gmake	make
 gmenudbusmenuproxy	desktop-kde
 gmic	desktop-apps-extras
@@ -4362,9 +4361,9 @@ pavucontrol	desktop-apps
 pax11publish	pulseaudio
 pbibtex	texlive
 pbr	cloud-api
-pbunzip2	os-testsuite-phoronix-desktop
-pbzcat	os-testsuite-phoronix-desktop
-pbzip2	os-testsuite-phoronix-desktop
+pbunzip2	os-testsuite-phoronix-server
+pbzcat	os-testsuite-phoronix-server
+pbzip2	os-testsuite-phoronix-server
 pcal	perl-extras
 pcap-config	devpkg-libpcap
 pcasc	maker-basic
@@ -4505,7 +4504,7 @@ phar	php-basic
 phar.phar	php-basic
 phc2sys	time-server-basic
 phc_ctl	time-server-basic
-phoronix-test-suite	os-testsuite-phoronix-desktop
+phoronix-test-suite	os-testsuite-phoronix-server
 photorec	testdisk
 php	php-basic
 php-cgi	php-basic
@@ -4711,7 +4710,7 @@ ptargrep	perl-basic
 ptex	texlive
 ptex2pdf	texlive
 ptftopl	texlive
-pth-config	os-testsuite-phoronix-desktop
+pth-config	os-testsuite-phoronix-server
 ptiptop	performance-tools
 ptp4l	time-server-basic
 ptsematest	dev-utils
