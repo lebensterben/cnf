@@ -1174,6 +1174,7 @@ dpdk-devbind	dpdk
 dpdk-pdump	dpdk
 dpdk-pmdinfo	dpdk
 dpdk-procinfo	dpdk
+dpdk-test-compress-perf	dpdk
 dpdk-test-crypto-perf	dpdk
 dpdk-test-eventdev	dpdk
 dprof2calltree	kcachegrind
