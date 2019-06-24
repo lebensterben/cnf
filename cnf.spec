@@ -1,6 +1,6 @@
 Name     : cnf
 Version  : 1
-Release  : 335
+Release  : 336
 Source0  : 10-command-not-found.sh
 Source1  : commandlist.csv
 Source2  : alternatives.csv

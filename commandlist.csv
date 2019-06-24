@@ -517,7 +517,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	sysadmin-basic
+catchsegv	python-extras
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -2680,6 +2680,7 @@ jdeprscan9	java9-basic
 jdeps	java-runtime
 jdeps11	java11-basic
 jdeps9	java9-basic
+jdiff	diffoscope
 jemalloc-config	database-basic-dev
 jemalloc.sh	database-basic-dev
 jeprof	database-basic-dev
@@ -3129,7 +3130,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	sysadmin-basic
+ldd	python-extras
 lddlibc4	os-core-legacy
 ldmd2	d-basic
 ledctl	sysadmin-basic
@@ -5444,7 +5445,7 @@ slcand	automotive-tools
 slcanpty	automotive-tools
 sleep	os-core
 slencheck	R-extras-dev
-sln	sysadmin-basic
+sln	python-extras
 sload.f2fs	storage-utils
 slsh	os-core-dev
 slugify	domotica
