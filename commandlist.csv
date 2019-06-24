@@ -517,7 +517,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	python-extras
+catchsegv	sysadmin-basic
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -1773,7 +1773,6 @@ genl	os-core
 genl-ctrl-list	libnl
 gennorm2	devpkg-icu4c
 genpng	dev-utils
-genrandom	clr-network-troubleshooter
 genrb	devpkg-icu4c
 gensprep	devpkg-icu4c
 gentest	samba
@@ -3130,7 +3129,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	python-extras
+ldd	sysadmin-basic
 lddlibc4	os-core-legacy
 ldmd2	d-basic
 ledctl	sysadmin-basic
@@ -5445,7 +5444,7 @@ slcand	automotive-tools
 slcanpty	automotive-tools
 sleep	os-core
 slencheck	R-extras-dev
-sln	python-extras
+sln	sysadmin-basic
 sload.f2fs	storage-utils
 slsh	os-core-dev
 slugify	domotica
