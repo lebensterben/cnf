@@ -6579,9 +6579,9 @@ xdg-mime	desktop-lxqt
 xdg-open	desktop-lxqt
 xdg-screensaver	desktop-lxqt
 xdg-settings	desktop-lxqt
-xdg-user-dir	desktop
+xdg-user-dir	xfce4-desktop
 xdg-user-dirs-gtk-update	desktop
-xdg-user-dirs-update	desktop
+xdg-user-dirs-update	xfce4-desktop
 xdotool	x11-tools
 xdpyinfo	x11-tools
 xdt-autogen	xfce4-desktop
