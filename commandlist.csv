@@ -517,7 +517,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	python-extras
+catchsegv	sysadmin-basic
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -616,7 +616,7 @@ cgset	devpkg-libcgroup
 cgsnapshot	devpkg-libcgroup
 chacl	acl
 chage	os-core
-chat	games-dev
+chat	NetworkManager
 chattr	os-core
 chcon	os-core
 chcpu	os-core
@@ -3131,7 +3131,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	python-extras
+ldd	sysadmin-basic
 lddlibc4	os-core-legacy
 ldmd2	d-basic
 ledctl	sysadmin-basic
@@ -4549,15 +4549,15 @@ pipewire-monitor	devpkg-pipewire
 pipreqs	computer-vision-models
 pivot_root	os-core
 pixeltool	devpkg-qttools
-pk-example-frobnicate	polkit
+pk-example-frobnicate	zoneminder
 pk12util	cryptography
 pk2bm	texlive
-pkaction	polkit
-pkcheck	polkit
+pkaction	zoneminder
+pkcheck	zoneminder
 pkcon	desktop
 pkcs11-kek-rewrap	openstack-common
 pkcs11-key-generation	openstack-common
-pkexec	polkit
+pkexec	zoneminder
 pkfix	texlive
 pkfix-helper	texlive
 pkg-config	c-basic
@@ -4565,7 +4565,7 @@ pkgdata	devpkg-icu4c
 pkill	os-core
 pkmon	desktop
 pktogf	texlive
-pkttyagent	polkit
+pkttyagent	zoneminder
 pktype	texlive
 pl2pm	perl-basic
 plasma-browser-integration-host	desktop-kde
@@ -4630,9 +4630,9 @@ ppdpo	hardware-printing
 pphs	desktop
 ppltotf	texlive
 ppm2tiff	devpkg-tiff
-pppd	games-dev
-pppdump	games-dev
-pppstats	games-dev
+pppd	NetworkManager
+pppdump	NetworkManager
+pppstats	NetworkManager
 pprof	devpkg-gperftools
 pprof2calltree	kcachegrind
 pr	os-core
@@ -5446,7 +5446,7 @@ slcand	automotive-tools
 slcanpty	automotive-tools
 sleep	os-core
 slencheck	R-extras-dev
-sln	python-extras
+sln	sysadmin-basic
 sload.f2fs	storage-utils
 slsh	os-core-dev
 slugify	domotica
