@@ -404,7 +404,7 @@ boinc_client	boinc-client
 boinccmd	boinc-client
 boincmgr	boinc-client
 boincscr	boinc-client
-bokeh	python-data-science
+bokeh	python-extras
 boltctl	desktop
 bombardment	performance-tools
 bomber	desktop-kde-games
@@ -517,7 +517,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	sysadmin-basic
+catchsegv	python-extras
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -3131,7 +3131,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	sysadmin-basic
+ldd	python-extras
 lddlibc4	os-core-legacy
 ldmd2	d-basic
 ledctl	sysadmin-basic
@@ -4362,9 +4362,9 @@ pavucontrol	desktop-apps
 pax11publish	pulseaudio
 pbibtex	texlive
 pbr	cloud-api
-pbunzip2	os-testsuite-phoronix-server
-pbzcat	os-testsuite-phoronix-server
-pbzip2	os-testsuite-phoronix-server
+pbunzip2	os-testsuite-phoronix-desktop
+pbzcat	os-testsuite-phoronix-desktop
+pbzip2	os-testsuite-phoronix-desktop
 pcal	perl-extras
 pcap-config	devpkg-libpcap
 pcasc	maker-basic
@@ -4505,7 +4505,7 @@ phar	php-basic
 phar.phar	php-basic
 phc2sys	time-server-basic
 phc_ctl	time-server-basic
-phoronix-test-suite	os-testsuite-phoronix-server
+phoronix-test-suite	os-testsuite-phoronix-desktop
 photorec	testdisk
 php	php-basic
 php-cgi	php-basic
@@ -4711,7 +4711,7 @@ ptargrep	perl-basic
 ptex	texlive
 ptex2pdf	texlive
 ptftopl	texlive
-pth-config	os-testsuite-phoronix-server
+pth-config	os-testsuite-phoronix-desktop
 ptiptop	performance-tools
 ptp4l	time-server-basic
 ptsematest	dev-utils
@@ -5446,7 +5446,7 @@ slcand	automotive-tools
 slcanpty	automotive-tools
 sleep	os-core
 slencheck	R-extras-dev
-sln	sysadmin-basic
+sln	python-extras
 sload.f2fs	storage-utils
 slsh	os-core-dev
 slugify	domotica
