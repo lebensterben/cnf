@@ -188,6 +188,7 @@ append2simg	storage-utils
 appletviewer	java-runtime
 appletviewer9	java9-basic
 apply-kconfig	containers-virt-dev
+applygeo	os-clr-on-clr-dev
 applygnupgdefaults	cryptography
 appstream-builder	devpkg-appstream-glib
 appstream-compose	devpkg-appstream-glib
@@ -796,6 +797,7 @@ convert-test	devpkg-exiv2
 convertgls2bib	texlive
 copydatabase	devpkg-xapian-core
 copylink	perl-extras
+copyq	CopyQ
 coredumpctl	os-core
 corelist	perl-basic
 coreutils	os-core
@@ -1788,6 +1790,7 @@ genxs	mono
 geod	maker-gis
 geos-config	maker-gis
 geotag	devpkg-exiv2
+geotifcp	os-clr-on-clr-dev
 get-iab	network-security-monitoring
 get-oui	network-security-monitoring
 get-versions	sysadmin-basic
@@ -3186,6 +3189,7 @@ links	network-basic
 linux64	os-core
 list_instances	cloud-api
 listbib	texlive
+listgeo	os-clr-on-clr-dev
 listings-ext.sh	texlive
 listnewconfig	service-os-dev
 lkbib	man-pages
