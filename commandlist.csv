@@ -518,7 +518,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	python-extras
+catchsegv	sysadmin-basic
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -1755,6 +1755,7 @@ gdmflexiserver	desktop
 gdparttopng	devpkg-libgd
 gdtopng	devpkg-libgd
 geany	geany
+geary	geary
 gedit	gedit
 gegl	devpkg-gimp
 gegl-imgcmp	devpkg-gimp
@@ -1994,6 +1995,7 @@ gpm-root	sysadmin-basic
 gpredict	amateur-radio
 gprof	binutils
 gr2fonttest	devpkg-graphite
+gradio	Gradio
 gradle	java-basic
 granatier	desktop-kde-games
 grantlee_strings_extractor.py	desktop-kde-apps
@@ -3148,7 +3150,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	python-extras
+ldd	sysadmin-basic
 lddlibc4	os-core-legacy
 ldmd2	d-basic
 ledctl	sysadmin-basic
@@ -3445,6 +3447,11 @@ lzmadec	xz
 lzmainfo	xz
 lzmore	xz
 m-tx	texlive
+m17n-conv	desktop
+m17n-date	desktop
+m17n-dump	desktop
+m17n-edit	desktop
+m17n-view	desktop
 m4	c-basic
 mac2unix	sysadmin-basic
 machinectl	os-core
@@ -5496,7 +5503,7 @@ slcand	automotive-tools
 slcanpty	automotive-tools
 sleep	os-core
 slencheck	R-extras-dev
-sln	python-extras
+sln	sysadmin-basic
 sload.f2fs	storage-utils
 slsh	os-core-dev
 slugify	domotica
