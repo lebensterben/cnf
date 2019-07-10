@@ -518,7 +518,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
-catchsegv	sysadmin-basic
+catchsegv	python-extras
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -1592,6 +1592,7 @@ flea	mutt
 flex	flex
 flex++	flex
 flipdiff	dev-utils
+fllog	amateur-radio
 flmsg	amateur-radio
 flnet	amateur-radio
 flock	os-core
@@ -2529,7 +2530,14 @@ ipcmk	os-core
 ipcrm	os-core
 ipcs	os-core
 ipdb3	django
+ipe	ipe
+ipe6upgrade	ipe
+ipeextract	ipe
+ipepresenter	ipe
+iperender	ipe
 iperf3	iperf
+ipescript	ipe
+ipetoipe	ipe
 ipf-mod.pl	performance-tools
 ipmctl	storage-utils
 ipmctl-monitor	storage-utils
@@ -3140,7 +3148,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	sysadmin-basic
+ldd	python-extras
 lddlibc4	os-core-legacy
 ldmd2	d-basic
 ledctl	sysadmin-basic
@@ -5488,7 +5496,7 @@ slcand	automotive-tools
 slcanpty	automotive-tools
 sleep	os-core
 slencheck	R-extras-dev
-sln	sysadmin-basic
+sln	python-extras
 sload.f2fs	storage-utils
 slsh	os-core-dev
 slugify	domotica
