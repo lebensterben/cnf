@@ -199,6 +199,7 @@ apropos	man-pages
 apu-1-config	devpkg-apr-util
 apxs	application-server
 ar	binutils
+arandr	arandr
 arara	texlive
 arcconf_lsmplugin	sysadmin-remote
 arecord	alsa-utils
@@ -518,6 +519,7 @@ caribou-preferences	desktop
 caspol	mono
 casync	casync
 cat	os-core
+catalina.sh	apache-tomcat
 catchsegv	sysadmin-basic
 catman	man-pages
 cbc_attach	software-defined-cockpit
@@ -680,6 +682,7 @@ cinder-status	openstack-common
 cinder-volume	openstack-common
 cinder-volume-usage-audit	openstack-common
 cinder-wsgi	openstack-common
+ciphers.sh	apache-tomcat
 ciptool	hardware-bluetooth
 circo	graphviz
 cisco-decrypt	NetworkManager-extras
@@ -772,6 +775,7 @@ compile_et	storage-utils
 composite	ImageMagick
 conf.py	storage-cluster
 config_data	perl-extras
+configtest.sh	apache-tomcat
 configure-printer	desktop-kde
 conjure	ImageMagick
 conky	conky
@@ -938,6 +942,7 @@ cyclictest	dev-utils
 cygdb	jupyter
 cython	jupyter
 cythonize	jupyter
+daemon.sh	apache-tomcat
 dapltest	hpc-utils
 darktable	darktable
 darktable-chart	darktable
@@ -1041,6 +1046,7 @@ diffimg	desktop-apps
 diffoscope	diffoscope
 diffstat	dev-utils
 dig	clr-network-troubleshooter
+digest.sh	apache-tomcat
 digikam	digikam
 digitaglinktree	digikam
 dijkstra	graphviz
@@ -1155,8 +1161,6 @@ docker-proxy	cloud-control
 docker-runc	cloud-control
 docker-set-default-runtime	cloud-control
 dockerd	cloud-control
-docstheme-build-translated.sh	openstack-common
-docstheme-lang-display-name.py	openstack-common
 dolphin	dolphin
 domainname	net-tools
 dos2unix	sysadmin-basic
@@ -1609,6 +1613,8 @@ fmtutil	texlive
 fmtutil-sys	texlive
 fmtutil-user	texlive
 fold	os-core
+folks-import	desktop-dev
+folks-inspect	desktop-dev
 fontforge	fontforge
 fontimage	fontforge
 fontinst	texlive
@@ -2928,6 +2934,7 @@ keychain	keychain
 keyctl	os-core-dev
 keyring	django
 keystone-manage	openstack-common
+keystone-status	openstack-common
 keystone-wsgi-admin	openstack-common
 keystone-wsgi-public	openstack-common
 keytool	java-runtime
@@ -3467,6 +3474,7 @@ make-file.sh	ltp
 make4ht	texlive
 make_metadata.py	openstack-common
 makealias	kde-frameworks5-dev
+makebase.sh	apache-tomcat
 makecert	mono
 makeconv	devpkg-icu4c
 makedepend	dev-utils-dev
@@ -3815,6 +3823,7 @@ msginit	kvm-host
 msgmerge	kvm-host
 msgunfmt	kvm-host
 msguniq	kvm-host
+msguntypot	po4a
 mshortname	storage-utils
 mshowfat	storage-utils
 msidb	wine
@@ -4636,7 +4645,7 @@ play	amateur-radio
 pldd	os-core
 plipconfig	net-tools
 pltotf	texlive
-pluginviewer	devpkg-cyrus-sasl
+pluginviewer	desktop-kde-apps
 plus	calc
 plzip	plzip
 pm_which	perl-extras
@@ -4655,6 +4664,13 @@ pngfix	devpkg-libpng
 pngtogd	devpkg-libgd
 pngtogd2	devpkg-libgd
 po2xml	desktop-kde-apps
+po4a	po4a
+po4a-gettextize	po4a
+po4a-normalize	po4a
+po4a-translate	po4a
+po4a-updatepo	po4a
+po4aman-display-po	po4a
+po4apod-display-po	po4a
 pod2html	perl-basic
 pod2latex	perl-extras
 pod2man	perl-basic
@@ -5048,7 +5064,6 @@ remotectl	cockpit
 rename	os-core
 renderdoccmd	developer-gpu
 renice	os-core
-reno	openstack-common
 reordercap	wireshark
 repc	containers-basic-dev
 replace	mariadb
@@ -5240,9 +5255,9 @@ saned	desktop-dev
 sanstats	llvm
 saquery	hpc-utils
 sar	sysstat
-saslauthd	devpkg-cyrus-sasl
-sasldblistusers2	devpkg-cyrus-sasl
-saslpasswd2	devpkg-cyrus-sasl
+saslauthd	desktop-kde-apps
+sasldblistusers2	desktop-kde-apps
+saslpasswd2	desktop-kde-apps
 sassc	qt-basic-dev
 saved_model_cli	machine-learning-tensorflow
 savedefconfig	service-os-dev
@@ -5334,6 +5349,7 @@ set-crio-default-runtime	containers-virt
 set-docker-default-runtime	containers-virt
 setarch	os-core
 setcap	sysadmin-basic
+setclasspath.sh	apache-tomcat
 setconfig	service-os-dev
 setfacl	acl
 setfattr	devpkg-attr
@@ -5454,6 +5470,7 @@ shp2pgsql	maker-gis
 shred	os-core
 shuf	os-core
 shutdown	os-core
+shutdown.sh	apache-tomcat
 siege	performance-tools
 siege.config	performance-tools
 siege2csv.pl	performance-tools
@@ -5589,7 +5606,7 @@ soffice	libreoffice
 solid-action-desktop-gen	desktop-kde
 solid-hardware5	kde-frameworks5
 sort	os-core
-sosreport	sysadmin-remote
+sosreport	cockpit
 sotruss	os-core
 soundmodem	amateur-radio
 soundmodemconfig	amateur-radio
@@ -5689,6 +5706,7 @@ start-yarn.sh	big-data-basic
 startkde	desktop-kde
 startlxqt	desktop-lxqt
 startplasmacompositor	desktop-kde
+startup.sh	apache-tomcat
 startx	x11-server
 startxfce4	xfce4-desktop
 stat	os-core
@@ -5964,7 +5982,7 @@ testparm	samba
 testpattern	desktop
 testpmd	dpdk
 testr	software-testing
-testsaslauthd	devpkg-cyrus-sasl
+testsaslauthd	desktop-kde-apps
 testsolv	devpkg-libsolv
 tex	texlive
 tex2aspc	texlive
@@ -6074,6 +6092,7 @@ to_erl	rabbitmq-server
 toco	machine-learning-tensorflow
 toco_from_protos	machine-learning-tensorflow
 toe	sysadmin-basic
+tool-wrapper.sh	apache-tomcat
 top	htop
 top2	os-core
 totem	totem
@@ -6241,6 +6260,7 @@ unshar	sysadmin-basic
 unshare	os-core
 unsquashfs	storage-utils
 unwrapdiff	dev-utils
+unxrandr	arandr
 unxz	xz
 unzip	unzip
 unzipsfx	unzip
@@ -6333,6 +6353,7 @@ verify-uselistorder	llvm
 verify_blkparse	performance-tools
 verifytime	os-core-update
 veritysetup	boot-encrypted
+version.sh	apache-tomcat
 vftovp	texlive
 vgcfgbackup	boot-encrypted
 vgcfgrestore	boot-encrypted
@@ -6825,6 +6846,9 @@ yes	os-core
 ypdomainname	net-tools
 yplan	texlive
 ytasm	yasm
+ytnef	desktop-dev
+ytnefprint	desktop-dev
+ytnefprocess	desktop-dev
 yum	koji
 yum-updatesd	koji
 z3	dev-utils-dev
