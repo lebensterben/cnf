@@ -6339,9 +6339,9 @@ uptime	os-core
 urifind	perl-extras
 urlbst	texlive
 urlgrabber	koji
-urxvt	desktop-awesome
-urxvtc	desktop-awesome
-urxvtd	desktop-awesome
+urxvt	rxvt-unicode
+urxvtc	rxvt-unicode
+urxvtd	rxvt-unicode
 usb-devices	sysadmin-basic
 usbhid-dump	sysadmin-basic
 usbredirserver	devpkg-usbredir
