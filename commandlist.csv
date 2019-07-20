@@ -522,7 +522,7 @@ caspol	mono
 casync	casync
 cat	os-core
 catalina.sh	apache-tomcat
-catchsegv	sysadmin-basic
+catchsegv	python-extras
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -3197,7 +3197,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	sysadmin-basic
+ldd	python-extras
 lddlibc4	os-core-legacy
 ldmd2	d-basic
 ledctl	sysadmin-basic
@@ -3707,7 +3707,7 @@ mkfs.ubifs	mtd-utils
 mkfs.vfat	dosfstools
 mkfs.xfs	xfsprogs
 mkgrkindex	texlive
-mkhomedir_helper	os-core
+mkhomedir_helper	os-core-dev
 mkindex	texlive
 mkinitrd	sysadmin-basic
 mkisofs	xorriso
@@ -4426,9 +4426,9 @@ padsp	pulseaudio
 pahole	dev-utils
 pal2rgb	devpkg-tiff
 palapeli	desktop-kde-games
-pam_tally	os-core
-pam_tally2	os-core
-pam_timestamp_check	os-core
+pam_tally	os-core-dev
+pam_tally2	os-core-dev
+pam_timestamp_check	os-core-dev
 pamon	pulseaudio
 pandoc	pandoc
 pandoc-citeproc	pandoc
@@ -4463,9 +4463,9 @@ pavucontrol	desktop-apps
 pax11publish	pulseaudio
 pbibtex	texlive
 pbr	cloud-api
-pbunzip2	os-testsuite-phoronix-desktop
-pbzcat	os-testsuite-phoronix-desktop
-pbzip2	os-testsuite-phoronix-desktop
+pbunzip2	os-testsuite-phoronix-server
+pbzcat	os-testsuite-phoronix-server
+pbzip2	os-testsuite-phoronix-server
 pcal	perl-extras
 pcap-config	devpkg-libpcap
 pcasc	maker-basic
@@ -4606,7 +4606,7 @@ phar	php-basic
 phar.phar	php-basic
 phc2sys	time-server-basic
 phc_ctl	time-server-basic
-phoronix-test-suite	os-testsuite-phoronix-desktop
+phoronix-test-suite	os-testsuite-phoronix-server
 photorec	testdisk
 php	php-basic
 php-cgi	php-basic
@@ -4819,7 +4819,7 @@ ptargrep	perl-basic
 ptex	texlive
 ptex2pdf	texlive
 ptftopl	texlive
-pth-config	os-testsuite-phoronix-desktop
+pth-config	os-testsuite-phoronix-server
 ptiptop	performance-tools
 ptp4l	time-server-basic
 ptsematest	dev-utils
@@ -5555,7 +5555,7 @@ slcand	automotive-tools
 slcanpty	automotive-tools
 sleep	os-core
 slencheck	R-extras-dev
-sln	sysadmin-basic
+sln	python-extras
 sload.f2fs	storage-utils
 slsh	os-core-dev
 slugify	domotica
@@ -5638,6 +5638,8 @@ soapsuds	mono
 socat	sysadmin-basic
 soelim	man-pages
 soffice	libreoffice
+solaar	Solaar-gui
+solaar-cli	Solaar
 solid-action-desktop-gen	desktop-kde
 solid-hardware5	kde-frameworks5
 sort	os-core
@@ -6289,8 +6291,8 @@ unit2	python-testing
 unix-lpr.sh	desktop
 unix2dos	sysadmin-basic
 unix2mac	sysadmin-basic
-unix_chkpwd	os-core
-unix_update	os-core
+unix_chkpwd	os-core-dev
+unix_update	os-core-dev
 unlink	os-core
 unlz4	lz4
 unlzma	xz
@@ -6647,6 +6649,9 @@ wsrep_sst_rsync_wan	mariadb
 wvgain	desktop-dev
 wvtag	desktop-dev
 wvunpack	desktop-dev
+wx-config	devpkg-wxWidgets
+wxrc	devpkg-wxWidgets
+wxrc-3.1	devpkg-wxWidgets
 x0vncserver	tigervnc
 x11perf	os-testsuite-phoronix-desktop
 x11perfcomp	os-testsuite-phoronix-desktop
