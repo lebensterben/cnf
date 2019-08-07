@@ -1721,7 +1721,7 @@ gcov2perl	perl-extras
 gcov7	c-extras-gcc7
 gcr-viewer	devpkg-gcr
 gcron.py	storage-cluster
-gcut	devpkg-gimp
+gcut	devpkg-gegl
 gd2copypal	devpkg-libgd
 gd2togif	devpkg-libgd
 gd2topng	devpkg-libgd
@@ -1760,6 +1760,7 @@ gdk-pixbuf-query-loaders	lightdm
 gdk-pixbuf-thumbnailer	lightdm
 gdlib-config	devpkg-libgd
 gdm	desktop
+gdm-control	desktop-lxqt
 gdm-screenshot	desktop
 gdmflexiserver	desktop
 gdparttopng	devpkg-libgd
@@ -1768,8 +1769,8 @@ geany	geany
 geary	geary
 gedit	gedit
 geeqie	geeqie
-gegl	devpkg-gimp
-gegl-imgcmp	devpkg-gimp
+gegl	devpkg-gegl
+gegl-imgcmp	devpkg-gegl
 gem	ruby-basic
 gen_binary_files	desktop
 gen_client	os-cloudguest-gce
@@ -1939,6 +1940,7 @@ gnome-keyring-daemon	desktop
 gnome-logs	gnome-logs
 gnome-music	gnome-music
 gnome-panel	desktop
+gnome-panel-control	desktop-lxqt
 gnome-photos	gnome-photos
 gnome-screensaver	desktop
 gnome-screensaver-command	desktop
@@ -4226,6 +4228,7 @@ obj2yaml	llvm
 objcopy	binutils
 objdump	binutils
 object_detection_sample_ssd	computer-vision-basic
+obxprop	desktop-lxqt
 ocaml	ocaml-basic
 ocaml-instr-graph	ocaml-basic
 ocamlbuild	ocaml-basic
@@ -4316,6 +4319,10 @@ oom-listener	big-data-basic
 op2calltree	kcachegrind
 opal_wrapper	openmpi
 openal-info	desktop-dev
+openbox	desktop-lxqt
+openbox-gnome-session	desktop-lxqt
+openbox-kde-session	desktop-lxqt
+openbox-session	desktop-lxqt
 openconnect	network-basic
 opencv_annotation	devpkg-opencv
 opencv_interactive-calibration	devpkg-opencv
@@ -6709,14 +6716,14 @@ xclip-copyfile	x11-tools
 xclip-cutfile	x11-tools
 xclip-pastefile	x11-tools
 xcursorgen	desktop-dev
-xdg-desktop-icon	desktop-lxqt
-xdg-desktop-menu	desktop-lxqt
-xdg-email	desktop-lxqt
-xdg-icon-resource	desktop-lxqt
-xdg-mime	desktop-lxqt
-xdg-open	desktop-lxqt
-xdg-screensaver	desktop-lxqt
-xdg-settings	desktop-lxqt
+xdg-desktop-icon	desktop-i3
+xdg-desktop-menu	desktop-i3
+xdg-email	desktop-i3
+xdg-icon-resource	desktop-i3
+xdg-mime	desktop-i3
+xdg-open	desktop-i3
+xdg-screensaver	desktop-i3
+xdg-settings	desktop-i3
 xdg-user-dir	xfce4-desktop
 xdg-user-dirs-gtk-update	desktop
 xdg-user-dirs-update	xfce4-desktop
