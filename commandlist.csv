@@ -394,6 +394,7 @@ blockdiag	python-extras
 bluedevil-sendfile	desktop-kde
 bluedevil-wizard	desktop-kde
 bluemoon	hardware-bluetooth
+bluetooth	TLP
 bluetooth-sendto	desktop
 bluetoothctl	hardware-bluetooth
 bmaptool	mkosi
@@ -522,7 +523,7 @@ caspol	mono
 casync	casync
 cat	os-core
 catalina.sh	apache-tomcat
-catchsegv	python-extras
+catchsegv	sysadmin-basic
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -3204,7 +3205,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	python-extras
+ldd	sysadmin-basic
 lddlibc4	os-core-legacy
 ldmd2	d-basic
 ledctl	sysadmin-basic
@@ -4598,8 +4599,11 @@ pg_basebackup	postgresql
 pg_config	postgresql
 pg_controldata	postgresql
 pg_ctl	postgresql
+pg_ctl11	postgresql11
 pg_dump	postgresql
+pg_dump11	postgresql11
 pg_dumpall	postgresql
+pg_dumpall11	postgresql11
 pg_isready	postgresql
 pg_receivexlog	postgresql
 pg_recvlogical	postgresql
@@ -5045,6 +5049,8 @@ raw_ethernet_bw	hpc-utils
 raw_ethernet_fs_rate	hpc-utils
 raw_ethernet_lat	hpc-utils
 rawshark	wireshark
+rawtherapee	RawTherapee
+rawtherapee-cli	RawTherapee
 rbd	ceph
 rbd-fuse	ceph
 rbd-mirror	ceph
@@ -5263,6 +5269,8 @@ rubibtex	texlive
 rubikrotation	texlive
 ruby	ruby-basic
 rumakeindex	texlive
+run-on-ac	TLP
+run-on-bat	TLP
 run-with-aspell	sysadmin-basic
 run_erl	rabbitmq-server
 run_perftest_loopback	hpc-utils
@@ -5570,7 +5578,7 @@ slcanpty	automotive-tools
 sleep	os-core
 sleepgraph	performance-tools
 slencheck	R-extras-dev
-sln	python-extras
+sln	sysadmin-basic
 sload.f2fs	storage-utils
 slsh	editors-dev
 slugify	domotica
@@ -6141,6 +6149,11 @@ tkpasswd	tcl-basic
 tlcockpit	texlive
 tlmgr	texlive
 tload	procps-ng
+tlp	TLP
+tlp-pcilist	TLP
+tlp-rdw	TLP
+tlp-stat	TLP
+tlp-usblist	TLP
 tlshell	texlive
 tmux	tmux
 tnameserv	java-runtime
@@ -6595,6 +6608,7 @@ who	os-core
 whoami	os-core
 whois	network-basic
 widl	wine
+wifi	TLP
 winbindd	samba
 windmc	binutils
 windres	binutils
@@ -6664,6 +6678,7 @@ wsrep_sst_rsync_wan	mariadb
 wvgain	desktop-dev
 wvtag	desktop-dev
 wvunpack	desktop-dev
+wwan	TLP
 wx-config	devpkg-wxWidgets
 wxrc	devpkg-wxWidgets
 wxrc-3.1	devpkg-wxWidgets
