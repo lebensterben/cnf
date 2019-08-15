@@ -524,7 +524,7 @@ caspol	mono
 casync	casync
 cat	os-core
 catalina.sh	apache-tomcat
-catchsegv	python-extras
+catchsegv	sysadmin-basic
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -635,7 +635,6 @@ check-model	machine-learning-pytorch
 check-node	machine-learning-pytorch
 check-regexp	dev-utils
 checkXML5	desktop-kde
-check_for_unsafe_apis	storage-utils-dev
 check_lft_balance.pl	hpc-utils
 checkbandwidth	performance-tools
 checkcites	texlive
@@ -729,7 +728,7 @@ cloc	cloc
 clr-avx2-move.pl	os-core-dev
 clr-boot-manager	bootloader
 clr-boot-manager-motd.sh	bootloader
-clr-desktop-files.sh	xfce4-desktop
+clr-desktop-files.sh	desktop
 clr-fwupd-update	firmware-update
 clr-installer	clr-installer
 clr-installer-gui	clr-installer-gui
@@ -3185,7 +3184,6 @@ ld.bfd	binutils
 ld.gold	c-basic
 ld.lld	llvm
 ld64.lld	llvm
-ld_iscsi.so	sysadmin-remote
 ldapadd	openldap
 ldapcompare	openldap
 ldapdelete	openldap
@@ -3208,7 +3206,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	python-extras
+ldd	sysadmin-basic
 lddlibc4	os-core-legacy
 ldmd2	d-basic
 ledctl	sysadmin-basic
@@ -4486,9 +4484,9 @@ pavucontrol	desktop-apps
 pax11publish	pulseaudio
 pbibtex	texlive
 pbr	koji
-pbunzip2	os-testsuite-phoronix-server
-pbzcat	os-testsuite-phoronix-server
-pbzip2	os-testsuite-phoronix-server
+pbunzip2	os-testsuite-phoronix-desktop
+pbzcat	os-testsuite-phoronix-desktop
+pbzip2	os-testsuite-phoronix-desktop
 pcal	perl-extras
 pcap-config	devpkg-libpcap
 pcasc	maker-basic
@@ -4577,7 +4575,7 @@ pedump	mono
 pee	os-testsuite-0day
 peekfd	sysadmin-basic
 pef-config	sysadmin-hostmgmt
-pep8	maker-gis
+pep8	machine-learning-basic
 perf	linux-tools
 perfquery	hpc-utils
 perl	perl-basic
@@ -4632,7 +4630,7 @@ phar	php-basic
 phar.phar	php-basic
 phc2sys	time-server-basic
 phc_ctl	time-server-basic
-phoronix-test-suite	os-testsuite-phoronix-server
+phoronix-test-suite	os-testsuite-phoronix-desktop
 photorec	testdisk
 php	php-basic
 php-cgi	php-basic
@@ -4844,7 +4842,7 @@ ptargrep	perl-basic
 ptex	texlive
 ptex2pdf	texlive
 ptftopl	texlive
-pth-config	os-testsuite-phoronix-server
+pth-config	os-testsuite-phoronix-desktop
 ptiptop	performance-tools
 ptp4l	time-server-basic
 ptsematest	dev-utils
@@ -5020,8 +5018,6 @@ quasselcore	quasselcore
 quest	devpkg-xapian-core
 queuelat	dev-utils
 quilt	dev-utils
-qv4l2	v4l-utils
-qvidcap	v4l-utils
 qvkgen	devpkg-qtbase
 qvlc	vlc
 qvoronoi	R-extras-dev
@@ -5587,7 +5583,7 @@ slcanpty	automotive-tools
 sleep	os-core
 sleepgraph	performance-tools
 slencheck	R-extras-dev
-sln	python-extras
+sln	sysadmin-basic
 sload.f2fs	storage-utils
 slsh	editors-dev
 slugify	domotica
@@ -6748,9 +6744,9 @@ xdg-mime	desktop-i3
 xdg-open	desktop-i3
 xdg-screensaver	desktop-i3
 xdg-settings	desktop-i3
-xdg-user-dir	xfce4-desktop
+xdg-user-dir	desktop
 xdg-user-dirs-gtk-update	desktop
-xdg-user-dirs-update	xfce4-desktop
+xdg-user-dirs-update	desktop
 xdotool	x11-tools
 xdpyinfo	x11-tools
 xdt-autogen	xfce4-desktop
