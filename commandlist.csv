@@ -524,7 +524,7 @@ caspol	mono
 casync	casync
 cat	os-core
 catalina.sh	apache-tomcat
-catchsegv	sysadmin-basic
+catchsegv	python-extras
 catman	man-pages
 cbc_attach	software-defined-cockpit
 cbc_diagnostic	software-defined-cockpit
@@ -1395,7 +1395,7 @@ epstopdf	texlive
 eptex	texlive
 epydoc	python-extras
 epydocgui	python-extras
-epylint	machine-learning-basic
+epylint	desktop-dev
 eqn	man-pages
 eqn2graph	man-pages
 era_check	storage-utils
@@ -2650,7 +2650,7 @@ isnsdd	storage-utils-dev
 iso-info	asunder
 iso-read	asunder
 isohybrid	syslinux
-isort	machine-learning-basic
+isort	ceph
 isosize	os-core
 isotovideo	openqa
 isotpdump	automotive-tools
@@ -2908,7 +2908,7 @@ kbookmarkmerger	desktop-kde-apps
 kbounce	desktop-kde-games
 kbreakout	desktop-kde-games
 kbroadcastnotification	desktop-kde
-kbruch	desktop-kde-games
+kbruch	education-secondary
 kbuildsycoca5	kde-frameworks5
 kbxutil	cryptography
 kcachegrind	kcachegrind
@@ -3009,7 +3009,7 @@ khangman	education-preschool
 khelpcenter	desktop-kde-apps
 kibitz	tcl-basic
 kiconfinder5	kde-frameworks5
-kig	desktop-kde-games
+kig	education-secondary
 kigo	desktop-kde-games
 kill	procps-ng
 kill_instance	cloud-api
@@ -3107,7 +3107,7 @@ kspaceduel	desktop-kde-games
 ksplashqml	desktop-kde
 ksquares	desktop-kde-games
 ksshaskpass	desktop-kde
-kstars	education-primary
+kstars	education-secondary
 kstart5	desktop-kde
 kstartupconfig5	desktop-kde
 ksu	enterprise-login
@@ -3141,7 +3141,7 @@ kwatchgnupg	kleopatra
 kwikdisk	desktop-kde-apps
 kwin_wayland	desktop-kde
 kwin_x11	desktop-kde
-kwordquiz	desktop-kde-games
+kwordquiz	education-secondary
 kwrapper5	desktop-kde
 kwrite	kate
 kwriteconfig5	kde-frameworks5
@@ -3206,7 +3206,7 @@ ldc-profdata	d-basic
 ldc-prune-cache	d-basic
 ldc2	d-basic
 ldconfig	os-core
-ldd	sysadmin-basic
+ldd	python-extras
 lddlibc4	os-core-legacy
 ldmd2	d-basic
 ledctl	sysadmin-basic
@@ -4018,7 +4018,6 @@ nearblack	python-extras
 neato	graphviz
 neofetch	sysadmin-basic
 neomutt	neomutt
-neon	machine-learning-basic
 neqn	man-pages
 net	samba
 net-mqtt-pub	perl-extras
@@ -4227,7 +4226,6 @@ nunit-console	mono
 nunit-console2	mono
 nunit-console4	mono
 nvim	neovim
-nvis	machine-learning-basic
 nvlc	vlc
 nvme	storage-utils
 oLschema2ldif	samba
@@ -4460,7 +4458,7 @@ parallel	parallel
 parcat	parallel
 parec	pulseaudio
 parecord	pulseaudio
-parley	desktop-kde-games
+parley	education-secondary
 parse.f2fs	storage-utils
 parse_xsd2.py	openstack-common
 parset	parallel
@@ -4575,7 +4573,7 @@ pedump	mono
 pee	os-testsuite-0day
 peekfd	sysadmin-basic
 pef-config	sysadmin-hostmgmt
-pep8	machine-learning-basic
+pep8	maker-gis
 perf	linux-tools
 perfquery	hpc-utils
 perl	perl-basic
@@ -4671,7 +4669,7 @@ pip_stress	dev-utils
 pipewire	devpkg-pipewire
 pipewire-cli	devpkg-pipewire
 pipewire-monitor	devpkg-pipewire
-pipreqs	machine-learning-basic
+pipreqs	ceph
 pivot_root	os-core
 pixeltool	devpkg-qttools
 pk-example-frobnicate	polkit
@@ -4897,13 +4895,13 @@ pygtk-codegen-2.0	maker-cnc
 pygtk-demo	maker-cnc
 pyhs100	domotica
 pyjwt	domotica
-pykig.py	desktop-kde-games
-pylint	machine-learning-basic
+pykig.py	education-secondary
+pylint	desktop-dev
 pylupdate5	maker-3dprinting
 pyozw_check	domotica
 pyozw_shell	domotica
 pyrcc5	maker-3dprinting
-pyreverse	machine-learning-basic
+pyreverse	desktop-dev
 pyro4-check-config	python-data-science
 pyro4-flameserver	python-data-science
 pyro4-httpgateway	python-data-science
@@ -5404,8 +5402,7 @@ serialver11	java11-basic
 serialver12	java12-basic
 serve_image	mtd-utils
 servertool	java-runtime
-servicemenudeinstallation	dolphin
-servicemenuinstallation	dolphin
+servicemenuinstaller	dolphin
 set-crio-default-runtime	containers-virt
 set-docker-default-runtime	containers-virt
 setarch	os-core
@@ -5583,7 +5580,7 @@ slcanpty	automotive-tools
 sleep	os-core
 sleepgraph	performance-tools
 slencheck	R-extras-dev
-sln	sysadmin-basic
+sln	python-extras
 sload.f2fs	storage-utils
 slsh	editors-dev
 slugify	domotica
@@ -5913,7 +5910,7 @@ swupd-overdue	os-core-update
 swupd-probe	telemetrics
 swupd-search	python3-basic
 sxpm	devpkg-libXpm
-symilar	machine-learning-basic
+symilar	desktop-dev
 sync	os-core
 synclient	os-utils-gui
 syncqt.pl	devpkg-qtbase
@@ -6111,7 +6108,6 @@ thin_repair	storage-utils
 thin_restore	storage-utils
 thin_rmap	storage-utils
 thin_trim	storage-utils
-thrift	cassandra
 thumbpdf	texlive
 thunar	xfce4-desktop
 thunar-settings	xfce4-desktop
