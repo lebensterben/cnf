@@ -535,7 +535,6 @@ cansniffer	automotive-tools
 cantata	desktop-kde-apps
 cantor	education-tertiary
 cantor_python3server	education-tertiary
-cantor_rserver	education-tertiary
 cantor_scripteditor	education-tertiary
 capinfos	wireshark
 capsh	sysadmin-basic
@@ -1446,6 +1445,7 @@ ethumbd_client	desktop-enlightenment
 etr	extremetuxracer
 eu-addr2line	package-utils
 eu-ar	package-utils
+eu-elfclassify	package-utils
 eu-elfcmp	package-utils
 eu-elfcompress	package-utils
 eu-elflint	package-utils
@@ -1772,9 +1772,9 @@ gdaltransform	python-extras
 gdalwarp	python-extras
 gdb	gdb
 gdb-add-index	gdb
-gdbm_dump	go-basic-dev
-gdbm_load	go-basic-dev
-gdbmtool	go-basic-dev
+gdbm_dump	perl-basic-dev
+gdbm_load	perl-basic-dev
+gdbmtool	perl-basic-dev
 gdbserver	gdb
 gdbus	firmware-update
 gdbus-codegen	firmware-update
@@ -4514,9 +4514,9 @@ pavucontrol	desktop-apps
 pax11publish	pulseaudio
 pbibtex	texlive
 pbr	koji
-pbunzip2	os-testsuite-phoronix-desktop
-pbzcat	os-testsuite-phoronix-desktop
-pbzip2	os-testsuite-phoronix-desktop
+pbunzip2	os-testsuite-phoronix-server
+pbzcat	os-testsuite-phoronix-server
+pbzip2	os-testsuite-phoronix-server
 pcal	perl-extras
 pcap-config	devpkg-libpcap
 pcasc	maker-basic
@@ -4660,7 +4660,7 @@ phar	php-basic
 phar.phar	php-basic
 phc2sys	time-server-basic
 phc_ctl	time-server-basic
-phoronix-test-suite	os-testsuite-phoronix-desktop
+phoronix-test-suite	os-testsuite-phoronix-server
 photorec	testdisk
 php	php-basic
 php-cgi	php-basic
@@ -4872,7 +4872,7 @@ ptargrep	perl-basic
 ptex	texlive
 ptex2pdf	texlive
 ptftopl	texlive
-pth-config	os-testsuite-phoronix-desktop
+pth-config	os-testsuite-phoronix-server
 ptiptop	performance-tools
 ptp4l	time-server-basic
 ptsematest	dev-utils
@@ -6264,6 +6264,7 @@ translit	perl-extras
 traptoemail	performance-tools
 tred	graphviz
 tree	sysadmin-basic
+treescan	perl-basic
 trietool	devpkg-libdatrie
 trietool-0.2	devpkg-libdatrie
 troff	man-pages
@@ -6867,7 +6868,7 @@ xml_pp	perl-extras
 xml_spellcheck	perl-extras
 xml_split	perl-extras
 xmlcatalog	libxml2
-xmlif	go-basic-dev
+xmlif	perl-basic-dev
 xmllint	libxml2
 xmlpatterns	qt-basic
 xmlpatternsvalidator	qt-basic
@@ -6875,7 +6876,7 @@ xmlsec1	devpkg-xmlsec1
 xmlsec1-config	devpkg-xmlsec1
 xmlstarlet	os-clr-on-clr
 xmltex	texlive
-xmlto	go-basic-dev
+xmlto	perl-basic-dev
 xmlwf	devpkg-expat
 xmodmap	x11-tools
 xmpdump	devpkg-exiv2
